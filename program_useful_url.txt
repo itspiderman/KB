@@ -1,0 +1,8 @@
+Highcharts
+http://www.hcharts.cn/demo/highcharts
+
+easyui
+http://www.easyui.org.cn/
+
+jqueryui
+http://jqueryui.com/
