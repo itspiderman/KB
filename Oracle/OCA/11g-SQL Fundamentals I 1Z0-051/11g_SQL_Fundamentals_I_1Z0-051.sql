@@ -40,28 +40,21 @@ select PROD_TYPE_ID,NAME from PROD_TYPE where PROD_TYPE_ID>3 order by NAME;
 DESC PROD_TYPE;
 desc CUSTOMERS;
 
-DROP TABLE order_status;
-
-create table order_status(
-order_status_id INTEGER CONSTRAINT default_pk PRIMARY KEY,
-status VARCHAR2(20) DEFAULT 'Order Placed' NOT NULL,
-last_modified DATE DEFAULT SYSDATE,
-last_upd_id INTEGER CONSTRAINT ck_upd_id CHECK (last_upd_id>10)
-);
-
-CREATE TABLE TEST
-(
-ID INTEGER CONSTRAINT default_key primary key,
-CONSTRAINT ck_id check(ID>10)
-);
-drop table TEST;
-
 COMMENT ON TABLE CUSTOMERS is 'This is the customer table for testing';
 select * from user_tab_comments;
 COMMENT ON COLUMN CUSTOMERS.CUS_ID is 'This is the primary key';
 select * from USER_COL_COMMENTS where TABLE_NAME='CUSTOMERS';
 
 select * from POSUSR.CUSTOMERS;
+
+select top 3 * from CUSTOMERS;
+select * from CUSTOMERS where rownum<=10 ;
+select * from CUSTOMERS order by CUS_ID OFFSET 2 ROWS FETCH NEXT 2 ROWS ONLY;
+
+--- check the transaction
+Insert into tfortrans values ( 1 );
+Insert into tfortrans values ( -1 );
+select * from tfortrans;
 
 
 

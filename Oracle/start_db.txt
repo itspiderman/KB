@@ -46,15 +46,15 @@ Oracle Database 11g Release 11.2.0.1.0 - 64bit Production
 
 SQL>
 
+SQL> exit
+从 Oracle Database 11g Release 11.2.0.1.0 - 64bit Production 断开
+
 C:\Users\Administrator>sqlplus posusr/posusr@posdb
 
-SQL*Plus: Release 11.2.0.1.0 Production on 星期日 7月 10 14:24:16 2016
+SQL*Plus: Release 11.2.0.1.0 Production on 星期四 9月 1 22:54:33 201
 
 Copyright (c) 1982, 2010, Oracle.  All rights reserved.
 
-访问 PRODUCT_USER_PROFILE 时出错
-警告: 未加载产品用户概要文件信息!
-您需要将 PUPBLD.SQL 作为 SYSTEM 运行
 
 连接到:
 Oracle Database 11g Release 11.2.0.1.0 - 64bit Production
