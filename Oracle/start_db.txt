@@ -1,62 +1,65 @@
 C:\Users\Administrator>lsnrctl start
 
-LSNRCTL for 64-bit Windows: Version 11.2.0.1.0 - Production on 21-4ÔÂ -2016 22:37:33
+LSNRCTL for 64-bit Windows: Version 11.2.0.1.0 - Production on 21-4æœˆ -2016 22:37:33
 
 Copyright (c) 1991, 2010, Oracle.  All rights reserved.
 
-TNS-01106: Ê¹ÓÃÃû³ÆLISTENERµÄ¼àÌý³ÌÐòÒÑ¾­Æô¶¯
+TNS-01106: ä½¿ç”¨åç§°LISTENERçš„ç›‘å¬ç¨‹åºå·²ç»å¯åŠ¨
 
 C:\Users\Administrator>net start OracleServiceposdb
-OracleServiceposdb ·þÎñÕýÔÚÆô¶¯ .
-OracleServiceposdb ·þÎñÒÑ¾­Æô¶¯³É¹¦¡£
+OracleServiceposdb æœåŠ¡æ­£åœ¨å¯åŠ¨ .
+OracleServiceposdb æœåŠ¡å·²ç»å¯åŠ¨æˆåŠŸã€‚
 
 C:\Users\Administrator>sqlplus
 
-SQL*Plus: Release 11.2.0.1.0 Production on ÐÇÆÚËÄ 4ÔÂ 21 22:47:44 2016
+SQL*Plus: Release 11.2.0.1.0 Production on æ˜ŸæœŸå›› 4æœˆ 21 22:47:44 2016
 
 Copyright (c) 1982, 2010, Oracle.  All rights reserved.
 
-ÇëÊäÈëÓÃ»§Ãû:  system as sysdba
-ÊäÈë¿ÚÁî:
-ÒÑÁ¬½Óµ½¿ÕÏÐÀý³Ì¡£
+è¯·è¾“å…¥ç”¨æˆ·å:  system as sysdba
+è¾“å…¥å£ä»¤:
+å·²è¿žæŽ¥åˆ°ç©ºé—²ä¾‹ç¨‹ã€‚
 
 SQL> startup
-ORACLE Àý³ÌÒÑ¾­Æô¶¯¡£
+ORACLE ä¾‹ç¨‹å·²ç»å¯åŠ¨ã€‚
 
 Total System Global Area 2488635392 bytes
 Fixed Size                  2178296 bytes
 Variable Size            1392509704 bytes
 Database Buffers         1073741824 bytes
 Redo Buffers               20205568 bytes
-Êý¾Ý¿â×°ÔØÍê±Ï¡£
-Êý¾Ý¿âÒÑ¾­´ò¿ª¡£
+æ•°æ®åº“è£…è½½å®Œæ¯•ã€‚
+æ•°æ®åº“å·²ç»æ‰“å¼€ã€‚
 SQL>
 SQL> exit
-´Ó Oracle Database 11g Release 11.2.0.1.0 - 64bit Production ¶Ï¿ª
+ä»Ž Oracle Database 11g Release 11.2.0.1.0 - 64bit Production æ–­å¼€
 
 C:\Users\Administrator>sqlplus system/system@posdb as sysdba
 
-SQL*Plus: Release 11.2.0.1.0 Production on ÐÇÆÚÈÕ 6ÔÂ 19 18:02:13 2016
+SQL*Plus: Release 11.2.0.1.0 Production on æ˜ŸæœŸæ—¥ 6æœˆ 19 18:02:13 2016
 
 Copyright (c) 1982, 2010, Oracle.  All rights reserved.
 
 
-Á¬½Óµ½:
+è¿žæŽ¥åˆ°:
 Oracle Database 11g Release 11.2.0.1.0 - 64bit Production
 
 SQL>
 
 SQL> exit
-´Ó Oracle Database 11g Release 11.2.0.1.0 - 64bit Production ¶Ï¿ª
+ä»Ž Oracle Database 11g Release 11.2.0.1.0 - 64bit Production æ–­å¼€
 
 C:\Users\Administrator>sqlplus posusr/posusr@posdb
 
-SQL*Plus: Release 11.2.0.1.0 Production on ÐÇÆÚËÄ 9ÔÂ 1 22:54:33 201
+SQL*Plus: Release 11.2.0.1.0 Production on æ˜ŸæœŸå›› 9æœˆ 1 22:54:33 201
 
 Copyright (c) 1982, 2010, Oracle.  All rights reserved.
 
 
-Á¬½Óµ½:
+è¿žæŽ¥åˆ°:
 Oracle Database 11g Release 11.2.0.1.0 - 64bit Production
 
+SQL>
+SQL> conn sys/system@posdb as sysdba
+å·²è¿žæŽ¥ã€‚
 SQL>
