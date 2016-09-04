@@ -56,6 +56,25 @@ Insert into tfortrans values ( 1 );
 Insert into tfortrans values ( -1 );
 select * from tfortrans;
 
+-- Seqence ађСа
+drop sequence seq_depid;
+
+create sequence seq_depid
+increment by 1
+start with 1
+nomaxvalue   -- not set max value
+nocycle      -- nocycle or cycle - end at 10000
+cache 10;    -- cache or nocache, incase lose sequence, set it as nocache
+
+select seq_depid.currval,seq_depid.nextval from dual;
+
+alter sequence seq_depid
+increment by 1
+-- start with 1  -- cannot alter starting sequence number, or need drop sequence and recreate sequence
+maxvalue 1000
+cycle
+nocache; 
+
 
 
 
