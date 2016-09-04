@@ -1,2 +1,4 @@
 1.ORACLE事务
 http://tgmlyj.blog.163.com/blog/static/59415229200863022810826/
+2. oracle关于Create table中的using index语句
+http://blog.sina.com.cn/s/blog_647a022e01013nhl.html
