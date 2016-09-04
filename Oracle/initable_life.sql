@@ -15,3 +15,13 @@ insert into tinvtype(invcode,invname) values(101,'Fund');
 insert into tinvtype(invcode,invname) values(102,'Stock');
 insert into tinvtype(invcode,invname) values(201,'Demand');
 select * from tinvtype;
+
+SELECT * from user_cons_columns c where c.table_name = upper('tinvtype');
+desc user_cons_columns;
+desc user_constraints;
+-- CONSTRAINT_NAME :  SYS_C003697
+select * from user_constraints where TABLE_NAME=upper('tinvtype');
+alter table tinvtype drop constraint SYS_C003697;
+alter table tinvtype add constraint pk_invtype primary key(invcode);
+
+
