@@ -1,0 +1,6 @@
+C:\Users\Administrator>cf target -o itmanorg
+
+API endpoint:   https://api.run.pivotal.io (API version: 2.61.0)
+User:           itman020@126.com
+Org:            itmanorg
+Space:          development
