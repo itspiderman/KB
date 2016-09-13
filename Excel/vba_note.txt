@@ -1,0 +1,2 @@
+1. open the development tool
+File - option - self define function area ->main option car->develop tool
