@@ -1,3 +1,126 @@
+
+
+1．df –h 
+http://linux.chinaunix.net/techdoc/system/2009/08/31/1133169.shtml
+df命令详细用法
+a：显示全部的档案系统和各分割区的磁盘使用情形 
+i：显示i -nodes的使用量 
+k：大小用k来表示 (默认值) 
+t：显示某一个档案系统的所有分割区磁盘使用量 
+x：显示不是某一个档案系统的所有分割区磁盘使用量 
+T：显示每个分割区所属的档案系统名称
+
+2．du –sh
+
+du：查询档案或目录的磁盘使用空间 
+a：显示全部目录和其次目录下的每个档案所占的磁盘空间 
+b：大小用bytes来表示 (默认值为k bytes) 
+c：最后再加上总计 (默认值) 
+s：只显示各档案大小的总合 
+x：只计算同属同一个档案系统的档案 
+L：计算所有的档案大小 
+
+参数 -h 表示使用「Human-readable」的输出，也就是在档案系统大小使用 GB、MB 等易读的格式。
+-s 参数来省略指定目录下的子目录，而只显示该目录的总合即可
+
+3. Sort
+
+在查看目录的使用情形时，我们可以将输出结果导到 sort 指令进行排序，以了解哪个档案用了最多的空间：
+# du /etc | sort -nr | more
+
+sort 的参数 -nr 表示要以数字排序法进行反向排序，因为我们要对目录大小做排序，所以不可以使用 human-readable 的大小输出，不然目录大小中会有 K、M 等字样，会造成排序不正确。
+
+4. Groups
+Check currency user’s group
+ 
+Can find user taooracle is below group taooracle and istalloracle
+Group information:
+cat /etc/group
+
+5. Check id’s group and effective group
+id -a taooracle
+ 
+6. grep
+grep -c 'Error executing CreateUrlCommand for \[aboutbaidu\]' WP61/WebSphere_Portal/wplog/wp.Out*.log
+grep –n 'Error executing CreateUrlCommand for \[aboutbaidu\]' WP61/WebSphere_Portal/wplog/wp.Out*.log
+
+grep -c "targetContentFragment" wp.Out.log
+grep -inH "hpay" wp.Out*
+
+grep -A 8 'Alias name: ibmwebspheremqwasadm' /home/users/taooracle/CH1299500/hkp3vl0683_jks_hc.log
+grep -C 5 foo file 显示file文件里匹配foo字串那行以及上下5行
+grep -B 5 foo file 显示foo及前5行
+grep -A 5 foo file 显示foo及后5行
+7. list –ltrh
+-l list information
+-t 时间排序
+-h 易读的文件大小
+ls –Rl
+及其子目录下文件名
+
+8. head –n
+不指定任何选项的时候，比如执行head f.java，则显示f.java文件的全部内容。
+● -n 选项
+显示指定文件的前n行，n为一个整数。
+
+9.tail 
+不指定任何选项的时候，比如执行tail f.java，则显示f.java文件的全部内容。
+tail -f /var/log/messages
+参数-f使tail不停地去读最新的内容，这样有实时监视的效果，当你在ppp拨号的过程中用它岂不是很方便！
+
+tail -n /var/log/messages
+
+10. sed
+sed -n '5,10p' /etc/passwd
+这样你就可以只查看文件的第5行到第10行。
+
+11. look up the folder.
+
+12．Tar
+cd /home/users/temp
+tar -cf my_cert_2016_ad.tar *
+
+13. find
+
+14．Chmod 
+
+chmod 0755 /tmp/CH1244120/SSL_2016jun10.parm
+
+grant right to sub directory and file.
+chmod –R 0755 kv
+15. Rename folder name  - mv
+mv CH1293279 CH1299500
+
+16. Copy folder and file
+the cp command would copy all files, directories, and subdirectories to destination folder
+cp -r /home/users/taooracle/CH1244120/ /tmp/
+
+DOS Command FYI:
+xcopy c:\example c:\example2
+
+17. Remove folder/file
+rm -rf CH1244120  
+Force to remove folder, subfolder and files.
+
+18. More
+More
+
+Enter    向下n行，需要定义。默认为1行
+Ctrl+F   向下滚动一屏
+空格键  向下滚动一屏
+Ctrl+B   返回上一屏
+=       输出当前行的行号
+：f     输出文件名和当前行的行号
+V      调用vi编辑器
+!命令   调用Shell，并执行命令 
+q       退出more
+
+19. View the gz log file.
+zcat
+zmore
+
+
+====================
 1. Linux下安装软件的两种方法
 1). yum命令：
 　　yum install 软件名
