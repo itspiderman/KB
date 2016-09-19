@@ -1,5 +1,3 @@
-
-
 1．df –h 
 http://linux.chinaunix.net/techdoc/system/2009/08/31/1133169.shtml
 df命令详细用法
@@ -83,11 +81,11 @@ tar -cf my_cert_2016_ad.tar *
 13. find
 
 14．Chmod 
-
 chmod 0755 /tmp/CH1244120/SSL_2016jun10.parm
 
 grant right to sub directory and file.
 chmod –R 0755 kv
+
 15. Rename folder name  - mv
 mv CH1293279 CH1299500
 
@@ -118,6 +116,11 @@ q       退出more
 19. View the gz log file.
 zcat
 zmore
+
+20. Change folder owner
+chown -R oracle:oinstall /home/oracle/app
+oracle =>owner
+oinstall=>owner group
 
 
 ====================
