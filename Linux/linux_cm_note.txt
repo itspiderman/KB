@@ -142,4 +142,12 @@ lrwxrwxrwx. 1 root root 22 Nov 27  2015 /usr/bin/java -> /etc/alternatives/java
 [oracle@kevin ~]$ ls -lrt /etc/alternatives/java
 lrwxrwxrwx. 1 root root 46 Nov 27  2015 /etc/alternatives/java -> /usr/lib/jvm/jre-1.7.0-openjdk.x86_64/bin/java
 [oracle@kevin ~]$ 
+3. 卸载旧的JDK
+查看gcj的版本号：rpm -qa|grep jdk
+[oracle@kevin ~]$ rpm -qa|grep jdk
+java-1.7.0-openjdk-1.7.0.79-2.5.5.4.el6.x86_64
+jdk-1.7.0_79-fcs.x86_64
+java-1.6.0-openjdk-1.6.0.35-1.13.7.1.el6_6.x86_64
+[root@kevin ~]# yum -y remove java java-1.6.0-openjdk-1.6.0.35-1.13.7.1.el6_6.x86_64
+
 
