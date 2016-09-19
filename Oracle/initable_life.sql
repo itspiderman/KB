@@ -24,4 +24,14 @@ select * from user_constraints where TABLE_NAME=upper('tinvtype');
 alter table tinvtype drop constraint SYS_C003697;
 alter table tinvtype add constraint pk_invtype primary key(invcode);
 
+create table tfunds(
+fundcode char(6),
+fundname varchar(20)
+);
+alter table tfunds add constraint fund_key primary key(fundcode);
+alter table tfunds modify fundname varchar(30);
+insert into tfunds(fundcode,fundname) values('340009','兴全磐稳增利债券');
+select * from tfunds;
+
+
 
