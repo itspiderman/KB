@@ -1,0 +1,2 @@
+1.CentOS6.3安装JDK和环境配置
+http://www.linuxidc.com/Linux/2012-09/70780.htm
