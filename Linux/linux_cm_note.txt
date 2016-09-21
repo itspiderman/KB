@@ -78,6 +78,9 @@ sed -n '5,10p' /etc/passwd
 cd /home/users/temp
 tar -cf my_cert_2016_ad.tar *
 
+uncompress
+tar -zxvf LibreOffice_5.1.5_Linux_x86-64_rpm.tar.gz
+
 13. find
 
 14．Chmod 
@@ -133,6 +136,9 @@ oinstall=>owner group
      这条命令主要用在本安装，且软件名是全称(可先cd到当前目录)。
 　　rpm -qa ：可以查看系统已经安装的软件。 
 　　http://www.cnblogs.com/xiehy/archive/2010/09/07/1820834.html
+　　
+　　[root@kevin RPMS]# su -c 'yum install *.rpm'
+　　
 3). 安装tar.gz文件
 http://jingyan.baidu.com/article/358570f663b0a4ce4724fccd.html
 $ tar -zxvf aliedit.tar.gz
