@@ -1,0 +1,16 @@
+1. [root@kevin ~]# yum install mono-devel --skip-broken
+Packages skipped because of dependency problems:
+    libgdiplus-devel-3.12-1.x86_64 from download.mono-project.com_repo_centos_
+    libgdiplus0-3.12-1.x86_64 from download.mono-project.com_repo_centos_
+    libmonosgen-2_0-1-4.6.0.245-0.xamarin.4.x86_64 from download.mono-project.com_repo_centos_
+    mono-core-4.6.0.245-0.xamarin.4.x86_64 from download.mono-project.com_repo_centos_
+    mono-data-4.6.0.245-0.xamarin.4.x86_64 from download.mono-project.com_repo_centos_
+    mono-data-oracle-4.6.0.245-0.xamarin.4.x86_64 from download.mono-project.com_repo_centos_
+    mono-data-sqlite-4.6.0.245-0.xamarin.4.x86_64 from download.mono-project.com_repo_centos_
+    mono-devel-4.6.0.245-0.xamarin.4.x86_64 from download.mono-project.com_repo_centos_
+    mono-extras-4.6.0.245-0.xamarin.4.x86_64 from download.mono-project.com_repo_centos_
+    mono-mvc-4.6.0.245-0.xamarin.4.x86_64 from download.mono-project.com_repo_centos_
+    mono-wcf-4.6.0.245-0.xamarin.4.x86_64 from download.mono-project.com_repo_centos_
+    mono-web-4.6.0.245-0.xamarin.4.x86_64 from download.mono-project.com_repo_centos_
+    mono-winforms-4.6.0.245-0.xamarin.4.x86_64 from download.mono-project.com_repo_centos_
+    mono-winfxcore-4.6.0.245-0.xamarin.4.x86_64 from download.mono-project.com_repo_centos_
