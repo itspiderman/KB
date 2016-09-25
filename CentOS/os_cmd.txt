@@ -1,0 +1,8 @@
+1. mount iso file
+[root@kevin mnt]# mkdir isocdrom
+[root@kevin mnt]# ls
+isocdrom
+[root@kevin mnt]# mount -o loop /home/oracle/Downloads/CentOS-7-x86_64-DVD-1511.iso /mnt/isocdrom
+[root@kevin mnt]#
+
+[root@kevin mnt]# umount /mnt/isocdrom
