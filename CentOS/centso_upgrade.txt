@@ -2,4 +2,13 @@
 https://wiki.centos.org/TipsAndTricks/CentOSUpgradeTool
 2.Centos系统备份与恢复教程
 http://www.centoscn.com/image-text/2013/0418/318.html
+备份:
 tar cvpzf backup.tgz / --exclude=/proc --exclude=/lost+found --exclude=/backup.tgz --exclude=/mnt --exclude=/sys
+恢复：
+tar xvpfz backup.tgz -C /
+
+确保在你做其他任何事情之前，重新创建你剔除的目录：
+mkdir proc
+mkdir lost+found
+mkdir mnt
+mkdir sys
