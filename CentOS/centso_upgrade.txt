@@ -1,2 +1,5 @@
 1.CentOS Upgrade Tool
 https://wiki.centos.org/TipsAndTricks/CentOSUpgradeTool
+2.Centos系统备份与恢复教程
+http://www.centoscn.com/image-text/2013/0418/318.html
+tar cvpzf backup.tgz / --exclude=/proc --exclude=/lost+found --exclude=/backup.tgz --exclude=/mnt --exclude=/sys
