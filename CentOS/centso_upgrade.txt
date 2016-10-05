@@ -12,3 +12,11 @@ mkdir proc
 mkdir lost+found
 mkdir mnt
 mkdir sys
+3. 一步步教你打造Win7+CentOS双系统
+http://www.cnblogs.com/johness/archive/2012/12/03/2800126.html
+
+4.
+title centOS
+kernel (hd0,6)/isolinux/vmlinuz ro root=LABEL=/
+initrd (hd0,6)/isolinux/initrd.img
+
