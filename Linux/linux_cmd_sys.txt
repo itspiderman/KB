@@ -1,3 +1,35 @@
+1. Linux下安装软件的两种方法
+1). yum命令：
+　　yum install 软件名
+安装完后，可用 which+软件名来查看位置。
+2). rpm命令：
+　　rpm -ivh 软件名
+     这条命令主要用在本安装，且软件名是全称(可先cd到当前目录)。
+　　rpm -qa ：可以查看系统已经安装的软件。 
+　　http://www.cnblogs.com/xiehy/archive/2010/09/07/1820834.html
+　　
+　　[root@kevin RPMS]# su -c 'yum install *.rpm'
+　　
+3). 安装tar.gz文件
+http://jingyan.baidu.com/article/358570f663b0a4ce4724fccd.html
+$ tar -zxvf aliedit.tar.gz
+$ ./aliedit.sh
+2. 查看安装路径
+[oracle@kevin ~]$ which java
+/usr/bin/java
+[oracle@kevin ~]$ ls -lrt /usr/bin/java
+lrwxrwxrwx. 1 root root 22 Nov 27  2015 /usr/bin/java -> /etc/alternatives/java
+[oracle@kevin ~]$ ls -lrt /etc/alternatives/java
+lrwxrwxrwx. 1 root root 46 Nov 27  2015 /etc/alternatives/java -> /usr/lib/jvm/jre-1.7.0-openjdk.x86_64/bin/java
+[oracle@kevin ~]$ 
+3. 卸载旧的JDK
+查看gcj的版本号：rpm -qa|grep jdk
+[oracle@kevin ~]$ rpm -qa|grep jdk
+java-1.7.0-openjdk-1.7.0.79-2.5.5.4.el6.x86_64
+jdk-1.7.0_79-fcs.x86_64
+java-1.6.0-openjdk-1.6.0.35-1.13.7.1.el6_6.x86_64
+[root@kevin ~]# yum -y remove java java-1.6.0-openjdk-1.6.0.35-1.13.7.1.el6_6.x86_64
+
 df -hl
 1.CentOS/Linux 添加SWAP分区
 http://www.linuxidc.com/Linux/2015-02/113250.htm
