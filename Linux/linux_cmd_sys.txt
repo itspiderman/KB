@@ -1,0 +1,6 @@
+df -hl
+1.CentOS/Linux 添加SWAP分区
+http://www.linuxidc.com/Linux/2015-02/113250.htm
+2. 开机时自动启动swap分区及文件: 
+/dec/hdb5 swap swap defaults 0 0 (开机时启动此swap分区) 
+/tmp/myswap swap swap defaults 0 0 (开机时启动此swap文件)
