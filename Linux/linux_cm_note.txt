@@ -125,6 +125,9 @@ chown -R oracle:oinstall /home/oracle/app
 oracle =>owner
 oinstall=>owner group
 
+21. dos2unix
+change the doc format to unix format
+-k keep the modification datetimels -l --full-time test.txtdos2unix -k test.txt-n create new fiel for the updated filedos2unix –n oldfile newfile 
 
 ====================
 1. Linux下安装软件的两种方法
