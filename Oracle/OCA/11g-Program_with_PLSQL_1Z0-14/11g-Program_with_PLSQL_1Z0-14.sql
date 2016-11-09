@@ -38,4 +38,11 @@ variable x numeric;
 exec:x:=104;
 select * from employees where employee_id=:x;
 
+--4.Neste block and valiable with label
+set serveroutput on
+<<outer_block>>declarev_test number :=123;beginDBMS_OUTPUT.PUT_LINE('Outer_block, v_test:'|| v_test);  <<inner_block>>  declare  v_test number := 456;  begin  DBMS_OUTPUT.PUT_LINE('Inner_block,v_test:'|| v_test);  DBMS_OUTPUT.PUT_LINE('Inner_block,outer_block.v_test:'|| outer_block.v_test);  end inner_block;end outer_block;
+
+Outer_block, v_test:123
+Inner_block,v_test:456
+Inner_block,outer_block.v_test:123
 
