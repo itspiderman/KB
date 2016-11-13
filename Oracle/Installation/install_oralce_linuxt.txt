@@ -55,5 +55,8 @@ global database name : posdb
 admin password: posdba
 inventory directory: /u01/app/posdbInventory
 
+# 3. Prerequisite Checks
+# Free Space
+Hard LIMIT: maximum open file descriptions
 
 
