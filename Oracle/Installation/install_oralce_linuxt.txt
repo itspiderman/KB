@@ -28,7 +28,7 @@ id oracle
 # 1.Create installation folder
 mkdir -p /u01/app/
 mkdir -p /u01/app/oracle/oradata
-chown R oracle:oinstall /u01/app/
+chown -R oracle:oinstall /u01/app/
 chmod -R 775 /u01/app/
 #
 xhost fully_qualified_remote_host_name
@@ -40,3 +40,20 @@ ORACLE_BASE=/u01/app/oracle
 # change sales=>posdb
 ORACLE_SID=posdb
 export ORACLE_BASE ORACLE_SID
+#
+# run install
+cd /media/FILESYSTEM/oracle_linux/database
+./runInstaller
+
+oracle base : /u01/app/oracle
+software location : /u01/app/oracle/product/11.2.0/dbhome_1
+database file location : /u01/app/oracle/oradata
+database edition : Standard Edition
+character set : Unicode(AL32UTF8)
+OSDBA group: dba
+global database name : posdb
+admin password: posdba
+inventory directory: /u01/app/posdbInventory
+
+
+
