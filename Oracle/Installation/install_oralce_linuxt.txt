@@ -1,0 +1,42 @@
+#
+http://docs.oracle.com/cd/E11882_01/install.112/e24326/toc.htm#BHCBCFDI
+#
+http://www.cnblogs.com/gaojun/archive/2012/11/22/2783257.html
+#
+# 1. check package requirements
+./chk_pck.sh
+# 2. check oracle group
+/usr/sbin/groupadd oinstall
+/usr/sbin/groupadd dba
+# To determine whether the dba group exists.
+grep oinstall /etc/group
+grep dba /etc/group
+# 3. create oracle id
+# if oracle existing and its primary group is not oinstall and it's not a member of the dba group
+/usr/sbin/usermod -g oinstall -G dba oracle
+# if oracle id not existing, enter the following command to create it.
+/usr/sbin/useradd -g oinstall -G dba oracle
+# check id
+id oracle
+#expect reuslt
+# uid=440(oracle) gid=200(oinstall) groups=201(dba),202(oper)
+# 4. set the password of the oracle user
+# password oracle
+#
+## 2.start to install oracle
+#
+# 1.Create installation folder
+mkdir -p /u01/app/
+mkdir -p /u01/app/oracle/oradata
+chown R oracle:oinstall /u01/app/
+chmod -R 775 /u01/app/
+#
+xhost fully_qualified_remote_host_name
+#
+su - oracle
+echo $SHELL
+# 2. Set oracle user environment
+ORACLE_BASE=/u01/app/oracle
+# change sales=>posdb
+ORACLE_SID=posdb
+export ORACLE_BASE ORACLE_SID
