@@ -1,3 +1,6 @@
-1. create a new line
+1. Create a new line
 echo.>>test.txt
 please noted there no space during echo.>>
+2. Count the txt line amount
+find /V "" /C data\test.txt
+findstr /R /N "^" data\test.txt | find /C ":"
