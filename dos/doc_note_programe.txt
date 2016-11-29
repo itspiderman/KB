@@ -11,3 +11,9 @@ set name=kevin
 # run.bat
 call par.bat
 echo %name%
+
+4. move folder and files
+move "Daily Report - %mstr%.%dstr%.%ystr%" "%fstr%"
+
+5. delete folder and subdatea
+rd /s/q 11-16
