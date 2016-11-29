@@ -4,3 +4,10 @@ please noted there no space during echo.>>
 2. Count the txt line amount
 find /V "" /C data\test.txt
 findstr /R /N "^" data\test.txt | find /C ":"
+
+3.bat call bat
+# par.bat
+set name=kevin
+# run.bat
+call par.bat
+echo %name%
