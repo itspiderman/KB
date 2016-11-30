@@ -129,6 +129,12 @@ oinstall=>owner group
 change the doc format to unix format
 -k keep the modification datetimels -l --full-time test.txtdos2unix -k test.txt-n create new fiel for the updated filedos2unix –n oldfile newfile 
 
+22. FTP
+ftp> get file1 将远端工作站之文件 file1 ，拷贝到本地工作站中。
+ftp> put file2 将本地工作站之文件 file2 ，拷贝到远端工作站中。
+ftp> mget *.c 将远端工作站中，副文件名为 c 之所有文件，拷贝到本地工作站中。
+ftp> mput *.txt 将本地工作站中，副文件名为 txt 之所有文件，拷贝远端工作站中。
+
 ====================
 1. Linux下安装软件的两种方法
 1). yum命令：
