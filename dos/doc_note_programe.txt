@@ -1,13 +1,14 @@
 1. Create a new line
 echo.>>test.txt
-please noted there no space during echo.>>
+Note: There no space during echo.>>
+
 2. Count the txt line amount
 find /V "" /C data\test.txt
 findstr /R /N "^" data\test.txt | find /C ":"
 
 3.bat call bat
 # par.bat
-set name=kevin
+set name=Jason
 # run.bat
 call par.bat
 echo %name%
@@ -16,4 +17,32 @@ echo %name%
 move "Daily Report - %mstr%.%dstr%.%ystr%" "%fstr%"
 
 5. delete folder and subdatea
+1). individual folder 
 rd /s/q 11-16
+2). all subfolder(clear.bat)
+del /q mailrpt\*.*
+echo "deleted file"
+::
+for /F %%i in ('dir rpt /B') do (
+cd rpt
+rd /q/s "%%i"
+echo %%i
+cd ..
+)
+
+6.copy file
+copy mailrpt\*.* "bk\%fstr%\%subfstr%\"
+xcopy /E mailrpt\*.* "\\teams\%fstr%\%subfstr%\"
+
+7. start url
+start http://www.baidu.com
+
+8.get year and month
+set yystr=%date:~6,4%
+echo %yystr%
+set ystr=%date:~8,2%
+echo %ystr%
+set mstr=%date:~0,2%
+echo %mstr%
+
+
