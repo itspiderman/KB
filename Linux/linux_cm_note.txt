@@ -145,6 +145,15 @@ ftp> mput *.txt 将本地工作站中，副文件名为 txt 之所有文件，�
 locate -r test.txt
 搜索一个数据库（/var/lib/locatedb），为了避免这种情况，可以在使用locate之前，先使用updatedb命令，手动更新数据库。
 
+24. ps -ef grep 'pib'
+说明：显示瞬间行程 (process) 的动态
+
+25. top
+top [-p pid]
+top命令提供了实时的对系统处理器的状态监视.它将显示系统中CPU最“敏感”的任务列表.该命令可以按CPU使用.内存使用和执行时间对任务进行排序；
+Linux Top 命令解析 比较详细  
+http://blog.csdn.net/qq_14821541/article/details/52040282
+
 ====================
 1. Linux下安装软件的两种方法
 1). yum命令：
