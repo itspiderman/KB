@@ -59,4 +59,15 @@ inventory directory: /u01/app/posdbInventory
 # Free Space
 Hard LIMIT: maximum open file descriptions
 
+# add by kv 10Dec,2016
+kernel.sem=250 32000 100 128
+fs.file-max = 6815744
+net.ipv4.ip_local_port_range = 9000 65500
+fs.aio-max-nr = 1048576
+net.core.rmem_default = 262144
+net.core.rmem_max = 4194304
+net.core.wmem_default = 262144
+net.core.wmem_max = 1048576
+# run this command to effective change :  /sbin/sysctl -p
+
 
