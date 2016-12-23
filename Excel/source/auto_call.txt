@@ -1,0 +1,70 @@
+Private Declare Sub Sleep Lib "kernel32" (ByVal dwMilliseconds As Long)
+Sub start_Click()
+start
+End Sub
+
+Function start()
+'MsgBox ("hello")
+Dim iExit
+
+Dim dWinFolder As New ShellWindows
+'May cause User-defined type not defined, please add lib
+' Tool|References,select "Microsoft Internet Control"
+
+Dim IE As Object
+Dim objIE As Object
+'
+Dim iEURL, iEDomain, iDlen, p1ID, p2ID
+iEURL = ThisWorkbook.Sheets("data").Cells(1, 2)
+iEDomain = ThisWorkbook.Sheets("data").Cells(1, 3)
+iDlen = Len(iEDomain)
+'Element ID
+p1ID = ThisWorkbook.Sheets("data").Cells(1, 4)
+p2ID = ThisWorkbook.Sheets("data").Cells(1, 5)
+
+Set IE = CreateObject("InternetExplorer.Application")
+IE.Visible = True
+'IE.Navigate ("https://gd.ac.10086.cn/ucs/login/signup.jsps")
+IE.Navigate (iEURL)
+Sleep 6000
+
+For Each objIE In dWinFolder  '01 Loop
+  Do While InStr(1, objIE.FullName, "IEXPLORE.EXE", vbTextCompare) <> 0 '02 Loop
+    iExit = iExit + 1 ' count to exit loop, maybe it slow response
+    'domain longth
+    
+    If Left(objIE.LocationURL, iDlen) = iEDomain Then
+      Set objDoc = objIE.Document
+      On Error Resume Next
+      abc = waitPro(objDoc, "mobile")
+      
+      objDoc.getelementbyid("mobile").innerText = p1ID
+      objDoc.getelementbyid("btn_get_dpw").Click
+      Exit Do
+    End If
+    If iExit > 10 Then
+      Exit Do
+    End If
+  Loop 'End 02:Do While
+Next 'End 01: For Each objIE In dWinFolder
+
+'Close browser
+IE.Quit
+
+End Function
+
+Function waitPro(objDoc, name)
+    Dim i
+    i = 0
+    Do While i < 10
+    On Error Resume Next
+    If objDoc.getelementbyid(name) = Null Then
+       Sleep 500
+    Else
+       Exit Do
+    
+    End If
+    i = i + 1
+    Loop
+End Function
+
