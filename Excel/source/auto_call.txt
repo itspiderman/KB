@@ -4,8 +4,12 @@ start
 End Sub
 
 Function start()
-'MsgBox ("hello")
-Dim l
+'Test
+Dim fname
+Dim iFname
+Dim Rcode
+'end test
+
 Dim iExit
 
 Dim dWinFolder As New ShellWindows
@@ -22,67 +26,60 @@ Dim e1ID, e2ID, e3ID, e4ID, e5ID, e6ID, e7ID, e8ID, e9ID, exID
 '1-sequence,
 '   2-eType,3-url,4-domian
 Dim eType, iEURL, iEDomain, iDlen
-Dim typeArray
-eType = ThisWorkbook.Sheets("Value").Cells(1, 2)
-iEURL = ThisWorkbook.Sheets("Value").Cells(1, 3)
-iEDomain = ThisWorkbook.Sheets("Value").Cells(1, 4)
-iDlen = Len(iEDomain)
-'Element ID / Element value
-'E1
-e1ID = ThisWorkbook.Sheets("ID").Cells(1, 5)
-e1V = ThisWorkbook.Sheets("Value").Cells(1, 5)
-' E2
-e2ID = ThisWorkbook.Sheets("ID").Cells(1, 6)
+Dim typeArray, iLinkCount
+
+
 
 Set IE = CreateObject("InternetExplorer.Application")
 IE.Visible = True
 
-'IE.Navigate ("https://gd.ac.10086.cn/ucs/login/signup.jsps")
-IE.Navigate (iEURL)
-Sleep 10000 'sleep to open the url incase it loading too long due to slow response
 
-For Each objIE In dWinFolder  '01 Loop
-  Do While InStr(1, objIE.FullName, "IEXPLORE.EXE", vbTextCompare) <> 0 '02 Loop
-    iExit = iExit + 1 ' count to exit loop, maybe it slow response
-    'domain longth
-    
-    If Left(objIE.LocationURL, iDlen) = iEDomain Then
-      Set objDoc = objIE.Document
-      On Error Resume Next
-      abc = waitPro(objDoc, e1ID)
-      
-      'objDoc.getelementbyid(e1ID).innerText = e1V
-      'Sleep 1000
-      'objDoc.getelementbyid(e2ID).Click
-      'Exit Do
-      
+iLinkCount = ThisWorkbook.Sheets("Value").UsedRange.Rows.Count
+For i = 1 To iLinkCount
+  eType = ThisWorkbook.Sheets("Value").Cells(i, 2)
+  iEURL = ThisWorkbook.Sheets("Value").Cells(i, 3)
+  iEDomain = ThisWorkbook.Sheets("Value").Cells(i, 4)
+  iDlen = Len(iEDomain)
+iExit = iExit + 1
+
+  Rcode = IE.Navigate(iEURL, 2, "_self")
+  
+    Do While (IE.Busy Or IE.ReadyState <> 4)
+      Sleep 1000
+    Loop
+  If InStr(1, IE.FullName, "IEXPLORE.EXE", vbTextCompare) <> 0 Then
+    Set objDoc = IE.Document
+    On Error Resume Next
       
       typeArray = Split(eType, ";")
-      'test
-      l = UBound(typeArray)
-      'end test
-      
-      For i = 0 To UBound(typeArray)
-        If typeArray(i) = 1 Then
+      For j = 0 To UBound(typeArray)
+        'Element ID / Element value
+        e1ID = ThisWorkbook.Sheets("ID").Cells(i, j + 5)
+
+        If typeArray(j) = 1 Then
+          e1V = ThisWorkbook.Sheets("Value").Cells(i, j + 5)
+          objDoc.getelementbyid(e1ID).Focus
           objDoc.getelementbyid(e1ID).innerText = e1V
+          Sleep 1000
+          objDoc.getelementbyid(e1ID).Blur
+          
         Else
-          objDoc.getelementbyid(e2ID).Click
+          If i = 2 Then
+             objDoc.getelementbyid(e1ID).Click
+          End If
           Sleep 3000
         End If
-      
       Next
-     
-      Exit Do
       
-    End If
-    If iExit > 10 Then
-      Exit Do
-    End If
-  Loop 'End 02:Do While
-Next 'End 01: For Each objIE In dWinFolder
+  End If
+      
+Next
 
 'Close browser
+iExit = iExit + 0
+objDoc.Close
 IE.Quit
+Set IE = Nothing
 
 End Function
 
@@ -92,7 +89,7 @@ Function waitPro(objDoc, name)
     Do While i < 10
     On Error Resume Next
     If objDoc.getelementbyid(name) = Null Then
-       Sleep 500
+       Sleep 10000
     Else
        Exit Do
     
@@ -100,4 +97,3 @@ Function waitPro(objDoc, name)
     i = i + 1
     Loop
 End Function
-
