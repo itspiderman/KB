@@ -1,4 +1,8 @@
-id:
-1	1;2			mobile	btn_get_dpw
-value:
-1	1;2	https://gd.ac.10086.cn/ucs/login/signup.jsps	https://gd.ac.10086.cn/	159888888886
+1	1;2			mobile	btn_get_dpw			
+2	2;1;2;2			TANGRAM__PSP_3__smsSwitch	TANGRAM__PSP_3__smsPhone	TANGRAM__PSP_3__smsTimer	TANGRAM__PSP_3__smsRegPromptBtn	
+3	1;1;1;1;2			strUsername	strPassword	strPasswordConfirm	strMobile	vcode
+
+
+1	1;2	https://gd.ac.10086.cn/ucs/login/signup.jsps	https://gd.ac.10086.cn/	15920590888			
+2	2;1;2;2	https://passport.baidu.com/v2/?login	https://passport.baidu.com/		15920590963		
+3	1;1;1;1;2	https://passport.fang.com/register.aspx	https://passport.fang.com/	houseqwed12354	cvbnhdgftryujd	cvbnhdgftryujd	15920550868
