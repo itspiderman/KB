@@ -32,7 +32,7 @@ Dim typeArray, iLinkCount
 
 Set IE = CreateObject("InternetExplorer.Application")
 IE.Visible = True
-
+'IE.Visible = False
 
 iLinkCount = ThisWorkbook.Sheets("Value").UsedRange.Rows.Count
 For i = 1 To iLinkCount
@@ -60,22 +60,26 @@ iExit = iExit + 1
           e1V = ThisWorkbook.Sheets("Value").Cells(i, j + 5)
           objDoc.getelementbyid(e1ID).Focus
           objDoc.getelementbyid(e1ID).innerText = e1V
-          Sleep 1000
-          objDoc.getelementbyid(e1ID).Blur
-          
         Else
-          If i = 2 Then
-             objDoc.getelementbyid(e1ID).Click
-          End If
-          Sleep 3000
+        'redio, also is click even to check it.
+          Sleep 1000
+          objDoc.getelementbyid(e1ID).Click
+          
+          'If ThisWorkbook.Sheets("ID").Cells(i, 1) = 4 Then
+            'objDoc.getelementbyid(e1ID).Click
+          'Else
+            'objDoc.getelementbyid(e1ID).Blur
+          'End If
+          
         End If
       Next
       
   End If
-      
+  Sleep 4000 ' To next row
 Next
 
 'Close browser
+Sleep 4000
 iExit = iExit + 0
 objDoc.Close
 IE.Quit
@@ -97,3 +101,4 @@ Function waitPro(objDoc, name)
     i = i + 1
     Loop
 End Function
+
