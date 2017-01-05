@@ -2,3 +2,6 @@
 LoginForm : form name
 userpassword : textbox name
 document.LoginForm['userpassword'].focus();
+document.Forms(0)['userpassword'].focus();
+2. Get element by tag
+objDoc.getElementsByTagName("input")(11).Click
