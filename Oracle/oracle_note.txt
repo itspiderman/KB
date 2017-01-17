@@ -3,3 +3,6 @@ http://blog.163.com/net_cwp/blog/static/18294003520111130105122391/
 
 2. show DBMS_OUTPUT.PUT_LINE("")
 set serveroutput on;
+
+3.oracle 特殊SQL(TABLE( CAST( MULTISET()
+http://blog.csdn.net/wanglipo/article/details/6326159
