@@ -1,15 +1,140 @@
-==A.
-
-
-==B.
-
-==C.
-
-
-==D.
-
-
-
-==E.
 elaborate [ɪˈlæbəret ] 详细说
 elapsed [ɪ'læpst] 消逝，过去
+tipping off	通风报信
+combat	战斗
+complicated	复杂
+bribery zero Tolerance	贿赂零容忍
+reputation	声誉
+improper	不当
+internship	实习
+gossiping	闲聊
+suspicion is escalated	怀疑被升级
+escalating	不断升级
+commensurate	相称
+hospitality	热情好客
+national emblem	国徽
+circumstances	情况
+liable	容易
+sponsorship	赞助
+charity	慈善机构
+solicit	征求
+entertainment	娱乐
+charitable	慈善
+preferential treatment	优惠待遇
+approaching	接近
+mitigate	减轻
+prospective 	预期
+failover	故障转移
+anti-bribery	反贿赂
+misuse 	滥用
+attest 	表明
+resyncing	正在重新同步
+blackout	灯火管制
+unwanted	不需要
+concentrate 	集中
+accordingly	从而
+collision	碰撞
+Staging	分期
+scrum	争球
+tablet	片剂
+triage	分流
+brief 	简要
+cluster	簇
+assessment 	评定
+demonstrate	演示
+commitment	承诺
+compliance	合规
+implication	意义
+obligation	义务
+scenarios	场景
+disposing	处置
+pilot	飞行员
+impersonating	冒充
+trip	旅
+planet	行星
+mars	火星
+memory jogger	内存慢跑者
+embarrassing	尴尬
+precaution	预防
+drawer	抽屉
+cabinet	内阁
+briefcase	公文包
+nonsense phrase 	废话短语
+breach	突破口
+cabinet	内阁
+applied	应用的
+daylight saving	夏令时
+Concatenates 	并置
+global	全球
+interceptor	拦截器
+explicit	明确的
+Risk Tolerance 	风险承受力
+Simulator 	模拟器
+Periodic	定期
+suffix	后缀
+isolated 	孤立
+Catalogue	目录
+elaborate	阐述
+Nope	没了
+perceive	感知
+broader	大盘
+vigilant	警惕
+circumstance	环境
+inadequate	不足
+adequate	充足
+prior	先
+diligence	勤勉
+appetite	食欲
+breaches	违规
+spot	点
+escalate	升级
+refrain	副歌
+seal	密封
+signet	私章
+simulator	模拟器
+AUD	AUD
+persisted	坚持
+frustrating	泄气
+rectify	纠正
+accidental monetary gain	意外的货币增益
+mitigate	减轻
+digitise	数字化
+ethics	伦理
+dependable	可信
+globe	地球
+midland	美联
+deferred 	延期的
+prosecution 	检察官
+agreement	协议
+legal	法律
+obligation	义务
+reflect	反映
+streamlining	精简
+aspire	立志
+tailored	量身定制
+adequate	充足
+legal	法律
+profitability	盈利能力
+diminished	减少
+crucial	关键
+supervision	监督
+consolidate	巩固
+near misses and accident gain	有惊无险和事故增益
+ultimately	最终
+significant	重大
+mitigate	减轻
+significant consequence	显著后果
+reflect	反映
+rectify	纠正
+defence	防御
+vital	重要
+harm	危害
+vigilant	警惕
+discrepancies	差异
+mitigate	减轻
+finite
+mechanism 机制
+rotated 旋转
+expedite 加速
+
+
