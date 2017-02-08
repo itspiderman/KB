@@ -1,2 +1,5 @@
 1.Auto send email via outlook
 https://zhidao.baidu.com/question/487958568.html
+
+2. Office文档模型深入---Outlook文档模型与开发实战（1）
+http://www.cnblogs.com/shenyubao/archive/2011/01/29/1947194.html
