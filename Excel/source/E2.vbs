@@ -1,3 +1,4 @@
+'sleep不是vb自带的函数，属于windows API函数。
 Private Declare Sub Sleep Lib "kernel32" (ByVal dwMilliseconds As Long)
 Dim Rcode
 Dim dWinFolder As New ShellWindows
