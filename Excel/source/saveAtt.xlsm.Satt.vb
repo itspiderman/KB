@@ -19,7 +19,7 @@ If testing Then Exit Sub
 
     Set objNS = olApp.GetNamespace("MAPI")
     'Set olItems = objNS.GetDefaultFolder(olFolderInbox).Items
-    Set olItems = objNS.GetDefaultFolder(olFolderInbox).Folders("AppD_DailyReport").Items
+    Set olItems = objNS.GetDefaultFolder(olFolderInbox).Folders("my_DailyReport").Items
 
     Dim objAtt As Outlook.Attachment
     Dim saveFolder As String
