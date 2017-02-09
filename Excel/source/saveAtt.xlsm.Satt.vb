@@ -33,7 +33,7 @@ If testing Then Exit Sub
                 If olMailItem.ReceivedTime > Date Then
                     If olMailItem.Attachments.Count > 0 Then
                         For Each objAtt In olMailItem.Attachments
-                            'objAtt.SaveAsFile saveFolder & objAtt.DisplayName
+                            objAtt.SaveAsFile saveFolder & objAtt.DisplayName
                         Next
                         Set objAtt = Nothing
                     End If
