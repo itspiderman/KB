@@ -3,3 +3,10 @@ http://mp.weixin.qq.com/mp/homepage?__biz=MzAwNTMxMzg1MA==&hid=1&sn=e47e267403f7
 
 2. Run code online
 http://rextester.com/runcode
+
+3.大白话系列之C#委托与事件讲解(一)
+http://www.cnblogs.com/wudiwushen/archive/2010/04/20/1703368.html#3608161
+大白话系列之C#委托与事件讲解(二)
+http://www.cnblogs.com/wudiwushen/archive/2010/04/20/1703763.html
+大白话系列之C#委托与事件讲解(三)
+http://www.cnblogs.com/wudiwushen/archive/2010/04/21/1717378.html
