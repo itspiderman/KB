@@ -14,3 +14,6 @@ http://www.cnblogs.com/wudiwushen/archive/2010/04/20/1703368.html#3608161
 http://www.cnblogs.com/wudiwushen/archive/2010/04/20/1703763.html
 大白话系列之C#委托与事件讲解(三)
 http://www.cnblogs.com/wudiwushen/archive/2010/04/21/1717378.html
+
+4.WPF入门教程系列
+http://www.cnblogs.com/chillsrc/p/4464023.html
