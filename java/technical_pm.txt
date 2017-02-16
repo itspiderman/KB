@@ -1,0 +1,7 @@
+1. ATDD, selenium,Robot Framework
+2. jenkins
+3. xpath (locator)
+4.Jira
+JIRA是Atlassian公司出品的项目与事务跟踪工具，被广泛应用于缺陷跟踪、客户服务、需求收集、流程审批、任务跟踪、项目跟踪和敏捷管理等工作领域。
+5.confluence
+Confluence是一个专业的企业知识管理与协同软件，也可以用于构建企业wiki。通过它可以实现团队成员之间的协作和知识共享。
