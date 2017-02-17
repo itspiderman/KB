@@ -17,3 +17,6 @@ http://www.cnblogs.com/wudiwushen/archive/2010/04/21/1717378.html
 
 4.WPF入门教程系列
 http://www.cnblogs.com/chillsrc/p/4464023.html
+
+5. C# 一个WCF简单实例
+http://www.jb51.net/article/31639.htm
