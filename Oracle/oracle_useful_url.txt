@@ -4,10 +4,11 @@ http://tgmlyj.blog.163.com/blog/static/59415229200863022810826/
 http://www.cnblogs.com/huli-DBA/archive/2011/11/23/2260180.html
 3.Linux系统（X64）安装Oracle11g完整安装图文教程另附基本操作
 http://www.jb51.net/article/53769.htm
-<<<<<<< HEAD
 4.PL/SQL Programing
 https://www.tutorialspoint.com/plsql/index.htm
 =======
-4.Oracle 数据库的绑定变量特性及应用
+5.Oracle 数据库的绑定变量特性及应用
 http://www.cnblogs.com/rootq/articles/1177562.html
->>>>>>> origin/master
+6.几种数据库建模工具推荐
+http://blog.csdn.net/ningxinghai/article/details/9311507
+
