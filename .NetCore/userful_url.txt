@@ -23,3 +23,6 @@ http://www.jb51.net/article/31639.htm
 
 6.WCF初探-15：WCF操作协定
 http://www.cnblogs.com/wangweimutou/p/4425437.html
+
+7.WeText项目：一个基于.NET实现的DDD、CQRS与微服务架构的演示案例
+http://www.cnblogs.com/daxnet/p/5421871.html
