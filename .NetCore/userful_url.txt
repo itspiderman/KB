@@ -20,3 +20,6 @@ http://www.cnblogs.com/chillsrc/p/4464023.html
 
 5. C# 一个WCF简单实例
 http://www.jb51.net/article/31639.htm
+
+6.WCF初探-15：WCF操作协定
+http://www.cnblogs.com/wangweimutou/p/4425437.html
