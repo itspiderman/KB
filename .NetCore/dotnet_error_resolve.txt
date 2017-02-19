@@ -1,0 +1,7 @@
+1.
+“HTTP 错误 404.3 - Not Found
+由于扩展配置问题而无法提供您请求的页面。如果该页面是脚本，请添加处理程序。如果应下载文件，请添加 MIME 映射。
+
+solution:
+找到Visual Studio 2008 命令提示工具或者是Visual Studio 2005 命令提示工具中 Visual Studio 2010(需要以管理员的身份运行) 命令提示工具。然后用管理员身份运行，输入命令   
+aspnet_regiis -i
