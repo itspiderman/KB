@@ -1,8 +1,11 @@
-1. æ‰‹æŠŠæ‰‹æ•™ä½ æœ€ç®€å•çš„å¼€æºé¡¹ç›®æ‰˜ç®¡GitHubå…¥é—¨æ•™ç¨‹
+1. ÊÖ°ÑÊÖ½ÌÄã×î¼òµ¥µÄ¿ªÔ´ÏîÄ¿ÍĞ¹ÜGitHubÈëÃÅ½Ì³Ì
 http://jingyan.baidu.com/article/f7ff0bfc7181492e27bb1360.html
 
-2.GitHubå®¢æˆ·ç«¯Desktopçš„å®‰è£…ä½¿ç”¨æ€»ç»“ ---åŸºç¡€ç¯‡
+2.GitHub¿Í»§¶ËDesktopµÄ°²×°Ê¹ÓÃ×Ü½á ---»ù´¡Æª
 http://blog.csdn.net/bihansheng2010/article/details/50261857
 
-3.  Githubä¸Šæ€ä¹ˆä¿®æ”¹åˆ«äººçš„é¡¹ç›®å¹¶ä¸”æäº¤ç»™åŸä½œè€…
+3.  GithubÉÏÔõÃ´ĞŞ¸Ä±ğÈËµÄÏîÄ¿²¢ÇÒÌá½»¸øÔ­×÷Õß
 http://blog.csdn.net/qq_26787115/article/details/52133008
+
+4.Github ¼òÃ÷½Ì³Ì
+http://www.runoob.com/w3cnote/git-guide.html

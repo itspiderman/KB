@@ -1,0 +1,68 @@
+##############################################################################
+# Copyright (c) 1991, 2001, 2002 by Oracle Corporation
+##############################################################################
+ 
+###########################################
+# NLS
+###########################################
+nls_language="SIMPLIFIED CHINESE"
+nls_territory="CHINA"
+ 
+###########################################
+# Shared Server
+###########################################
+dispatchers="(PROTOCOL=TCP) (SERVICE=posdbXDB)"
+ 
+###########################################
+# Miscellaneous
+###########################################
+compatible=11.2.0.0.0
+diagnostic_dest=D:\app\Administrator
+memory_target=2497708032
+ 
+###########################################
+# Security and Auditing
+###########################################
+audit_file_dest=D:\app\Administrator\admin\posdb\adump
+audit_trail=db
+remote_login_passwordfile=EXCLUSIVE
+ 
+###########################################
+# Database Identification
+###########################################
+db_domain=""
+db_name=posdb
+ 
+###########################################
+# File Configuration
+###########################################
+control_files=("D:\app\Administrator\oradata\posdb\control01.ctl", "D:\app\Administrator\flash_recovery_area\posdb\control02.ctl")
+db_recovery_file_dest=D:\app\Administrator\flash_recovery_area
+db_recovery_file_dest_size=4102029312
+ 
+###########################################
+# Cursors and Library Cache
+###########################################
+open_cursors=300
+ 
+###########################################
+# System Managed Undo and Rollback Segments
+###########################################
+undo_tablespace=UNDOTBS1
+ 
+###########################################
+# Network Registration
+###########################################
+#local_listener=LISTENER_POSDB
+ 
+###########################################
+# Processes and Sessions
+###########################################
+processes=150
+ 
+###########################################
+# Cache and I/O
+###########################################
+db_block_size=8192
+ 
+ 

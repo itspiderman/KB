@@ -1,0 +1,14 @@
+1.Enterpersition Version
+2.
+oracle home: D:\app\Administrator
+sofeware loacation: D:\app\Administrator\product\11.2.0\dbhome_1
+
+3. default password
+sys : CHANGE_ON_INSTALL
+system: manager
+
+4. use ÅäÖÃºÍÒÆÖ²¹¤¾ß=> "Database Configuration Assistant" to create database.
+it will generate create database script and summary report.
+
+for listener issue, can run "D:\app\Administrator\product\11.2.0\dbhome_1\BIN\emca.bat" to fix it.
+
