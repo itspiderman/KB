@@ -3,3 +3,6 @@ http://www.51testing.com/
 
 2. Selenium
 http://www.seleniumhq.org
+
+3.How To Configure Browser-based SSO with Kerberos/SPNEGO and Oracle WebLogic Server
+http://www.oracle.com/technetwork/articles/idm/weblogic-sso-kerberos-1619890.html
