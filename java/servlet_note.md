@@ -65,6 +65,7 @@ public class HelloWorldServlet extends HttpServlet {
          <url-pattern>*.perform</url-pattern>
      </servlet-mapping>
   
-  3. deploy this web to server
-  4. run this servlet
+3. deploy this web to server
+  
+4. run this servlet
   http://localhost:8158/hello/HelloWorldServlet
