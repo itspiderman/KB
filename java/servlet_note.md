@@ -1,8 +1,23 @@
 This doc is for servlet Getting Started
+
 1. create the servlet class.
 
-this class will extend javax.servlet.http.HttpServlet
+This class will extend javax.servlet.http.HttpServlet
 
+Code:
+package com.demoservlet;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class HelloWorldServlet
+ */
 public class HelloWorldServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
@@ -38,9 +53,10 @@ public class HelloWorldServlet extends HttpServlet {
 		writer.println("Hello, World!");
 		writer.close();
 	}
+
 }
 
-2. configurate this servlet in web.xml
+2. configure this servlet in web.xml
 
 	<servlet>
 		<description>
@@ -68,4 +84,4 @@ public class HelloWorldServlet extends HttpServlet {
 3. deploy this web to server
   
 4. run this servlet
-  http://localhost:8158/hello/HelloWorldServlet
+http://localhost:8158/hello/HelloWorldServlet
