@@ -3,3 +3,9 @@ http://www.cnblogs.com/aiyoubucuoo/archive/2016/05/04/5457396.html
 
 2.Servlet 工作原理解析
 https://www.ibm.com/developerworks/cn/java/j-lo-servlet/
+
+3.junit, 
+http://www.blogjava.net/qileilove/archive/2014/09/11/417823.html
+
+create one more source name as test for junit testing class
+under created web project, right click"Java Resource"-->New-->Source Folder, create test source folder. and put all junit testing class,the package structure should same as java class
