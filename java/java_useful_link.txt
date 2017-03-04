@@ -1,10 +1,7 @@
-1.Eclipse+GitHub 
-http://www.cnblogs.com/aiyoubucuoo/archive/2016/05/04/5457396.html
-
-2.Servlet 工作原理解析
+1..Servlet 工作原理解析
 https://www.ibm.com/developerworks/cn/java/j-lo-servlet/
 
-3.junit, 
+2.junit, 
 http://www.blogjava.net/qileilove/archive/2014/09/11/417823.html
 
 create one more source name as test for junit testing class
