@@ -1,2 +1,6 @@
 1.the superclass "javax.servlet.http.HttpServlet" was not found on the Java Build Path
 solution: Buildpath->configrate buildpath ..->librarys->Add library->Server Runtime,add tomcat server library.
+
+2.MESSAGE Using platform encoding (GBK actually) to copy filtered resources
+Solution: right click project ->properties->Resource, Text File Encoding:other=UTF-8
+http://blog.csdn.net/testcs_dn/article/details/45583791
