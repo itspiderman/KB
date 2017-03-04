@@ -4,3 +4,10 @@ solution: Buildpath->configrate buildpath ..->librarys->Add library->Server Runt
 2.MESSAGE Using platform encoding (GBK actually) to copy filtered resources
 Solution: right click project ->properties->Resource, Text File Encoding:other=UTF-8
 http://blog.csdn.net/testcs_dn/article/details/45583791
+
+3.gef installation
+http://download.eclipse.org/tools/gef/updates/interim/
+
+4. 目前在线安装svn的版本只有1.6.x和1.8.x,地址分别是：
+http://subclipse.tigris.org/update_1.6.x
+http://subclipse.tigris.org/update_1.8.x (支持的是Subversion 1.7.x)
