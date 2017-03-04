@@ -3,3 +3,6 @@ delete:
 workspace\.metadata\.plugins\org.eclipse.e4.workbench\workbench.xmi
 workspace\.metadata\.lock
 http://blog.csdn.net/u013066244/article/details/52238409
+
+
+2. use github to manage version control
