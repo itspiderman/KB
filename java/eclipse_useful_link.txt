@@ -1,2 +1,5 @@
 1.Eclipse+GitHub 
 http://www.cnblogs.com/aiyoubucuoo/archive/2016/05/04/5457396.html
+
+2.配置JETTY调试MAVEN工程
+http://www.cnblogs.com/ympcsoft/p/5244182.html
