@@ -1,8 +1,2 @@
-1.Eclipse无法启动报An internal error occurred during: "reload maven project". java.lang.NullPointerExceptio 
-delete:
-workspace\.metadata\.plugins\org.eclipse.e4.workbench\workbench.xmi
-workspace\.metadata\.lock
-http://blog.csdn.net/u013066244/article/details/52238409
-
-2. Eclipse+GitHub 
+1.Eclipse+GitHub 
 http://www.cnblogs.com/aiyoubucuoo/archive/2016/05/04/5457396.html
