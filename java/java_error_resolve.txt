@@ -11,3 +11,12 @@ http://download.eclipse.org/tools/gef/updates/interim/
 4. 目前在线安装svn的版本只有1.6.x和1.8.x,地址分别是：
 http://subclipse.tigris.org/update_1.6.x
 http://subclipse.tigris.org/update_1.8.x (支持的是Subversion 1.7.x)
+
+5.Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+In pom.xml,add source enconding property.
+<properties>
+		<project.build.sourceEncoding>
+			UTF-8
+		</project.build.sourceEncoding>
+	</properties>
+	<dependencies>
