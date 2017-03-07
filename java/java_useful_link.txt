@@ -6,3 +6,9 @@ http://www.blogjava.net/qileilove/archive/2014/09/11/417823.html
 
 create one more source name as test for junit testing class
 under created web project, right click"Java Resource"-->New-->Source Folder, create test source folder. and put all junit testing class,the package structure should same as java class
+
+3. CentOS6.3安装JDK和环境配置
+http://www.linuxidc.com/Linux/2012-09/70780.htm
+
+4. IBM Thread and Monitor Dump Analyzer for java
+Tool for analy java thread
