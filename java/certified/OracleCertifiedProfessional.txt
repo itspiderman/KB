@@ -2,7 +2,10 @@
 https://education.oracle.com/pls/web_prod-plq-dad/db_pages.getpage?page_id=654&get_params=p_id:357&p_org_id=1243197&lang=ZHS#tabs-2
 
 Step1 - Prior Certification Requirements -- Oracle Certified Associate, Java SE 8 Programmer
+URL: https://education.oracle.com/pls/web_prod-plq-dad/db_pages.getpage?page_id=654&get_params=p_id:357&p_org_id=1243197&lang=ZHS#tabs-1-1
+
 Java SE 8 Programmer I 1Z0-808
+https://education.oracle.com/pls/web_prod-plq-dad/db_pages.getpage?page_id=5001&get_params=p_exam_id:1Z0-808
 
 Step2 - Pass Exam
 Java SE 8 Programmer II 1Z0-809
