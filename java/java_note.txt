@@ -5,3 +5,9 @@
 2. java中子类继承父类时是否继承构造函数呢？
 1).Java继承中对构造函数是不继承的
 2).如果父类没有无参构造函数,创建子类时，不能编译，除非在构造函数代码体中第一行，必须是第一行显示调用父类有参构造函数
+
+3.遍历List集合的三种方法
+//List<String> items=new List<String>(); //Cannot instantiate the type List<String>
+List<String> items=new ArrayList<String>(); 
+Iterator it=items.iterator();
+http://www.cnblogs.com/lzq198754/p/5774593.html
