@@ -1,4 +1,7 @@
-1.CentOS6.3安装JDK和环境配置
-http://www.linuxidc.com/Linux/2012-09/70780.htm
-2. IBM Thread and Monitor Dump Analyzer for java
-Tool for analy java thread
+1. java static method
+1). 父类方法如果是静态方法，不会被子类覆盖；
+2). 父类静态方法只能别父类和父类事例调用，子类或子类事例调用不了。
+
+2. java中子类继承父类时是否继承构造函数呢？
+1).Java继承中对构造函数是不继承的
+2).如果父类没有无参构造函数,创建子类时，不能编译，除非在构造函数代码体中第一行，必须是第一行显示调用父类有参构造函数
