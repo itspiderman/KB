@@ -1,0 +1,10 @@
+1. Download mat(Memory Analyzer Tool)
+http://www.eclipse.org/mat/downloads.php
+2. Generate heap file
+D:\learning\java\heap>jps
+5396 Jps
+4236
+
+D:\learning\java\heap>jmap -dump:format=b,file=heap.bin 4236
+Dumping heap to C:\Users\Administrator\heap.bin ...
+Heap dump file created
