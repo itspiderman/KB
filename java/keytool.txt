@@ -1,0 +1,10 @@
+# create key store
+keytool -genkey -alias mykey1 -keypass 123456 -keyalg RSA -validity 365 -keysize 1024 -keystore mykeystore.jks -storepass 123456 -dname "CN=(kv),OU =(myCompany),O = (myDepartment),L = (GZ),ST=(GD),C = (CN)"
+#
+# open key store
+#
+keytool -list -keystore mykeystore.jks -storepass 123456
+#
+keytool -list -v -keystore mykeystore.jks -storepass 123456
+#
+keytool -list -rfc -keystore mykeystore.jks -storepass 123456
