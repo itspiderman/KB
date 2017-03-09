@@ -8,3 +8,5 @@ keytool -list -keystore mykeystore.jks -storepass 123456
 keytool -list -v -keystore mykeystore.jks -storepass 123456
 #
 keytool -list -rfc -keystore mykeystore.jks -storepass 123456
+#
+keytool -list -v -keystore cacerts -storepass changeit  > cacerts.java
