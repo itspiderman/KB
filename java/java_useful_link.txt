@@ -12,3 +12,6 @@ http://www.linuxidc.com/Linux/2012-09/70780.htm
 
 4. IBM Thread and Monitor Dump Analyzer for java
 Tool for analy java thread
+
+5. 使用Memory Analyzer tool(MAT)分析内存泄漏(一)
+http://blog.csdn.net/knowledgeaaa/article/details/16903241
