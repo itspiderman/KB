@@ -15,3 +15,5 @@ Tool for analy java thread
 
 5. 使用Memory Analyzer tool(MAT)分析内存泄漏(一)
 http://blog.csdn.net/knowledgeaaa/article/details/16903241
+
+http://wensong.iteye.com/blog/1986449
