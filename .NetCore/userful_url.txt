@@ -35,3 +35,6 @@ http://www.cnblogs.com/DebugLZQ/archive/2012/07/10/2585245.html
 
 10.使用 .NET Profiler API 检查并优化程序的内存使用
 https://www.microsoft.com/china/MSDN/library/netFramework/netframework/Nfnetprofilerapi.mspx?mfr=true
+
+11..NET项目web自动化测试实战——Selenium 2.0
+http://www.cnblogs.com/LanTianYou/p/4713020.html
