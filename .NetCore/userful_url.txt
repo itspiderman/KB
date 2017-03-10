@@ -38,3 +38,6 @@ https://www.microsoft.com/china/MSDN/library/netFramework/netframework/Nfnetprof
 
 11..NET项目web自动化测试实战——Selenium 2.0
 http://www.cnblogs.com/LanTianYou/p/4713020.html
+
+12.解读ASP.NET 5 & MVC6系列
+http://www.cnblogs.com/TomXu/category/335666.html
