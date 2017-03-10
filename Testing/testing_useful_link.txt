@@ -11,3 +11,6 @@ http://www.oracle.com/technetwork/articles/idm/weblogic-sso-kerberos-1619890.htm
 https://addons.mozilla.org/en-US/firefox/addon/firefinder-for-firebug/
 
 5. Tamper Data
+
+6. Browser driver for selenium
+http://www.java2s.com/Code/Jar/s/selenium.htm
