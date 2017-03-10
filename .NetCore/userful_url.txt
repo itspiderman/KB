@@ -41,3 +41,6 @@ http://www.cnblogs.com/LanTianYou/p/4713020.html
 
 12.解读ASP.NET 5 & MVC6系列
 http://www.cnblogs.com/TomXu/category/335666.html
+
+13.visual studio2015使用git管理源代码
+http://www.cnblogs.com/qk2014/p/5435243.html
