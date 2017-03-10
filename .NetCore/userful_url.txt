@@ -26,3 +26,9 @@ http://www.cnblogs.com/wangweimutou/p/4425437.html
 
 7.WeText项目：一个基于.NET实现的DDD、CQRS与微服务架构的演示案例
 http://www.cnblogs.com/daxnet/p/5421871.html
+
+8.推荐5款超实用的.NET性能分析工具
+http://www.csdn.net/article/2012-11-23/2812174-5-Good-and-useful-.NET-Profilers
+
+9.【.NET程序性能分析】使用VS自带的工具分析.NET程序的性能
+http://www.cnblogs.com/DebugLZQ/archive/2012/07/10/2585245.html
