@@ -47,3 +47,6 @@ http://www.cnblogs.com/qk2014/p/5435243.html
 
 14.Visual Studio 2015中的常用调试技巧分享
 http://www.cnblogs.com/chenxinblogs/p/5298032.html
+
+15.初识NuGet - 概念， 安装和使用
+http://www.cnblogs.com/Dlonghow/archive/2012/03/16/2399993.html
