@@ -5,3 +5,8 @@
 solution:
 找到Visual Studio 2008 命令提示工具或者是Visual Studio 2005 命令提示工具中 Visual Studio 2010(需要以管理员的身份运行) 命令提示工具。然后用管理员身份运行，输入命令   
 aspnet_regiis -i
+
+2.启动性能分析时： 无法启动收集会话，因为另一个会话当前处于活动状态
+restart visual studio
+
+3. 诊断会话启动失败。未能启用系统跟踪会话。
