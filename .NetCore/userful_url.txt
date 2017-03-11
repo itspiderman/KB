@@ -50,3 +50,6 @@ http://www.cnblogs.com/chenxinblogs/p/5298032.html
 
 15.初识NuGet - 概念， 安装和使用
 http://www.cnblogs.com/Dlonghow/archive/2012/03/16/2399993.html
+
+16.分享一个漂亮的ASP.NET MVC界面框架
+http://www.cnblogs.com/baihmpgy/p/3817613.html
