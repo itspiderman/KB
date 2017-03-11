@@ -44,3 +44,6 @@ http://www.cnblogs.com/TomXu/category/335666.html
 
 13.visual studio2015使用git管理源代码
 http://www.cnblogs.com/qk2014/p/5435243.html
+
+14.Visual Studio 2015中的常用调试技巧分享
+http://www.cnblogs.com/chenxinblogs/p/5298032.html
