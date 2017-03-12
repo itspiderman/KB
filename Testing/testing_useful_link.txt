@@ -14,3 +14,25 @@ https://addons.mozilla.org/en-US/firefox/addon/firefinder-for-firebug/
 
 6. Browser driver for selenium
 http://www.java2s.com/Code/Jar/s/selenium.htm
+
+7.http://wenda.tianya.cn/question/109596e1b166edbe
+阶段目标：软件测试课程是进阶课程，通过边学边练的方式，重点学习和应用软件测试中的常用方法、技术，以及主流测试工具；在本阶段的学习过程中，您将结合前面学习的内容，在老师的带领下，完成一个实际的大型CRM软件项目的测试。 
+需求分析和跟踪管理，UML分析和建模技术。
+评审技术，同行评审（包括需求评审、设计评审、代码走读等）。
+测试用例设计方法（等价类划分、边界值、正交表等）
+CTE XL的使用、自己动手编写一个正交表用例生成工具。
+单元测试及xUnit的使用、模拟对象技术（NMock）
+单元级别性能测试（NTime）。
+集成测试 ，持续集成框架的搭建，
+接口测试方法，TTCN。
+系统测试方法和技术（WEB测试技术、安全性测试技术、
+兼容性测试技术、内存泄漏测试与BoundsChecker等）
+功能自动化测试及QTP的使用，
+自己动手编写一个猴子测试工具。
+性能自动化测试及LoadRunner的使用、
+自己动手编写性能测试框架。
+代码分析和检测技术，
+自动化代码分析工具的使用（StyleCop、FxCop等）。
+GUI设计与用户体验测试。
+数据库测试（SQL注入、数据库兼容性测试、TSQLUnit的使用），自己动手编写一个数据库比较工具、Oracle SQL跟踪工具的制作。
+大型CRM项目软件测试实战（综合演练）。
