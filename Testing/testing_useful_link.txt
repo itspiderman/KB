@@ -36,3 +36,9 @@ CTE XL的使用、自己动手编写一个正交表用例生成工具。
 GUI设计与用户体验测试。
 数据库测试（SQL注入、数据库兼容性测试、TSQLUnit的使用），自己动手编写一个数据库比较工具、Oracle SQL跟踪工具的制作。
 大型CRM项目软件测试实战（综合演练）。
+
+8.22 best GUI testing tools for developer
+http://blog.dreamcss.com/tools/gui-testing-tools/
+开发者眼中最好的22款GUI测试工具（上）
+https://www.evget.com/article/2014/6/3/21093.html
+https://www.oschina.net/news/52531/22-gui-testing-tools
