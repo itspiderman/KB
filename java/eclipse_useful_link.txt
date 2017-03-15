@@ -9,3 +9,8 @@ After completed the debug configurations, click apply,then click Debug. then in 
 开始调试:
 a).启动外部命令，我配置的叫jetty-debug
 b).运行工程的debug (ichatDebug)
+
+3.Eclipse UML插件AmaterasUML
+http://www.cnblogs.com/duanxz/p/3769610.html
+AmaterasUML
+https://github.com/takezoe/amateras-modeler
