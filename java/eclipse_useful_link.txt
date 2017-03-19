@@ -5,7 +5,8 @@ http://www.cnblogs.com/aiyoubucuoo/archive/2016/05/04/5457396.html
 http://www.cnblogs.com/ympcsoft/p/5244182.html
 comment:
 Working Directory: ${workspace_loc:\ichat}   ==>:\ichat is the project name
-After completed the debug configurations, click apply,then click Debug. then in the debug ico,there will has ichatDebug item which you created.
+After completed the Debug Configurations(a.g. ichatDebug), click apply,then click Debug. 
+Then in the debug ico,there will has ichatDebug Remote Java Application which you configured.
 开始调试:
 a).启动外部命令，我配置的叫jetty-debug
 b).运行工程的debug (ichatDebug)
