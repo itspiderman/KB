@@ -1,0 +1,34 @@
+1.Eclipse+GitHub 
+http://www.cnblogs.com/aiyoubucuoo/archive/2016/05/04/5457396.html
+
+2.配置JETTY调试MAVEN工程
+http://www.cnblogs.com/ympcsoft/p/5244182.html
+
+开始调试:
+a).启动外部命令: External Tools->jetty-debug
+External Tools Congigurations...:
+1. Localtion: D:\Tool\apache-maven-3.3.9\bin\mvn.cmd
+2. Working Directory: ${workspace_loc:/ichat}   /* \ichat is the project name */
+3. Arguments: jetty:run
+4. Environment
+name: MAVEN_OPTS
+value:-Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:transport=dt_socket,address=8080,server=y,suspend=y
+
+b).运行工程的debug, Run as debug: ichatDebug(Remote Java Application)
+Congiguration:
+Right click ichat project->Debug as->Debug Configurations...->Remote Java Application
+
+name: ichatDebug
+1.Connect
+project: ichat
+host:localhost
+port:8080
+2.Source
+Source Lookup Path: ichat
+
+c). use IE, open URL : http://localhost:8080/. go on the application and debug what you want.
+
+3.Eclipse UML插件AmaterasUML
+http://www.cnblogs.com/duanxz/p/3769610.html
+AmaterasUML
+https://github.com/takezoe/amateras-modeler
