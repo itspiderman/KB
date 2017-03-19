@@ -7,7 +7,13 @@ http://www.seleniumhq.org
 3.How To Configure Browser-based SSO with Kerberos/SPNEGO and Oracle WebLogic Server
 http://www.oracle.com/technetwork/articles/idm/weblogic-sso-kerberos-1619890.html
 
-4. Firefinder
+4. Firefox中插件:
+　　1.firebug
+　　2.FirePath
+　　3.xpath finder
+　　4.XPath Checker : https://addons.mozilla.org/zh-CN/firefox/addon/xpath-checker/
+
+Firefinder
 https://addons.mozilla.org/en-US/firefox/addon/firefinder-for-firebug/
 
 5. Tamper Data
