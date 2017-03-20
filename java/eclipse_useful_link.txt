@@ -12,7 +12,7 @@ External Tools Congigurations...:
 3. Arguments: jetty:run
 4. Environment
 name: MAVEN_OPTS
-value:-Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:transport=dt_socket,address=8080,server=y,suspend=y
+value:-Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:transport=dt_socket,address=8092,server=y,suspend=y
 
 b).运行工程的debug, Run as debug: ichatDebug(Remote Java Application)
 Congiguration:
@@ -22,7 +22,7 @@ name: ichatDebug
 1.Connect
 project: ichat
 host:localhost
-port:8080
+port:8092
 2.Source
 Source Lookup Path: ichat
 
