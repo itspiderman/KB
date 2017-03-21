@@ -25,3 +25,25 @@ delete:
 workspace\.metadata\.plugins\org.eclipse.e4.workbench\workbench.xmi
 workspace\.metadata\.lock
 http://blog.csdn.net/u013066244/article/details/52238409
+
+7.jetty: Unable to locate configuration files of the name struts-plugin.xml, skipping
+http://blog.csdn.net/q821424508/article/details/46564347 
+		<dependency>
+			<groupId>org.apache.struts</groupId>
+			<artifactId>struts2-json-plugin</artifactId>
+			<version>2.3.32</version>
+		</dependency>
+8.jetty: There is no Action mapped for namespace [/] and action name [] associated with context path []. - [unknown location]
+<filter>
+		<filter-name>struts2</filter-name>
+		<filter-class>org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>struts2</filter-name>
+		<url-pattern>/*.action</url-pattern>
+	</filter-mapping>
+改为/*.action
+
+9.struts: org.eclipse.aether.resolution.ArtifactDescriptorException: Failed to read artifact descriptor for org.apache.struts:struts2-core:jar:2.3.32
+http://www.xue163.com/2869/1/28696087.html
+
