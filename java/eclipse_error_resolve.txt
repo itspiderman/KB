@@ -34,6 +34,7 @@ http://blog.csdn.net/q821424508/article/details/46564347
 			<version>2.3.32</version>
 		</dependency>
 8.jetty: There is no Action mapped for namespace [/] and action name [] associated with context path []. - [unknown location]
+soluntion:  change the struts url-pattern.
 <filter>
 		<filter-name>struts2</filter-name>
 		<filter-class>org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter</filter-class>
@@ -44,6 +45,16 @@ http://blog.csdn.net/q821424508/article/details/46564347
 	</filter-mapping>
 改为/*.action
 
-9.struts: org.eclipse.aether.resolution.ArtifactDescriptorException: Failed to read artifact descriptor for org.apache.struts:struts2-core:jar:2.3.32
+9.struts: org.eclipse.aether.resolution.ArtifactDescriptorException: Failed to read artifact descriptor for org.apache.struts:struts2-core:jar:2.3.32.
+root cause: it dueo org.javassist. need exclude it from dependency struts2-core.
+
 http://www.xue163.com/2869/1/28696087.html
+
+10.The path to the driver executable must be set by the webdriver.gecko.driver system property;
+Refer:
+http://www.cnblogs.com/my-blogs-for-everone/p/5986915.html
+Soluction: 
+1. download geckodriver from https://github.com/mozilla/geckodriver/releases
+2. add code in selenium jave:
+System.setProperty("webdriver.firefox.marionette","C:\\Program Files (x86)\\Mozilla Firefox\\geckodriver.exe");
 
