@@ -58,3 +58,6 @@ Soluction:
 2. add code in selenium jave:
 System.setProperty("webdriver.firefox.marionette","C:\\Program Files (x86)\\Mozilla Firefox\\geckodriver.exe");
 
+11.[WARNING] The POM for commons-io:commons-io:jar:2.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details.
+Solution: add below dependency.
+<dependency>    <groupId>commons-io</groupId>    <artifactId>commons-io</artifactId>    <version>2.4</version></dependency>
