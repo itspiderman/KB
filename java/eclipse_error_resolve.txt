@@ -61,3 +61,7 @@ System.setProperty("webdriver.firefox.marionette","C:\\Program Files (x86)\\Mozi
 11.[WARNING] The POM for commons-io:commons-io:jar:2.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details.
 Solution: add below dependency.
 <dependency>    <groupId>commons-io</groupId>    <artifactId>commons-io</artifactId>    <version>2.4</version></dependency>
+
+12. Maven complie [WARNING] 读取D:\.m2\repository\cglib\cglib-nodep\3.2.4\cglib-nodep-3.2.4.jar时出错; invalid LOC header (bad signature)
+Solution:
+找到该包的目录，删除该包重新下载即可。重新下载后用maven test测试一下，红叉就消失了。
