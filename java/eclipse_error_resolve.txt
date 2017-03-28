@@ -65,3 +65,15 @@ Solution: add below dependency.
 12. Maven complie [WARNING] 读取D:\.m2\repository\cglib\cglib-nodep\3.2.4\cglib-nodep-3.2.4.jar时出错; invalid LOC header (bad signature)
 Solution:
 找到该包的目录，删除该包重新下载即可。重新下载后用maven test测试一下，红叉就消失了。
+
+13.Exception in thread "main" java.lang.NoSuchMethodError: com.google.common.collect.ImmutableSet.toImmutableSet()Ljava/util/stream/Collector;
+Revise guava dependency:
+http://www.boyunjian.com/do/jarse/gadetail.do?group=com.google.guava&artifact=guava-jdk5&keyword=guava-jdk5
+<dependency>
+    <groupId>com.google.guava</groupId>
+    <artifactId>guava-jdk5</artifactId>
+    <version>17.0</version>
+</dependency>
+
+14. Exception processing async thread queue 
+solution: 关掉'expressions'视图, 当'expressions'视图是打开的并且包含与当前无关的会话的'watch expressions'引起。
