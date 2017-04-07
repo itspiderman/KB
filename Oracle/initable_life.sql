@@ -59,8 +59,44 @@ insert into tfundtype(typecode,typename) values('6','QDII');
 insert into tfundtype(typecode,typename) values('7','LOF');
 insert into tfundtype(typecode,typename) values('8','货币型');
 select * from tfundtype;
-
 --insert into tfundtype(typecode,typename) values('9','');
+
+--fund steps
+drop table tfundratestep;
+create table tfundratestep(
+fundcode char(6),
+seq int,
+controlid varchar2(100),
+controlname varchar2(100),
+action char not null,
+inputvalue varchar2(100) null,
+constraint pk_fundstep primary key(fundcode,seq)
+);
+select * from tfundratestep;
+ -- alter table tfundratestep add constraint fk_controlact foreign key(controltype,action) references tcontrolaction(controltype,action);
+alter table tfundratestep add constraint fk_controlact foreign key(action) references tcontrolaction(action);
+
+insert into tfundratestep(fundcode,seq,controlid,controlname,action,inputvalue) values('001781','1','TANGRAM__PSP_3__smsSwitch','','2','');
+insert into tfundratestep(fundcode,seq,controlid,controlname,action,inputvalue) values('001781','2','TANGRAM__PSP_3__smsPhone','','1','13536496649');
+insert into tfundratestep(fundcode,seq,controlid,controlname,action,inputvalue) values('001781','3','TANGRAM__PSP_3__smsTimer','','2','');
+insert into tfundratestep(fundcode,seq,controlid,controlname,action,inputvalue) values('001781','4','TANGRAM__PSP_3__smsRegPromptBtn','','2','');
+select * from tfundratestep;
+--control action table
+create table tcontrolaction(
+controltype varchar2(10),  -- html control type
+action char,
+actiondes varchar2(10),
+constraint pk_controlaction primary key(controltype,action)
+);
+insert into tcontrolaction(controltype,action,actiondes) values('textbox','1','input');
+insert into tcontrolaction(controltype,action,actiondes) values('button','2','click');
+--insert into tcontrolaction(controltype,action,actiondes) values('','','');
+select * from tcontrolaction;
+
+
+
+
+
 
 
 
