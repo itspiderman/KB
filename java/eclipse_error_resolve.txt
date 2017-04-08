@@ -77,3 +77,7 @@ http://www.boyunjian.com/do/jarse/gadetail.do?group=com.google.guava&artifact=gu
 
 14. Exception processing async thread queue 
 solution: 关掉'expressions'视图, 当'expressions'视图是打开的并且包含与当前无关的会话的'watch expressions'引起。
+
+15.警告: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'fireFoxSelenium' defined in class path resource [applicationContext.xml]: Error setting property values; nested exception is org.springframework.beans.NotWritablePropertyException:
+root: the property name in xml is difference with the property in class.
+solution: update them as same name.
