@@ -81,3 +81,8 @@ solution: 关掉'expressions'视图, 当'expressions'视图是打开的并且包
 15.警告: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'fireFoxSelenium' defined in class path resource [applicationContext.xml]: Error setting property values; nested exception is org.springframework.beans.NotWritablePropertyException:
 root: the property name in xml is difference with the property in class.
 solution: update them as same name.
+
+16.Description Resource Path Location Typecvc-elt.1: Cannot find the declaration of element 'beans'. applicationContext.xml /ichat/src/main/java line 4 XML Problem
+Solution: put xmlns in front
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
