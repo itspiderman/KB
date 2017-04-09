@@ -1,0 +1,4 @@
+1. Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.services.imp.FundRateRptServiceThread]: No default constructor found; nested exception is java.lang.NoSuchMethodException
+root: spring need default construct method which without parameter. if provide other construct methond, you need provide the without parameter construct method.
+
+2.Exception in thread "Thread-2" java.lang.NullPointerException
