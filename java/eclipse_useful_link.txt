@@ -32,3 +32,7 @@ c). use IE, open URL : http://localhost:8080/. go on the application and debug w
 http://www.cnblogs.com/duanxz/p/3769610.html
 AmaterasUML
 https://github.com/takezoe/amateras-modeler
+
+4.使用Eclipse构建Maven项目
+http://blog.csdn.net/qjyong/article/details/9098213
+http://blog.csdn.net/jiuqiyuliang/article/details/46053543
