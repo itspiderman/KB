@@ -1,4 +1,4 @@
-drop table tinvest;
+﻿drop table tinvest;
 create table tinvest(
 acc varchar(10),
 invcode int,
@@ -24,9 +24,11 @@ select * from user_constraints where TABLE_NAME=upper('tinvtype');
 alter table tinvtype drop constraint SYS_C003697;
 alter table tinvtype add constraint pk_invtype primary key(invcode);
 
-create table tfunds(
+create table tfund(
 fundcode char(6),
-fundname varchar(20)
+fundname varchar(20),
+fundurl VARCHAR(50),
+typecode char
 );
 alter table tfunds add constraint fund_key primary key(fundcode);
 alter table tfunds modify fundname varchar(30);
@@ -34,11 +36,11 @@ insert into tfunds(fundcode,fundname) values('340009','兴全磐稳增利债券'
 select * from tfunds;
 alter table tfunds rename to tfund;
 select * from tfund;
-alter table tfund add(fundurl VARCHAR(50));
+--alter table tfund add(fundurl VARCHAR(50));
 select length('http://fund.eastmoney.com/001781.html') from tfund;
 update tfund set fundurl='http://fund.eastmoney.com/001781.html' where fundcode='340009';
 
-alter table tfund add(typecode char);
+--alter table tfund add(typecode char);
 alter table tfund add constraint fk_fundtype foreign key(typecode) references tfundtype(typecode);
 update tfund set typecode='1' where  fundcode='340009';
 select * from tfund;

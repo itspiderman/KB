@@ -6,3 +6,12 @@ set serveroutput on;
 
 3.oracle 特殊SQL(TABLE( CAST( MULTISET()
 http://blog.csdn.net/wanglipo/article/details/6326159
+
+4. check oracle version
+D:\project\ichat>sqlplus
+请输入用户名:  system as sysdba
+输入口令:
+SQL> select * from  v$version;
+BANNER
+--------------------------------------------------------------------------------
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
