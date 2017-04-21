@@ -17,3 +17,6 @@ Tool for analy java thread
 http://blog.csdn.net/knowledgeaaa/article/details/16903241
 
 http://wensong.iteye.com/blog/1986449
+
+6. Java并发编程：Synchronized及其实现原理 
+http://www.cnblogs.com/paddix/p/5367116.html

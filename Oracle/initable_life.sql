@@ -28,30 +28,41 @@ create table tfund(
 fundcode char(6),
 fundname varchar(20),
 fundurl VARCHAR(50),
-typecode char
+fundtypecode char
 );
-alter table tfunds add constraint fund_key primary key(fundcode);
-alter table tfunds modify fundname varchar(30);
+alter table tfund add constraint fund_key primary key(fundcode);
+alter table tfund modify fundname varchar(30);
+alter table tfund add(crtDateTime date);
+alter table tfund modify crtDateTime timestamp;
 insert into tfunds(fundcode,fundname) values('340009','兴全磐稳增利债券');
-select * from tfunds;
-alter table tfunds rename to tfund;
 select * from tfund;
+alter table tfunds rename to tfund;
+alter table tfund rename column typecode to fundtypecode;
+select fundcode,fundname,fundurl,fundtypecode,crtDateTime from tfund order by fundname;
+--truncate table tfund;
+--commit;
 --alter table tfund add(fundurl VARCHAR(50));
 select length('http://fund.eastmoney.com/001781.html') from tfund;
 update tfund set fundurl='http://fund.eastmoney.com/001781.html' where fundcode='340009';
-
 --alter table tfund add(typecode char);
-alter table tfund add constraint fk_fundtype foreign key(typecode) references tfundtype(typecode);
+alter table tfund add constraint fk_fundtype foreign key(fundtypecode) references tfundtype(fundtypecode);
+alter table tfund drop constraint fk_fundtype;
 update tfund set typecode='1' where  fundcode='340009';
-select * from tfund;
+select * from tfund order by crtdatetime desc;
+/*
+1.
+13-4月 -17 05.37.49.634000000 下午
+13-4月 -17 05.40.15.610000000 下午
+*/
 
 -- Fund type table
-drop table tfundtype;
+-- drop table tfundtype;
 create table tfundtype
 (
 typecode char primary key,
 typename varchar2(10)
 );
+-- alter table tfundtype rename column typecode to fundtypecode;
 insert into tfundtype(typecode,typename) values('1','股票型');
 insert into tfundtype(typecode,typename) values('2','混合型');
 insert into tfundtype(typecode,typename) values('3','债券型');
@@ -95,7 +106,14 @@ insert into tcontrolaction(controltype,action,actiondes) values('button','2','cl
 --insert into tcontrolaction(controltype,action,actiondes) values('','','');
 select * from tcontrolaction;
 
-
+select * from v$sql;
+select * from v$sqlarea;
+select * from user_tables;
+SELECT 
+--OBJECT_NAME ,CREATED 
+* FROM ALL_OBJECTS WHERE OBJECT_NAME='TFUND' AND OBJECT_TYPE='TABLE' AND OWNER='POSUSR' ORDER BY CREATED DESC;
+-- 12-4月 -17, 	12-4月 -17	, 2017-04-12:22:02:09
+desc ALL_OBJECTS;
 
 
 

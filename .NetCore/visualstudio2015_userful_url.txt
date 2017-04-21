@@ -1,0 +1,4 @@
+1. Visual Studio 2015的安装及单元测试练习 
+http://www.cnblogs.com/shenpfei/p/5293808.html
+2.VS2015下如何使用Github的教程  
+http://blog.csdn.net/u012391923/article/details/51879404?ref=myrecommend
