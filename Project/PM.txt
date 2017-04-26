@@ -1,2 +1,12 @@
-1.领域驱动设计(Domain Driven Design)参考架构详解 
+1. Design
+领域驱动设计(Domain Driven Design)参考架构详解 
 http://blog.csdn.net/bluishglc/article/details/6681253/
+
+2. Document
+confluence
+
+3. Development
+Jira, ATDD
+
+4. Continue Integration(持续集成)
+jenkins
