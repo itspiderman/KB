@@ -2,3 +2,10 @@
 http://www.cnblogs.com/shenpfei/p/5293808.html
 2.VS2015下如何使用Github的教程  
 http://blog.csdn.net/u012391923/article/details/51879404?ref=myrecommend
+3.VS2015连接Oracle数据库
+http://www.tuicool.com/articles/amAvAj6
+http://www.oracle.com/technetwork/topics/dotnet/downloads/odacmsidownload-2745497.html
+
+4. NuGet - Create and publish a package
+https://docs.microsoft.com/zh-cn/nuget/quickstart/create-and-publish-a-package
+https://dist.nuget.org/index.html
