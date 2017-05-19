@@ -48,7 +48,15 @@ update tfund set fundurl='http://fund.eastmoney.com/001781.html' where fundcode=
 alter table tfund add constraint fk_fundtype foreign key(fundtypecode) references tfundtype(fundtypecode);
 alter table tfund drop constraint fk_fundtype;
 update tfund set typecode='1' where  fundcode='340009';
-select * from tfund order by crtdatetime desc;
+select * from tfund order by fundtypecode asc, FUNDCODE asc;
+select * from tfund where fundcode in ('167301','160135','000041','501025');
+select * from tfund where fundtypecode='8';
+select count(1) from tfund;
+
+select fundurl,length(fundurl),substr(fundurl,1,26)||'f10/jdzf_'||substr(fundurl,27,11) from tfund where rownum<5;
+--create table tfundbk as select * from tfund;
+--select count(1) from tfundbk;
+
 /*
 1.
 13-4月 -17 05.37.49.634000000 下午
@@ -73,6 +81,74 @@ insert into tfundtype(typecode,typename) values('7','LOF');
 insert into tfundtype(typecode,typename) values('8','货币型');
 select * from tfundtype;
 --insert into tfundtype(typecode,typename) values('9','');
+-- FUNDRATERPT table
+drop table FUNDRATERPT;
+create table FUNDRATERPT(
+fundcode char(6),
+lst1wRate VARCHAR2(8),
+lst1mRate VARCHAR2(8),
+lst3mRate VARCHAR2(8),
+lst6mRate VARCHAR2(8),
+curyearRate VARCHAR2(8),
+lst1yRate VARCHAR2(8)
+);
+alter table FUNDRATERPT add constraint pk_fund primary key(fundcode);
+-- add column,
+-- SQL 错误: ORA-00904: : 标识符无效
+-- alter table FUNDRATERPT add(lst1wPct,number);  -- ==> no need comma
+/*
+alter table FUNDRATERPT add(lst1wPct number);
+alter table fundraterpt add(lst1mPct number);     
+alter table fundraterpt add(lst3mPct number);     
+alter table fundraterpt add(lst6mPct number);     
+alter table fundraterpt add(curyearPct number);   
+alter table fundraterpt add(lst1yPct number);   
+alter table fundraterpt add(lst2yPct number);     
+alter table fundraterpt add(lst3yPct number);     
+alter table fundraterpt add(lst5yPct number);     
+alter table fundraterpt add(sinceFoundPct number);
+alter table fundraterpt add(lstUpdDate,date);
+*/
+select * from FUNDRATERPT;
+select count(1) from FUNDRATERPT;
+
+select * from tfund a where not exists(select 1 from FUNDRATERPT where fundcode=a.fundcode);
+order by a.fundtypecode asc, a.fundcode asc;
+
+select count(1) from tfund a where exists(select 1 from FUNDRATERPT where fundcode=a.fundcode);
+select count(1) from tfund a where not exists(select 1 from FUNDRATERPT where fundcode=a.fundcode);
+
+select fundcode,lst1wRate,lst1mRate,lst3mRate,lst6mRate from FUNDRATERPT where lst1wRate='优秀' and lst1mRate='优秀' and lst3mRate='优秀' and lst6mRate='优秀' and curyearRate='优秀' and lst1yRate='优秀';
+
+-- fund rate report
+--'1','股票型'
+select a.fundcode, a.fundname,a.fundurl from tfund a join FUNDRATERPT b on a.fundcode=b.fundcode 
+join tfundtype c on a.fundtypecode=c.fundtypecode where c.fundtypecode='1' and b.lst1wRate='优秀' and b.lst1mRate='优秀' and b.lst3mRate='优秀' and b.lst6mRate='优秀' and b.curyearRate='优秀' and b.lst1yRate='优秀';
+
+
+--('3','债券型');
+select a.fundcode, a.fundname,a.fundurl from tfund a join FUNDRATERPT b on a.fundcode=b.fundcode 
+join tfundtype c on a.fundtypecode=c.fundtypecode where c.fundtypecode='3' and b.lst1wRate='优秀' and b.lst1mRate='优秀' and b.lst3mRate='优秀' and b.lst6mRate='优秀' and b.curyearRate='优秀' and b.lst1yRate='优秀';
+-- '6','QDII'
+select a.fundcode, a.fundname,a.fundurl from tfund a join FUNDRATERPT b on a.fundcode=b.fundcode 
+join tfundtype c on a.fundtypecode=c.fundtypecode where c.fundtypecode='6' and b.lst1wRate='优秀' and b.lst1mRate='优秀' and b.lst3mRate='优秀' and b.lst6mRate='优秀' and b.curyearRate='优秀' and b.lst1yRate='优秀';
+
+
+--'8','货币型'
+select a.fundcode, a.fundname,a.fundurl from tfund a join FUNDRATERPT b on a.fundcode=b.fundcode
+join tfundtype c on a.fundtypecode=c.fundtypecode where c.fundtypecode='8' and b.lst1wRate='优秀' and b.lst1mRate='优秀' and b.lst3mRate='优秀' and b.lst6mRate='优秀' and b.curyearRate='优秀' and b.lst1yRate='优秀';
+
+
+select a.fundcode, a.fundname,a.fundurl,b.lst1wRate,b.lst1mRate,b.lst3mRate,b.lst6mRate,b.curyearRate,b.lst1yRate
+from tfund a join FUNDRATERPT b on a.fundcode=b.fundcode  and instr(fundname,'B')=0 
+join tfundtype c on a.fundtypecode=c.fundtypecode where c.fundtypecode='8' and b.lst1wRate in ('优秀','良好') and b.lst1mRate in ('优秀','良好') and b.lst3mRate in ('优秀','良好') and b.lst6mRate='优秀' and b.curyearRate='优秀' and b.lst1yRate='优秀';
+
+select a.fundcode, a.fundname,a.fundurl,b.lst1wRate,b.lst1mRate,b.lst3mRate,b.lst6mRate,b.curyearRate,b.lst1yRate
+from tfund a join FUNDRATERPT b on a.fundcode=b.fundcode  and instr(a.fundname,'工银')>0 
+join tfundtype c on a.fundtypecode=c.fundtypecode where c.fundtypecode='8' 
+
+select * from FUNDRATERPT where  fundcode='000848';
+---
 
 --fund steps
 drop table tfundratestep;
