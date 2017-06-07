@@ -1,0 +1,2 @@
+1. sp_who or sp_who2
+SP_WHO2 ACTIVE
