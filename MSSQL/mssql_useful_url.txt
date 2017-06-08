@@ -1,2 +1,5 @@
 1.【MS SQL】通过执行计划来分析SQL性能
 http://www.cnblogs.com/suta2008/p/3778230.html
+
+2.MSSQLSERVER执行计划详解 
+http://www.cnblogs.com/knowledgesea/p/5005163.html
