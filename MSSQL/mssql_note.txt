@@ -1,2 +1,9 @@
 1. sp_who or sp_who2
 SP_WHO2 ACTIVE
+
+2.【MS SQL】通过执行计划来分析SQL性能,如何知道一句SQL语句的执行效率呢，只知道下面3种：
+1)、通过SQL语句执行时磁盘的活动量(IO)信息来分析：SET STATISTICS IO ON (开启) / SET STATISTICS IO OFF (关闭)
+2)、通过SQL语句执行时语法分析、编译以及执行所消耗的时间：SET STATISTICS TIME ON (开启) / SET STATISTICS TIME OFF (关闭)
+3)、通过执行计划查看：Ctrl + L
+
+
