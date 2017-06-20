@@ -1,0 +1,9 @@
+1.help document
+http://www.visualnuggets.com/visual_nuggets/2011/02/resources-for-gupta-report-builder.html
+
+•Gupta Report Builder Starter Guide
+http://support.guptatechnologies.com/Docs/ReportBuilder/WhitePapers/ReportBuilderStarterGuide.pdf
+•Report Builder Guide to Creating Reports: 
+http://support.guptatechnologies.com/Docs/ReportBuilder/WhitePapers/ReportBuilderGuideToCreatingReports.pdf
+•Gupta Report Builder Business Reporting
+http://support.guptatechnologies.com/Docs/ReportBuilder/report.pdf
