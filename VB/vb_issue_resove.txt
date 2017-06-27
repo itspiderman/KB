@@ -1,0 +1,4 @@
+1. vb 中dataenvironment 
+https://zhidao.baidu.com/question/1733497317658698307.html
+2. VB6中如何实现对FILESYSTEMOBJECT的引用
+http://bbs.csdn.net/topics/20157
