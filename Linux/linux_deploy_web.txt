@@ -1,7 +1,9 @@
 1. download 
 1). jdk
-http://sdlc-esd.oracle.com/ESD6/JSCDL/jdk/8u131-b11/d54c1d3a095b4ff2b6607d096fa80163/jre-8u131-linux-x64.tar.gz?GroupName=JSC&FilePath=/ESD6/JSCDL/jdk/8u131-b11/d54c1d3a095b4ff2b6607d096fa80163/jre-8u131-linux-x64.tar.gz&BHost=javadl.sun.com&File=jre-8u131-linux-x64.tar.gz&AuthParam=1499091881_cbdd7308ab75472e27917f77f68d4836&ext=.gz
+[root@iz2ze57ohv9td0z2m0414hz java]# wget http://download.oracle.com/otn-pub/java/jdk/8u131-b11/d54c1d3a095b4ff2b6607d096fa80163/jdk-8u131-linux-x64.tar.gz?AuthParam=1499091765_ecf6201ff63b09ec39cc4d2f69ffa8c4
+
 2. install jdk
+[root@iz2ze57ohv9td0z2m0414hz java]# tar zxvf jdk-8u131-linux-x64.tar.gz
 
 3. install mysql
 
