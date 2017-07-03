@@ -1,0 +1,8 @@
+1. download 
+1). jdk
+http://sdlc-esd.oracle.com/ESD6/JSCDL/jdk/8u131-b11/d54c1d3a095b4ff2b6607d096fa80163/jre-8u131-linux-x64.tar.gz?GroupName=JSC&FilePath=/ESD6/JSCDL/jdk/8u131-b11/d54c1d3a095b4ff2b6607d096fa80163/jre-8u131-linux-x64.tar.gz&BHost=javadl.sun.com&File=jre-8u131-linux-x64.tar.gz&AuthParam=1499091881_cbdd7308ab75472e27917f77f68d4836&ext=.gz
+2. install jdk
+
+3. install mysql
+
+4. deploy website
