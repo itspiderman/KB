@@ -8,5 +8,8 @@ confluence
 3. Development
 Jira, ATDD
 
+4. Testing
+Selenium
+
 4. Continue Integration(持续集成)
 jenkins

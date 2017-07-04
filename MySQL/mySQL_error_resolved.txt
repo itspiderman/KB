@@ -1,0 +1,1 @@
+1. 2017-07-01T09:37:28.741823Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).

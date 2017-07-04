@@ -86,3 +86,15 @@ solution: update them as same name.
 Solution: put xmlns in front
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
+
+17.Java .classpath文件Classpath entry org.maven.eclipse.MAVEN2_CLASSPATH_CONTAINER will not be exported or published异常解决办法
+http://www.cnblogs.com/summer-solstice-sea/archive/2016/06/05/5562351.html
+1). .classpath
+<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+                <attributes>
+                        <attribute name="maven.pomderived" value="true"/>
+                        <attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+2).然后，在Eclipse项目管理器选种你的项目，右键依次选择Build Path->Configure Build Path－>Order and Export，勾选Maven Dependencies，单击Ok
+
+18. HtmlUnit exception : com.gargoylesoftware.htmlunit.ScriptException: Exception invoking getOffsetHeight
+若是在程序中加上禁用Javascript的效果，webClient.getOptions().setJavaScriptEnabled(false);则执行没有问题，所以这个问题是因为HtmlUnit对Javascript的支持不够的原因吗

@@ -1,0 +1,22 @@
+# view all hard disk and partional information, include the disk not format/mount
+fdisk -l
+# partional the disk, beloew will partional to one disk
+fdisk /dev/vdb
+n
+p
+1
+Enter
+Enter
+wq
+# view the disk
+fdisk -l
+
+#format disk
+mkfs.ext3 /dev/vdb1 
+
+# write partitial information
+echo /dev/vdb1 /mnt ext3 defaults 0 0 >> /etc/fstab
+#mount disk
+mount /dev/vdb1 /mnt
+# view disk 
+df -h

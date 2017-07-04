@@ -1,0 +1,14 @@
+D:\project\NoteJSWorkspace [master กิ +2 ~4 -0 !]> git clone https://github.com/cnpm/nvmw.git
+set "D:\project\NoteJSWorkspace\;%PATH%"
+
+installation path:
+C:\Program Files\nodejs\
+
+1. Note.js runtime
+--Performance counters
+--Event traing(ETW)
+2. npm package manager
+3. Online document shortcuts
+4. Add to PATH
+--Note.js and npm
+--npm modules
