@@ -21,4 +21,10 @@ mv apache-tomcat-8.5.16 tomcat
 CATALINA_HOME=/usr/local/tomcat/
 ../tomcat/bin/catalina.sh start
 
+
 5.deploy website
+
+
+7.install firewall
+yum install iptables-services
+http://www.111cn.net/sys/CentOS/109189.htm
