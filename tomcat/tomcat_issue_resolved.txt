@@ -1,4 +1,9 @@
 1. Unrecogized option: -
 Error: could not create the java virtual machine
+correct the setting:
+/usr/local/tomcat/bin/setenv.sh
+JAVA_OPTS='-Djava.security.egd=file:/dev/./urandom -server -Xms256m -Xmx512m -Dfile.encoding=UTF-8'
 
-
+2.18-Jul-2017 00:08:00.125 SEVERE [main] org.apache.coyote.AbstractProtocol.init Failed to initialize end point associated with ProtocolHandler ["http-nio-80"]
+ java.net.SocketException: Permission denied
+allow to access 80 port
