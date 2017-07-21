@@ -1,0 +1,30 @@
+1. download 
+1). jdk
+[root@iz2ze57ohv9td0z2m0414hz java]# wget http://download.oracle.com/otn-pub/java/jdk/8u131-b11/d54c1d3a095b4ff2b6607d096fa80163/jdk-8u131-linux-x64.tar.gz?AuthParam=1499091765_ecf6201ff63b09ec39cc4d2f69ffa8c4
+
+2. install jdk
+[root@iz2ze57ohv9td0z2m0414hz java]# tar zxvf jdk-8u131-linux-x64.tar.gz
+
+#java home path /etc/profile
+JAVA_HOME=/usr/java/jdk1.8.0_131
+JAVA_BIN=/usr/java/jdk1.8.0_131/bin
+PATH=$PATH:$JAVA_BIN
+CLASSPATH=$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+export JAVA_HOME JAVA_BIN PATH CLASSPATH
+
+3. install mysql
+
+4.install tomcat
+tar xf apache-tomcat-8.5.16.tar.gz
+mv apache-tomcat-8.5.16 tomcat
+[root@master bin]#vim catalina.sh
+CATALINA_HOME=/usr/local/tomcat/
+../tomcat/bin/catalina.sh start
+
+
+5.deploy website
+
+
+7.install firewall
+yum install iptables-services
+http://www.111cn.net/sys/CentOS/109189.htm

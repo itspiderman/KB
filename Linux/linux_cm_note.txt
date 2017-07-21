@@ -169,3 +169,8 @@ $ cksum linux.txt
 以上命令执行后，将输出校验码等相关的信息，具体输出信息如下所示：
 2936243011 27 linux.txt         //输出信息 
 上面的输出信息中，"2936243011"表示校验码，"27"表示字节数。
+
+28. move file
+mv *.gz /usr/local
+29. delete file
+ rm -rf tomcat
