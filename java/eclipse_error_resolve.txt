@@ -98,3 +98,6 @@ http://www.cnblogs.com/summer-solstice-sea/archive/2016/06/05/5562351.html
 
 18. HtmlUnit exception : com.gargoylesoftware.htmlunit.ScriptException: Exception invoking getOffsetHeight
 若是在程序中加上禁用Javascript的效果，webClient.getOptions().setJavaScriptEnabled(false);则执行没有问题，所以这个问题是因为HtmlUnit对Javascript的支持不够的原因吗
+
+19.Caused by: org.hibernate.internal.util.config.ConfigurationException: Could not locate cfg.xml resource [hibernate.cfg.xml]
+Solution: put hibernate.cfg.xml under src folder.
