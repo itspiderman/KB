@@ -1,0 +1,3 @@
+1. check python
+most linux will install python by default. you type "python" in command line to check if python is installed.
+or which python to check python installation path.
