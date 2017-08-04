@@ -5,18 +5,28 @@ or which python to check python installation path.
 1.2. download python
 wget https://www.python.org/ftp/python/3.6.0/Python-3.6.0.tar.xz
 
-2. install libxml2
+2. install web.py
+pip install web.py
+
+prompt: Requirement already satisfied (use --upgrade to upgrade): web.py in /usr/lib/python2.7/site-packages
+
+3. install libxml2
 check if installed
 rpm -q libxml2
 
-3. install libxslt
-3.1. check if installed
-3.2. install
+4. install libxslt
+4.1. check if installed
+4.2. install
 
-
-4. install lxml python
+5. install lxml python
 check if installed
 rpm -q "lxml python"
+
+
+6. create main.py
+
+7. start main.py
+python main.py
 
 
 
