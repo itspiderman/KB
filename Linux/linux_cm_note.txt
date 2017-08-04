@@ -188,3 +188,6 @@ whereis命令只能用于搜索程序名.a.g.: whereis python
 rpm -q libxml2
 rpm -qa   #check all installed software
 
+33. curl
+access a web page
+curl www.baidu.com
