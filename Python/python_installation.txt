@@ -4,3 +4,19 @@ most linux will install python by default. you type "python" in command line to 
 or which python to check python installation path.
 1.2. download python
 wget https://www.python.org/ftp/python/3.6.0/Python-3.6.0.tar.xz
+
+2. install libxml2
+check if installed
+rpm -q libxml2
+
+3. install libxslt
+3.1. check if installed
+3.2. install
+
+
+4. install lxml python
+check if installed
+rpm -q "lxml python"
+
+
+
