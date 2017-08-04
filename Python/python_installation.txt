@@ -1,3 +1,6 @@
-1. check python
+1. install python 
+1.1. check python
 most linux will install python by default. you type "python" in command line to check if python is installed.
 or which python to check python installation path.
+1.2. download python
+wget https://www.python.org/ftp/python/3.6.0/Python-3.6.0.tar.xz
