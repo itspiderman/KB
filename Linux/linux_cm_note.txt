@@ -184,3 +184,7 @@ mv *.gz /usr/local
 which命令是查找命令是否存在，以及命令的存放位置在哪儿。a.g.: which python
 whereis命令只能用于搜索程序名.a.g.: whereis python
 
+32. Check if the software is installated.
+rpm -q libxml2
+rpm -qa   #check all installed software
+
