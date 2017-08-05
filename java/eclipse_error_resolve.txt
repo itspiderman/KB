@@ -101,3 +101,8 @@ http://www.cnblogs.com/summer-solstice-sea/archive/2016/06/05/5562351.html
 
 19.Caused by: org.hibernate.internal.util.config.ConfigurationException: Could not locate cfg.xml resource [hibernate.cfg.xml]
 Solution: put hibernate.cfg.xml under src folder.
+
+20.Exception in thread "main" java.lang.NoClassDefFoundError: org/springframework/context/support/ClassPathXmlApplicationContext
+        at com.demo.seleniumtest.biz.RunFundSeleniumSpring.runSelenium(RunFundSeleniumSpring.java:14)
+        at com.demo.seleniumtest.biz.RunFundSeleniumSpring.main(RunFundSeleniumSpring.java:9)
+Caused by: java.lang.ClassNotFoundException: org.springframework.context.support.ClassPathXmlApplicationContext
