@@ -16,7 +16,14 @@ rpm -q libxml2
 
 4. install libxslt
 4.1. check if installed
+rpm -q libxslt
+4.2. download libxslt
+wget http://ftp.acc.umu.se/pub/GNOME/sources/libxslt/1.1/libxslt-1.1.22.tar.gz
 4.2. install
+cp /usr/local/libxslt/libxslt-1.1.22.tar.gz /tmp/
+tar -zxf libxslt-1.1.22.tar.gz
+cd libxslt-1.1.22
+./configure --prefix=/usr/local/libxslt --with-libxml-prefix=/usr/local/libxml2
 
 5. install lxml python
 check if installed
