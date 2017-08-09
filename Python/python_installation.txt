@@ -16,8 +16,10 @@ wget http://www.zlib.net/zlib-1.2.11.tar.gz
 cp zlib-1.2.11.tar.gz /tmp/
 tar -zxf zlib-1.2.11.tar.gz
 cd zlib-1.2.11
-./configure    --prefix=/usr/local/zlib
+./configure --prefix=/usr/local/zlib
 make && make install
+
+
 
 2. install web.py
 pip install web.py
