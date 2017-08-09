@@ -7,8 +7,17 @@ wget https://www.python.org/ftp/python/3.6.0/Python-3.6.0.tar.xz
 1.3. install python
 cp Python-3.6.0.tar.xz /tmp/
 tar Jxvf Python-3.6.0.tar.xz
+cd Python-3.6.0
 ./configure --prefix=/usr/local/python3
+make && make install
 
+error: zipimport.ZipImportError: can't decompress data; zlib not available
+wget http://www.zlib.net/zlib-1.2.11.tar.gz
+cp zlib-1.2.11.tar.gz /tmp/
+tar -zxf zlib-1.2.11.tar.gz
+cd zlib-1.2.11
+./configure    --prefix=/usr/local/zlib
+make && make install
 
 2. install web.py
 pip install web.py
