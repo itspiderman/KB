@@ -1,3 +1,5 @@
+use posdb;
+
 # upper case for transation
 START TRANSACTION;
 # alter session set current_schema= posusr;
@@ -27,6 +29,25 @@ select * from tinvtype;
 # alter table tinvtype drop constraint SYS_C003697;
 # alter table tinvtype add constraint pk_invtype primary key(invcode);
 
+-- Fund type table
+-- drop table tfundtype;
+create table tfundtype
+(
+fundtypecode char primary key,
+typename varchar(10)
+);
+-- alter table tfundtype rename column typecode to fundtypecode;
+insert into tfundtype(fundtypecode,typename) values('1','股票型');
+insert into tfundtype(fundtypecode,typename) values('2','混合型');
+insert into tfundtype(fundtypecode,typename) values('3','债券型');
+insert into tfundtype(fundtypecode,typename) values('4','指数型');
+insert into tfundtype(fundtypecode,typename) values('5','ETF联接');
+insert into tfundtype(fundtypecode,typename) values('6','QDII');
+insert into tfundtype(fundtypecode,typename) values('7','LOF');
+insert into tfundtype(fundtypecode,typename) values('8','货币型');
+insert into tfundtype(fundtypecode,typename) values('9','ICBC8');
+select * from tfundtype;
+
 create table tfund(
 fundcode char(6),
 fundname varchar(30),
@@ -34,8 +55,8 @@ fundurl VARCHAR(50),
 fundtypecode char,
 crtDateTime timestamp
 );
-alter table tfund add constraint fund_key primary key(fundcode);
-alter table tfund add constraint fk_fundtype foreign key(fundtypecode) references tfundtype(fundtypecode);
+alter table tfund add primary key (fundcode);
+alter table tfund add foreign key fk_fundtype(fundtypecode) references tfundtype(fundtypecode);
 # alter table tfund modify fundname varchar(30);
 # alter table tfund add(crtDateTime date);
 # alter table tfund modify crtDateTime timestamp;
@@ -70,24 +91,6 @@ select * from tfund;
 13-4月 -17 05.40.15.610000000 下午
 */
 
--- Fund type table
--- drop table tfundtype;
-create table tfundtype
-(
-fundtypecode char primary key,
-typename varchar(10)
-);
--- alter table tfundtype rename column typecode to fundtypecode;
-insert into tfundtype(fundtypecode,typename) values('1','股票型');
-insert into tfundtype(fundtypecode,typename) values('2','混合型');
-insert into tfundtype(fundtypecode,typename) values('3','债券型');
-insert into tfundtype(fundtypecode,typename) values('4','指数型');
-insert into tfundtype(fundtypecode,typename) values('5','ETF联接');
-insert into tfundtype(fundtypecode,typename) values('6','QDII');
-insert into tfundtype(fundtypecode,typename) values('7','LOF');
-insert into tfundtype(fundtypecode,typename) values('8','货币型');
-insert into tfundtype(fundtypecode,typename) values('9','ICBC8');
-select * from tfundtype;
 # COMMIT;
 # FUNDRATERPT table
 # drop table FUNDRATERPT;
@@ -101,7 +104,7 @@ lst1mRate varchar(8),
 lst3mRate varchar(8),
 lst6mRate varchar(8),
 lst1yRate varchar(8),
-st2yRate varchar(8),
+lst2yRate varchar(8),
 lst3yRate varchar(8),
 lst5yRate varchar(8),
 sinceFoundRate varchar(8),
@@ -117,7 +120,7 @@ lst5yPct float,
 sinceFoundPct float,
 lstUpdDate date
 );
-alter table fundraterpt add constraint pk_fund primary key(fundcode);
+alter table fundraterpt add primary key(fundcode);
 
 -- add column,
 -- SQL 错误: ORA-00904: : 标识符无效
@@ -215,7 +218,7 @@ alter table fundraterpt add(lstUpdDate date);
 # '1','股票型'
 select a.fundcode, a.fundname,a.fundurl,b.fundAmt,b.lst1yPct,b.lst2yPct,b.lst3yPct from tfund a join FUNDRATERPT b on a.fundcode=b.fundcode 
 join tfundtype c on a.fundtypecode=c.fundtypecode where c.fundtypecode='1' and b.lst1wRate='优秀' and b.lst1mRate='优秀' and b.lst3mRate='优秀' and b.lst6mRate='优秀' and b.curyearRate='优秀' and b.lst1yRate='优秀' 
-and b.LST2YRATE='优秀' and b.LST3YRATE='优秀' and b.lst5yRate='优秀'
+and b.lst2yRate='优秀' and b.lst3yRate='优秀' and b.lst5yRate='优秀'
 order by b.fundAmt desc,b.lst1yPct desc,b.lst2yPct desc;
 
 # ('3','债券型');
@@ -280,8 +283,7 @@ inputvalue varchar(100) null,
 constraint pk_fundstep primary key(fundcode,seq)
 );
 select * from tfundratestep;
-# alter table tfundratestep add constraint fk_controlact foreign key(controltype,action) references tcontrolaction(controltype,action);
-alter table tfundratestep add constraint fk_controlact foreign key(action) references tcontrolaction(action);
+alter table tfundratestep add foreign key fk_controlact(action) references tcontrolaction(action);
 
 insert into tfundratestep(fundcode,seq,controlid,controlname,action,inputvalue) values('001781','1','TANGRAM__PSP_3__smsSwitch','','2','');
 insert into tfundratestep(fundcode,seq,controlid,controlname,action,inputvalue) values('001781','2','TANGRAM__PSP_3__smsPhone','','1','13536496649');
@@ -292,22 +294,15 @@ select * from tfundratestep;
 create table tcontrolaction(
 controltype varchar(10),  -- html control type
 action char,
-actiondes varchar(10),
-constraint pk_controlaction primary key(controltype,action)
+actiondes varchar(10)
 );
+alter table tcontrolaction add primary key(controltype,action);
 insert into tcontrolaction(controltype,action,actiondes) values('textbox','1','input');
 insert into tcontrolaction(controltype,action,actiondes) values('button','2','click');
 # insert into tcontrolaction(controltype,action,actiondes) values('','','');
 select * from tcontrolaction;
 
-select * from v$sql;
-select * from v$sqlarea;
-select * from user_tables;
-SELECT 
-# OBJECT_NAME ,CREATED 
-* FROM ALL_OBJECTS WHERE OBJECT_NAME='TFUND' AND OBJECT_TYPE='TABLE' AND OWNER='POSUSR' ORDER BY CREATED DESC;
-# 12-4月 -17, 	12-4月 -17	, 2017-04-12:22:02:09
-desc ALL_OBJECTS;
+
 rollback;
 
 

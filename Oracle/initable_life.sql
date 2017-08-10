@@ -187,14 +187,15 @@ alter table fundraterpt add(sinceFoundPct VARCHAR2(8));
 alter table fundraterpt add(lstUpdDate date); 
 */
 
-select * from FUNDRATERPT order by LSTUPDDATE asc ;
-select count(1) from FUNDRATERPT where LSTUPDDATE='26-5月 -17';
-select count(1) from FUNDRATERPT where 
-LSTUPDDATE<'26-5月 -17' OR 
-LSTUPDDATE IS NULL;   -- 286
+
+select count(1) from FUNDRATERPT where LSTUPDDATE<'20-7月 -17';
+select a.fundcode, a.fundname,a.fundurl,b.fundAmt,b.lst3mPct,b.lst6mPct,b.lst1yPct,b.lst2yPct,b.lst3yPct,b.LSTUPDDATE from tfund a join FUNDRATERPT b on a.fundcode=b.fundcode 
+join tfundtype c on a.fundtypecode=c.fundtypecode where b.LSTUPDDATE<'20-7月 -17';
+
+
 select * from FUNDRATERPT where fundAmt is not null order by fundAmt desc;
 select * from FUNDRATERPT where FUNDCODE='000425';
-select * from FUNDRATERPT where LSTUPDDATE<'26-5月 -17' OR LSTUPDDATE IS NULL;
+select * from FUNDRATERPT where LSTUPDDATE<'20-7月 -17';
 select a.* from Fund a where not exists (select b.fundCode from FundRateRpt b where b.fundCode=a.fundCode and (b.lstUpdDate>'25-5月 -17' ) ) order by a.fundTypecode asc, a.fundCode asc;
 select substr(fundAmt,0,instr(fundAmt,'亿')-1),instr(fundAmt,'亿') from FUNDRATERPT where fundAmt is not null order by substr(fundAmt,0,instr(fundAmt,'亿')-1);
 SELECT DATE() FROM DUAL;
@@ -214,48 +215,49 @@ select count(1) from tfund a where not exists(select 1 from FUNDRATERPT where fu
 select * from FUNDRATERPT where fundAmt is not null;
 select * from FUNDRATERPT order by LSTUPDDATE ASC;
 select fundcode,lst1wRate,lst1mRate,lst3mRate,lst6mRate from FUNDRATERPT where lst1wRate='优秀' and lst1mRate='优秀' and lst3mRate='优秀' and lst6mRate='优秀' and curyearRate='优秀' and lst1yRate='优秀';
-
+desc FUNDRATERPT;
 -- fund rate report
 --'1','股票型'
-select a.fundcode, a.fundname,a.fundurl,b.fundAmt,b.lst1yPct,b.lst2yPct,b.lst3yPct from tfund a join FUNDRATERPT b on a.fundcode=b.fundcode 
+select a.fundcode, a.fundname,a.fundurl,b.fundAmt,b.lst1yPct,b.lst2yPct,b.lst3yPct,b.LSTUPDDATE from tfund a join FUNDRATERPT b on a.fundcode=b.fundcode 
 join tfundtype c on a.fundtypecode=c.fundtypecode where c.fundtypecode='1' and b.lst1wRate='优秀' and b.lst1mRate='优秀' and b.lst3mRate='优秀' and b.lst6mRate='优秀' and b.curyearRate='优秀' and b.lst1yRate='优秀' 
 and b.LST2YRATE='优秀' and b.LST3YRATE='优秀' and b.lst5yRate='优秀'
 order by b.fundAmt desc,b.lst1yPct desc,b.lst2yPct desc;
 
 --('3','债券型');
-select a.fundcode, a.fundname,a.fundurl,b.fundAmt,b.lst1yPct,b.lst2yPct from tfund a join FUNDRATERPT b on a.fundcode=b.fundcode 
+select a.fundcode, a.fundname,a.fundurl,b.fundAmt,b.lst3mPct,b.lst6mPct,b.lst1yPct,b.lst2yPct,b.lst3yPct,b.LSTUPDDATE from tfund a join FUNDRATERPT b on a.fundcode=b.fundcode 
 join tfundtype c on a.fundtypecode=c.fundtypecode where c.fundtypecode='3' and b.lst1wRate='优秀' and b.lst1mRate='优秀' and b.lst3mRate='优秀' and b.lst6mRate='优秀' and b.curyearRate='优秀' and b.lst1yRate='优秀'
 and b.LST2YRATE='优秀' 
---and b.LST3YRATE='优秀' and b.lst5yRate='优秀'
-order by b.fundAmt desc,b.lst1yPct,b.lst2yPct
+and b.LST3YRATE='优秀' 
+and b.lst5yRate='优秀'
+order by b.fundAmt desc,b.lst1yPct,b.lst2yPct;
 
 select * from tfund where fundname like '%债券%' order by fundtypecode;
 
 --'4','指数型'
-select a.fundcode, a.fundname,a.fundurl,b.lst1yPct,b.lst2yPct from tfund a join FUNDRATERPT b on a.fundcode=b.fundcode 
+select a.fundcode, a.fundname,a.fundurl,b.lst1yPct,b.lst2yPct,b.LSTUPDDATE from tfund a join FUNDRATERPT b on a.fundcode=b.fundcode 
 join tfundtype c on a.fundtypecode=c.fundtypecode where c.fundtypecode='4' and b.lst1wRate='优秀' and b.lst1mRate='优秀' and b.lst3mRate='优秀' and b.lst6mRate='优秀' and b.curyearRate='优秀' and b.lst1yRate='优秀'
 --and b.LST2YRATE='优秀' and b.LST3YRATE='优秀' and b.lst5yRate='优秀'
 order by b.lst1yPct,b.lst2yPct
 
 --'5','ETF联接'
-select a.fundcode, a.fundname,a.fundurl,b.lst1yPct,b.lst2yPct from tfund a join FUNDRATERPT b on a.fundcode=b.fundcode 
+select a.fundcode, a.fundname,a.fundurl,b.lst1yPct,b.lst2yPct,b.LSTUPDDATE from tfund a join FUNDRATERPT b on a.fundcode=b.fundcode 
 join tfundtype c on a.fundtypecode=c.fundtypecode where c.fundtypecode='5' and b.lst1wRate='优秀' and b.lst1mRate='优秀' and b.lst3mRate='优秀' and b.lst6mRate='优秀' and b.curyearRate='优秀' and b.lst1yRate='优秀'
 --and b.LST2YRATE='优秀' and b.LST3YRATE='优秀' and b.lst5yRate='优秀'
 order by b.lst1yPct,b.lst2yPct
 
 -- '6','QDII'
-select a.fundcode, a.fundname,a.fundurl,b.fundAmt,b.lst1yPct,b.lst2yPct from tfund a join FUNDRATERPT b on a.fundcode=b.fundcode 
+select a.fundcode, a.fundname,a.fundurl,b.fundAmt,b.lst1yPct,b.lst2yPct,b.LSTUPDDATE from tfund a join FUNDRATERPT b on a.fundcode=b.fundcode 
 join tfundtype c on a.fundtypecode=c.fundtypecode where c.fundtypecode='6' and b.lst1wRate='优秀' and b.lst1mRate='优秀' and b.lst3mRate='优秀' and b.lst6mRate='优秀' and b.curyearRate='优秀' and b.lst1yRate='优秀'
 --and b.LST2YRATE='优秀' and b.LST3YRATE='优秀' and b.lst5yRate='优秀'
 order by b.fundAmt desc, b.lst2yPct desc;
 
 --'8','货币型'
-select a.fundcode, a.fundname,a.fundurl,b.fundAmt, b.lst1yPct, b.lst2yPct from tfund a join FUNDRATERPT b on a.fundcode=b.fundcode
+select a.fundcode, a.fundname,a.fundurl,b.fundAmt, b.lst1yPct, b.lst2yPct,b.LSTUPDDATE from tfund a join FUNDRATERPT b on a.fundcode=b.fundcode
 join tfundtype c on a.fundtypecode=c.fundtypecode where c.fundtypecode='8' and b.lst1wRate='优秀' and b.lst1mRate='优秀' and b.lst3mRate='优秀' and b.lst6mRate='优秀' and b.curyearRate='优秀' and b.lst1yRate='优秀'
 --and b.LST2YRATE='优秀' and b.LST3YRATE='优秀' and b.lst5yRate='优秀'
 order by b.fundAmt desc, b.lst2yPct desc;
 
-select a.fundcode, a.fundname,a.fundurl,b.fundAmt, b.lst1yPct, b.lst2yPct from tfund a join FUNDRATERPT b on a.fundcode=b.fundcode
+select a.fundcode, a.fundname,a.fundurl,b.fundAmt, b.lst1yPct, b.lst2yPct,b.LSTUPDDATE from tfund a join FUNDRATERPT b on a.fundcode=b.fundcode
 join tfundtype c on a.fundtypecode=c.fundtypecode where c.fundtypecode='9' and b.lst1wRate='优秀' and b.lst1mRate='优秀' and b.lst3mRate='优秀' and b.lst6mRate='优秀' and b.curyearRate='优秀' and b.lst1yRate in ('优秀','良好')
 --and b.LST2YRATE='优秀' and b.LST3YRATE='优秀' and b.lst5yRate='优秀'
 order by b.fundAmt desc, b.lst2yPct desc;

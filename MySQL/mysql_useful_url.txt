@@ -1,0 +1,2 @@
+1.mysql add/drop column
+http://database.51cto.com/art/201011/234259.htm
