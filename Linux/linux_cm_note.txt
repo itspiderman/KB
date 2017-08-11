@@ -191,3 +191,7 @@ rpm -qa   #check all installed software
 33. curl
 access a web page
 curl www.baidu.com
+
+34. ls -l
+Linux ls command introduce
+http://www.runoob.com/linux/linux-comm-ls.html
