@@ -3,3 +3,10 @@ http://www.cnblogs.com/suta2008/p/3778230.html
 
 2.MSSQLSERVER执行计划详解 
 http://www.cnblogs.com/knowledgesea/p/5005163.html
+
+3.sql server 2008/2012 bcp 手动导入与导出数据
+SQL Server Import and Export Tool
+BCP
+bulk insert
+
+http://jingyan.baidu.com/article/86f4a73e90d77937d65269da.html
