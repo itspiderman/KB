@@ -1,6 +1,12 @@
 1.Eclipse+GitHub 
 http://www.cnblogs.com/aiyoubucuoo/archive/2016/05/04/5457396.html
 
+For Eclipse,need install egit if not insatll
+http://blog.csdn.net/s164828378/article/details/51723698
+
+Check egit version for your Eclipse
+http://wiki.eclipse.org/EGit/FAQ#Where_can_I_find_older_releases_of_EGit.3F
+
 2.配置JETTY调试MAVEN工程
 http://www.cnblogs.com/ympcsoft/p/5244182.html
 
