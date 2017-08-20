@@ -56,15 +56,3 @@ JBoss Application Development-->Hibernate Tools
 http://www.cnblogs.com/mrsui/archive/2013/06/20/3146335.html
 
 http://www.cnblogs.com/abllyboy/archive/2010/12/23/1914577.html
-
-8.javaweb学习总结(五)——Servlet开发(一)
-http://www.cnblogs.com/xdp-gacl/p/3760336.html
-
-9.使用JAVA开发微信公众平台（一）——环境搭建与开发接入
-http://www.cnblogs.com/jerehedu/p/6377759.html
-
-10. Jar download
-dom4j
-https://dom4j.github.io/
-xstream
-http://x-stream.github.io/download.html
