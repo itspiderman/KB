@@ -56,3 +56,8 @@ JBoss Application Development-->Hibernate Tools
 http://www.cnblogs.com/mrsui/archive/2013/06/20/3146335.html
 
 http://www.cnblogs.com/abllyboy/archive/2010/12/23/1914577.html
+
+8.在eclipse中使用github进行代码的同步操作
+http://blog.csdn.net/u012759397/article/details/53179592
+1. right click project "smeshop" => team=>Synchronize Workspace
+2. Open Synchronize view, right click project=> select "overwrite" or "Merge"
