@@ -26,6 +26,10 @@ issues:
 ./bin/mysqld: error while loading shared libraries: libaio.so.1: cannot open shared object file: No such file or directory
 yum install libaio
 
+FATAL ERROR: please install the following Perl modules before executing ./scripts/mysql_install_db:
+Data::Dumper
+yum -y install autoconf
+
 5). 拷贝配置文件和启动脚本
 注：在启动MySQL服务时，会按照一定次序搜索my.cnf，先在/etc目录下找，找不到则会搜索"$basedir/my.cnf"，在本例中就是 /usr/local/mysql/my.cnf，这是新版MySQL的配置文件的默认位置！
 
