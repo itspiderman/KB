@@ -1,2 +1,33 @@
+1. install mysql in centos7
+http://www.cnblogs.com/carbon3/p/5641050.html
+
+1).check installed mysql
+rpm -qa | grep mysql  
+rpm -e mysql-libs-5.1.71-1.el6.x86_64   //普通删除模式
+rpm -e --nodeps mysql-libs-5.1.71-1.el6.x86_64    // 强力删除模式，如果使用上面命令删除时，提示有依赖的其它文件，则用该命令可以对其进行强力删除
+或者 yum remove mysql-libs-5.1.71-1.el6.x86_64    //yum卸载
+
+2).download mysql
+cd  cd /usr/local/src
+wget https://dev.mysql.com/get/Downloads/MySQL-5.6/mysql-5.6.37-linux-glibc2.12-x86_64.tar.gz
+
+3).unzip
+tar -zxvf /usr/local/src/MYSQL-5.6.37-LINUX-GLIBC2.12-X86_64.TAR.GZ
+mv mysql-5.6.37-linux-glibc2.12-x86_64 ../mysql
+
+4).initial mysql
+useradd -M -s /sbin/nologin  mysql            //-M　不建立使用者目录
+mkdir -p /data/mysql
+chown mysql /data/mysql
+cd /usr/local/mysql
+./bin/mysqld  --initialize --user=mysql --datadir=/data/mysql
+
+issues:
+./bin/mysqld: error while loading shared libraries: libaio.so.1: cannot open shared object file: No such file or directory
+yum install libaio
+
+
+
+
 1.mysql add/drop column
 http://database.51cto.com/art/201011/234259.htm
