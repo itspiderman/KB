@@ -26,8 +26,34 @@ issues:
 ./bin/mysqld: error while loading shared libraries: libaio.so.1: cannot open shared object file: No such file or directory
 yum install libaio
 
+5). 拷贝配置文件和启动脚本
+注：在启动MySQL服务时，会按照一定次序搜索my.cnf，先在/etc目录下找，找不到则会搜索"$basedir/my.cnf"，在本例中就是 /usr/local/mysql/my.cnf，这是新版MySQL的配置文件的默认位置！
 
+cp support-files/my-default.cnf  /etc/my.cnf  
+vim /etc/my.cnf //编辑或者修改
 
+[mysqld]       // 在这里修改
+basedir = /usr/local/mysql
+datadir = /data/mysql
+port = 3306
+socket = /tmp/mysql.sock     //注意路径不能出错，否则启动出错 上次少了/
+
+cp support-files/mysql.server /etc/init.d/mysqld
+vi /etc/init.d/mysqld   //编辑或者修改
+basedir=/usr/local/mysql
+datadir=/data/mysql
+
+ln -s /usr/local/mysql/bin/mysql /usr/bin/mysql
+source ~/.bash_profile
+
+6). 启动服务
+/etc/init.d/mysqld start
+
+7).connect mysql
+mysql -u root -p 
+
+8). change password
+set password = password('last name gz.'); 
 
 1.mysql add/drop column
 http://database.51cto.com/art/201011/234259.htm
