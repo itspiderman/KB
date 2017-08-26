@@ -59,5 +59,9 @@ mysql -u root -p
 8). change password
 set password = password('last name gz.'); 
 
+9).
+CREATE USER 'posausr'@'host' IDENTIFIED BY 'policyownersytema';
+grant all PRIVILEGES on test.* to posausr@'IP_Address'  identified by 'policyownersytema';
+
 1.mysql add/drop column
 http://database.51cto.com/art/201011/234259.htm
