@@ -92,9 +92,9 @@ select * from tfund;
 */
 
 # COMMIT;
-# FUNDRATERPT table
-# drop table FUNDRATERPT;
-create table fundraterpt (
+# tfundraterpt table
+# drop table tfundraterpt;
+create table tfundraterpt (
 fundcode char(6),
 sfundAmt varchar(10),
 fundAmt float,
@@ -120,7 +120,7 @@ lst5yPct float,
 sinceFoundPct float,
 lstUpdDate date
 );
-alter table fundraterpt add primary key(fundcode);
+alter table tfundraterpt add primary key(fundcode);
 
 -- add column,
 -- SQL 错误: ORA-00904: : 标识符无效
@@ -301,7 +301,6 @@ insert into tcontrolaction(controltype,action,actiondes) values('textbox','1','i
 insert into tcontrolaction(controltype,action,actiondes) values('button','2','click');
 # insert into tcontrolaction(controltype,action,actiondes) values('','','');
 select * from tcontrolaction;
-
 
 rollback;
 
