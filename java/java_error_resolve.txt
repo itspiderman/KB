@@ -8,3 +8,5 @@ root: spring need default construct method which without parameter. if provide o
 
 4.BeanFactory not initialized or already closed - call 'refresh' before accessing beans via the ApplicationContext
 solution : ClassPathXmlApplicationContext instance.refresh();
+
+5. java.lang.OutOfMemoryError：GC overhead limit exceeded
