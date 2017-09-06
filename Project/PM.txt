@@ -23,3 +23,7 @@ Construction: Program source, unit test cases/result
 Testing: System test cases/result
 UAT: UAT result/sign off
 Deployment: Implementation plan, Manuals
+
+6. BPMN 
+Business Process Modeling Notation - 业务流程建模与标注
+
