@@ -13,3 +13,13 @@ Selenium
 
 4. Continue Integration(持续集成)
 jenkins
+
+5. SDLC
+1). Water fall model
+[Porject initiation] -> Requirement -> Design -> Construction -> Testing -> UAT -> Deployment -> [Monitoring & Closing] -> [Incident Management]
+Requirement : SRS, function specification
+Design: Architecture, design specification
+Construction: Program source, unit test cases/result
+Testing: System test cases/result
+UAT: UAT result/sign off
+Deployment: Implementation plan, Manuals
