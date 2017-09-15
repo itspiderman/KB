@@ -106,3 +106,7 @@ Solution: put hibernate.cfg.xml under src folder.
         at com.demo.seleniumtest.biz.RunFundSeleniumSpring.runSelenium(RunFundSeleniumSpring.java:14)
         at com.demo.seleniumtest.biz.RunFundSeleniumSpring.main(RunFundSeleniumSpring.java:9)
 Caused by: java.lang.ClassNotFoundException: org.springframework.context.support.ClassPathXmlApplicationContext
+
+21.解决eclipse中git插件中的cannot open git-upload-pack问题
+打开eclipse中的windows-->Preferences-->Team-->Git-->Configuration-->User Settings.然后点Add Entry新建一个键值对，输入http.sslVerify=false。
+http://www.cnblogs.com/yejiurui/p/3386393.html
