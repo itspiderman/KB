@@ -33,3 +33,5 @@ http://www.cnblogs.com/xdp-gacl/p/3760336.html
 9.使用JAVA开发微信公众平台（一）——环境搭建与开发接入
 http://www.cnblogs.com/jerehedu/p/6377759.html
 
+10.System Requirements for the JDBC Driver (SQL SERVER)
+https://docs.microsoft.com/en-us/sql/connect/jdbc/system-requirements-for-the-jdbc-driver
