@@ -1,5 +1,7 @@
 1.Eclipse+GitHub 
 http://www.cnblogs.com/aiyoubucuoo/archive/2016/05/04/5457396.html
+获取项目: For the new added project, you can choise "Import projects from Git"->"Existing local repository"->Project(which you create before). In Authentication tap, user is the user id without @ suffix: itman020
+
 
 For Eclipse,need install egit if not insatll
 http://blog.csdn.net/s164828378/article/details/51723698
