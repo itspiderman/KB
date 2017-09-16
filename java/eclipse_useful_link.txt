@@ -1,3 +1,10 @@
+0. Others
+Firefox firebug,other browser you can use Firebug Lite
+Firefinder 
+
+Firefox下怎么添加firebug
+http://jingyan.baidu.com/article/73c3ce28c9ebb6e50343d9fe.htmlfirefox下怎么添加firebug
+
 1.Eclipse+GitHub 
 http://www.cnblogs.com/aiyoubucuoo/archive/2016/05/04/5457396.html
 获取项目: For the new added project, you can choise "Import projects from Git"->"Existing local repository"->Project(which you create before). In Authentication tap, user is the user id without @ suffix: itman020
