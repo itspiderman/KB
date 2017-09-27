@@ -6,4 +6,21 @@ SP_WHO2 ACTIVE
 2)、通过SQL语句执行时语法分析、编译以及执行所消耗的时间：SET STATISTICS TIME ON (开启) / SET STATISTICS TIME OFF (关闭)
 3)、通过执行计划查看：Ctrl + L
 
+2. MS sql chinese chart
+begin tran
+  create table #tmptbl(
+      username1 nvarchar(2) ,
+	    username2 varchar(2)
+  )
+  insert into #tmptbl values(N'你','你')
+  insert into #tmptbl values(N'你我','你我')
+  select * from #tmptbl  
+rolllback
+go
+drop table #tmptbl
+go
+username1	username2
+你	?
+你我	??
+
 
