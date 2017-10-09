@@ -23,4 +23,22 @@ username1	username2
 你	?
 你我	??
 
+3. transation
+https://docs.microsoft.com/zh-cn/sql/t-sql/functions/trancount-transact-sql
+
+在SqlServer里，嵌套事务的层次是由@@TranCount全局变量反映出来的。
+
+每一次Begin Transaction都会引起@@TranCount加1。而每一次Commit Transaction都会使@@TranCount减1，而RollBack Transaction会回滚所有的嵌套事务包括已经提交的事务和未提交的事务，而使@@TranCount置0。
+
+例如: 
+ BEGIN   TRAN   --@@TRANCOUNT值为0   
+      SELECT  @@TRANCOUNT         --值为1   
+          BEGIN   TRAN     
+                SELECT  @@TRANCOUNT     --值为2    
+          COMMIT   TRAN   
+          SELECT @@TRANCOUNT   --值为1   
+  ROLLBACK   TRAN   
+  SELECT  @@TRANCOUNT   --值为0
+
+
 
