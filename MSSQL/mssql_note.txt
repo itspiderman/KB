@@ -23,7 +23,7 @@ username1	username2
 你	?
 你我	??
 
-3. transation
+3. 使用 @@TRANCOUNT
 https://docs.microsoft.com/zh-cn/sql/t-sql/functions/trancount-transact-sql
 
 在SqlServer里，嵌套事务的层次是由@@TranCount全局变量反映出来的。
@@ -39,6 +39,10 @@ https://docs.microsoft.com/zh-cn/sql/t-sql/functions/trancount-transact-sql
           SELECT @@TRANCOUNT   --值为1   
   ROLLBACK   TRAN   
   SELECT  @@TRANCOUNT   --值为0
-
+  
+4. 使用 @@ERROR
+https://msdn.microsoft.com/zh-cn/library/ms190193(SQL.90).aspx
+@@error是系统函数，当没有发生错误时返回0，如果发生错误时@@error<>0，并返回错误号，每个SQL语句执行完，@@error值都会变。
+if you want to keep the error code, you can use a local variable to store it.
 
 
