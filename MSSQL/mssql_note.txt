@@ -46,9 +46,13 @@ https://msdn.microsoft.com/zh-cn/library/ms190193(SQL.90).aspx
 if you want to keep the error code, you can use a local variable to store it.
 
 5. Transact-SQL 中使用 TRY...CATCH
+https://msdn.microsoft.com/zh-cn/library/ms179296(v=sql.90).aspx
+
 CATCH 块中的代码可以通过使用 XACT_STATE 函数来测试事务的状态。如果会话中包含无法提交的事务，XACT_STATE 将返回 -1。如果 XACT_STATE 返回 -1，则 CATCH 块将不能执行写日志的任何操作。
 
 6.XACT_STATE (Transact-SQL)
+https://docs.microsoft.com/zh-cn/sql/t-sql/functions/xact-state-transact-sql
+
 1	当前请求有活动的用户事务。 请求可以执行任何操作，包括写入数据和提交事务。
 0	当前请求没有活动的用户事务。
 -1	当前请求具有活动的用户事务，但出现了致使事务被归类为无法提交的事务的错误。 请求无法提交事务或回滚到保存点；它只能请求完全回滚事务。 请求在回滚事务之前无法执行任何写操作。 请求在回滚事务之前只能执行读操作。 事务回滚之后，请求便可执行读写操作并可开始新的事务。
