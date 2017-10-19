@@ -6,5 +6,7 @@ D:\learning\java\heap>jps
 4236
 
 D:\learning\java\heap>jmap -dump:format=b,file=heap.bin 4236
-Dumping heap to C:\Users\Administrator\heap.bin ...
+Dumping heap to D:\learning\java\heap\heap.bin ...
 Heap dump file created
+
+3. In Eclipse, File=>Open File, to open heep file <<D:\learning\java\heap\heap.bin>>
