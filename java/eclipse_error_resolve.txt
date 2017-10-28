@@ -110,3 +110,6 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.context.support
 21.解决eclipse中git插件中的cannot open git-upload-pack问题
 打开eclipse中的windows-->Preferences-->Team-->Git-->Configuration-->User Settings.然后点Add Entry新建一个键值对，输入http.sslVerify=false。
 http://www.cnblogs.com/yejiurui/p/3386393.html
+
+22.Positional parameter are considered deprecated; use named parameters or JPA-style positional parame
+http://blog.csdn.net/steveguoshao/article/details/24414051/
