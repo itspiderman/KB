@@ -59,3 +59,14 @@ https://docs.microsoft.com/zh-cn/sql/t-sql/functions/xact-state-transact-sql
 
 7. alter column
 alter table tableName alter column columnName
+
+8. Case sensitive
+select T1.* from tableName T1,tableName T2
+WHERE T1.addrcode=t2.addrcode
+and T1.addr_4<>UPPER(T1.addr_4)
+COLLATE chinese_prc_bin
+UNION
+select T1.* from tableName T1,tableName T2
+WHERE T1.addrcode=t2.addrcode
+and T1.addr_4<>UPPER(T1.addr_4)
+COLLATE Latin1_General_CS_AS
