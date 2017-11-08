@@ -70,3 +70,6 @@ select T1.* from tableName T1,tableName T2
 WHERE T1.addrcode=t2.addrcode
 and T1.addr_4<>UPPER(T1.addr_4)
 COLLATE Latin1_General_CS_AS
+
+9. table depends
+sp_depends搜索 'tablename'
