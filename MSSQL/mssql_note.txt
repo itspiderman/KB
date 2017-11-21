@@ -59,6 +59,7 @@ https://docs.microsoft.com/zh-cn/sql/t-sql/functions/xact-state-transact-sql
 
 7. alter column
 alter table tableName alter column columnName
+alter table tableName add columnName datetime
 
 8. Case sensitive
 select T1.* from tableName T1,tableName T2
