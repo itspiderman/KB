@@ -74,3 +74,10 @@ COLLATE Latin1_General_CS_AS
 
 9. table depends
 sp_depends搜索 'tablename'
+
+10. Create table
+CREATE TABLE [dbo].[tableName](
+columnName varchar(10),
+CONSTRAINT PK_tableName PRIMARY KEY(columnName)			
+)
+CREATE INDEX INX_tableName ON [dbo].[tableName](columnName)
