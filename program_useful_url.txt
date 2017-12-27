@@ -6,3 +6,10 @@ http://www.easyui.org.cn/
 http://jqueryui.com/
 4. jcraft
 http://www.jcraft.com/jsch/examples/
+
+---------------- Tools ----------------
+1. IntelliJ Idea(Java Devlopment IDE)
+http://www.jetbrains.com/idea/
+
+2. FastCopy
+https://baike.baidu.com/item/fastcopy/221901?fr=aladdin
