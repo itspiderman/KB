@@ -81,3 +81,24 @@ columnName varchar(10),
 CONSTRAINT PK_tableName PRIMARY KEY(columnName)			
 )
 CREATE INDEX INX_tableName ON [dbo].[tableName](columnName)
+
+11. Cursor
+    DECLARE product_cursor CURSOR 
+    FOR SELECT v.Name  
+    FROM Purchasing.ProductVendor pv, Production.Product v  
+    WHERE pv.ProductID = v.ProductID AND  pv.VendorID = @vendor_id 
+    
+    OPEN product_cursor  
+    FETCH NEXT FROM product_cursor INTO @product  
+
+    IF @@FETCH_STATUS <> 0   
+        PRINT '         <<None>>'       
+
+    WHILE @@FETCH_STATUS = 0  
+    BEGIN
+        SELECT @message = '         ' + @product  
+        PRINT @message  
+        FETCH NEXT FROM product_cursor INTO @product  
+    END 
+    CLOSE product_cursor  
+    DEALLOCATE product_cursor  
