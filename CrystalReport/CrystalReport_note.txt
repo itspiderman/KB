@@ -1,0 +1,2 @@
+1. Refresh the data source after stored procedure changed.
+DataBase=>Verify DataBase, then try to refresh
