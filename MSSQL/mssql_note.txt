@@ -103,3 +103,6 @@ CREATE INDEX INX_tableName ON [dbo].[tableName](columnName)
     END 
     CLOSE product_cursor  
     DEALLOCATE product_cursor  
+  
+12. Trigger
+sp_helptrigger tableName
