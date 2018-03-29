@@ -106,3 +106,13 @@ CREATE INDEX INX_tableName ON [dbo].[tableName](columnName)
   
 12. Trigger
 sp_helptrigger tableName
+
+13. FOR XML PATH
+UPDATE T1 SET T1.PARM1=(select convert(varchar,STRTMPFIELD01)+',' from 
+                       (
+			     select distinct CODE,CODE2,BODDATE,USERID,INTTMPFIELD01 from #TMP_USERLOG 
+                       ) A1 
+                       where A1.CODE=T1.CODE and A1.CODE2=T1.CODE2 and A1.BODDATE=T1.BODDATE and A1.USERID=T1.USERID for xml path('')) 
+FROM #TMP_USERLOG T1
+   
+   
