@@ -58,7 +58,7 @@ https://docs.microsoft.com/zh-cn/sql/t-sql/functions/xact-state-transact-sql
 -1	当前请求具有活动的用户事务，但出现了致使事务被归类为无法提交的事务的错误。 请求无法提交事务或回滚到保存点；它只能请求完全回滚事务。 请求在回滚事务之前无法执行任何写操作。 请求在回滚事务之前只能执行读操作。 事务回滚之后，请求便可执行读写操作并可开始新的事务。
 
 7. alter table
-alter table tableName alter column columnName
+alter table tableName alter column columnName varchar(40)
 alter table tableName add columnName datetime
 Execute sp_rename 'amy."his table"','"her table"','object'
 
