@@ -45,4 +45,5 @@ echo %ystr%
 set mstr=%date:~0,2%
 echo %mstr%
 
-
+9. find a file with file name
+for /r D:\dirctory %i in (fileName.apl) do @echo %i
