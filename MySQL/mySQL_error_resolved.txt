@@ -1,3 +1,13 @@
 1. 2017-07-01T09:37:28.741823Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
 
 2.Using GRANT statement to modify existing user's properties other than privileges is deprecated and will be removed in future release. Use ALTER USER statement for this operation.
+
+3. Your connection attempt failed for user 'usrname' from your host to server at 101.200.63.*:3306:
+host '116.22.52.*' is not allowed to connect to this MySQL server.
+
+--- add the host
+--delete from mysql.user where Host='101.200.63.179';
+select host,user,password from mysql.user;
+update mysql.user set Host='119.129.121.156' where Host='116.22.52.145';
+update mysql.user set Password=PASSWORD('posausr') where User='posausr';
+flush privileges;
