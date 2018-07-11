@@ -1,1 +1,4 @@
 1.The program can't start because api-ms-win-crt-runtime-l1-1-0.dll is missing from your computer.Try reinstalling the program to fix this problem.
+
+C:\Windows\SysWOW64\api-ms-win-crt-runtime-l1-1-0.dll
+C:\Windows\System32\api-ms-win-crt-runtime-l1-1-0.dll
