@@ -2,3 +2,7 @@
 
 2. Chinese string issue 
 INSERT INTO TABLE(TYPE,NAME) VALUES('Risk',N'低')
+
+3. transaction log issue
+The transaction log for database 'tempdb' is full due to 'ACTIVE_TRANSACTION
+Solution: 
