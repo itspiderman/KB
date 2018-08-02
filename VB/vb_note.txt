@@ -2,3 +2,14 @@
 memue
 Project=>Project Properties
 Make tab->Command Line Arguments:  2016-03-14-23.59.59.000000#8502016-03-14
+
+2.#,###和#,##0
+#和0都表示一个数字占位符，但#只显示有意义的数字，比如 012.30，如果用###.##格式的话显示是：12.3，而0则在无意义的位置强制显示0，012.30，用000.00，就显示012.30
+
+3. FileSystemObject : 对象总共一个属性即Drives
+Set fso = CreateObject("Scripting.FileSystemObject")
+Set Drivers = fso.Drives
+For Each Driver in Drivers
+    Msgbox Driver.DriveLetter '输出计算机上所有的磁盘盘符
+Next 
+https://www.cnblogs.com/sirrah/articles/2349034.html
