@@ -113,3 +113,15 @@ http://www.cnblogs.com/yejiurui/p/3386393.html
 
 22.Positional parameter are considered deprecated; use named parameters or JPA-style positional parame
 http://blog.csdn.net/steveguoshao/article/details/24414051/
+
+23. Install maven m2e plugin issue
+Cannot complete the install because one or more required items could not be found.
+  Software being installed: m2e - Maven Integration for Eclipse (includes Incubating components) 1.9.0.20180606-2036 (org.eclipse.m2e.feature.feature.group 1.9.0.20180606-2036)
+  Missing requirement: Maven Integration for Eclipse 1.9.0.20180606-2036 (org.eclipse.m2e.core 1.9.0.20180606-2036) requires 'bundle org.eclipse.core.runtime 3.12.0' but it could not be found
+  Cannot satisfy dependency:
+    From: Maven Integration for Eclipse 1.9.0.20180606-2036 (org.eclipse.m2e.core.ui 1.9.0.20180606-2036)
+    To: bundle org.eclipse.m2e.core [1.9.0,1.10.0)
+  Cannot satisfy dependency:
+    From: m2e - Maven Integration for Eclipse (includes Incubating components) 1.9.0.20180606-2036 (org.eclipse.m2e.feature.feature.group 1.9.0.20180606-2036)
+    To: org.eclipse.m2e.core.ui [1.9.0.20180606-2036]
+
