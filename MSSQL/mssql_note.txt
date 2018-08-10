@@ -114,5 +114,31 @@ UPDATE T1 SET T1.PARM1=(select convert(varchar,STRTMPFIELD01)+',' from
                        ) A1 
                        where A1.CODE=T1.CODE and A1.CODE2=T1.CODE2 and A1.BODDATE=T1.BODDATE and A1.USERID=T1.USERID for xml path('')) 
 FROM #TMP_USERLOG T1
+
+14. Date Type : decimal
+(
+decimalA decimal(1,1),  --The scale must be less than or equal to precision
+decimalD decimal(4,4),
+decimalD0 decimal(4,0),
+decimalH decimal(8,5),
+decimalI decimal(9,5),    --Length: 5
+decimalJ decimal(10,5),   --Length: 9
+decimalN decimal(19,5),   --Length: 9
+decimalO decimal(20,5),   --Length: 13
+decimalP decimal(28,5),   --Length: 13
+decimalQ decimal(29,5),   --Length: 17
+decimalR decimal(30,5),   --Length: 17
+decimalS decimal(38,5),   --Length: 17  : Specified column precision 40 is greater than the maximum precision of 38.
+)
+go
+sp_help decimalChk
+go
+-- decimal(38,5): Precision=38, Scale = 5
+-- Length: Byte(字节数) = 8 bit(位)
+精度   存储字节数  
+1 - 9	 5
+10-19	 9
+20-28	13
+29-38	17
    
    
