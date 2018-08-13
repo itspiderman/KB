@@ -125,3 +125,5 @@ Cannot complete the install because one or more required items could not be foun
     From: m2e - Maven Integration for Eclipse (includes Incubating components) 1.9.0.20180606-2036 (org.eclipse.m2e.feature.feature.group 1.9.0.20180606-2036)
     To: org.eclipse.m2e.core.ui [1.9.0.20180606-2036]
 
+solution: put below jar to folder eclipse\plugins
+org.eclipse.core.runtime_3.12.0.v20160606-1342.jar
