@@ -127,3 +127,11 @@ Cannot complete the install because one or more required items could not be foun
 
 solution: put below jar to folder eclipse\plugins
 org.eclipse.core.runtime_3.12.0.v20160606-1342.jar
+
+24.
+Cannot complete the install because one or more required items could not be found.
+  Software being installed: m2e - slf4j over logback logging (Optional) 1.9.0.20180606-2036 (org.eclipse.m2e.logback.feature.feature.group 1.9.0.20180606-2036)
+  Missing requirement: m2e logback configuration 1.9.0.20180606-2036 (org.eclipse.m2e.logback.configuration 1.9.0.20180606-2036) requires 'bundle ch.qos.logback.slf4j 0.9.24' but it could not be found
+  Cannot satisfy dependency:
+    From: m2e - slf4j over logback logging (Optional) 1.9.0.20180606-2036 (org.eclipse.m2e.logback.feature.feature.group 1.9.0.20180606-2036)
+    To: org.eclipse.m2e.logback.configuration [1.9.0.20180606-2036]
