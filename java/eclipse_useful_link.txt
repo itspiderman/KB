@@ -70,3 +70,6 @@ http://www.cnblogs.com/abllyboy/archive/2010/12/23/1914577.html
 http://blog.csdn.net/u012759397/article/details/53179592
 1. right click project "smeshop" => team=>Synchronize Workspace
 2. Open Synchronize view, right click project=> select "overwrite" or "Merge"
+
+9.Maven repository
+http://mvnrepository.com/
