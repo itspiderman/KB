@@ -135,3 +135,26 @@ Cannot complete the install because one or more required items could not be foun
   Cannot satisfy dependency:
     From: m2e - slf4j over logback logging (Optional) 1.9.0.20180606-2036 (org.eclipse.m2e.logback.feature.feature.group 1.9.0.20180606-2036)
     To: org.eclipse.m2e.logback.configuration [1.9.0.20180606-2036]
+    
+25. Run as => Maven install error
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building blockchain 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] Downloading: http://repository.jboss.org/nexus/content/groups/public/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.180 s
+[INFO] Finished at: 2018-08-22T18:42:41+08:00
+[INFO] Final Memory: 3M/120M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Plugin org.apache.maven.plugins:maven-resources-plugin:2.6 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-resources-plugin:jar:2.6: Could not transfer artifact org.apache.maven.plugins:maven-resources-plugin:pom:2.6 from/to jboss-public-repository-group (http://repository.jboss.org/nexus/content/groups/public): Connect to repository.jboss.org:80 [repository.jboss.org/209.132.182.97] failed: Connection refused: connect -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginResolutionException
+
