@@ -73,3 +73,6 @@ http://blog.csdn.net/u012759397/article/details/53179592
 
 9.Maven repository
 http://mvnrepository.com/
+
+10.maven仓库中心mirrors配置多个下载中心
+https://blog.csdn.net/www1056481167/article/details/60139851
