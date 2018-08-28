@@ -165,3 +165,10 @@ Solution: useful mirror, setup in c:\users\<user id>\.m\settings.xml
       <name>Human Readable Name for this Mirror.</name>    
       <url>http://repo2.maven.org/maven2/</url>    
     </mirror> 
+
+26.
+Could not find metadata org.apache.maven.archetypes:maven-archetype-quickstart/maven-metadata.xml in
+download it: 
+http://maven.aliyun.com/mvn/search
+install it:
+mvn install:install-file -DgroupId=org.apache.maven.archetypes -DartifactId=maven-archetype-quickstart -Dversion=1.1 -Dpackaging=jar -Dfile=maven-archetype-quickstart-1.1.jar
