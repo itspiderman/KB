@@ -158,3 +158,10 @@ Cannot complete the install because one or more required items could not be foun
 [ERROR] For more information about the errors and possible solutions, please read the following articles:
 [ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginResolutionException
 
+Solution: useful mirror, setup in c:\users\<user id>\.m\settings.xml
+    <mirror>    
+      <id>repo2</id>    
+      <mirrorOf>central</mirrorOf>    
+      <name>Human Readable Name for this Mirror.</name>    
+      <url>http://repo2.maven.org/maven2/</url>    
+    </mirror> 
