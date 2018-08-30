@@ -173,3 +173,6 @@ install it:
 mvn install:install-file -DgroupId=org.apache.maven.archetypes -DartifactId=maven-archetype-quickstart -Dversion=1.1 -Dpackaging=jar -Dfile=maven-archetype-quickstart-1.1.jar
 
 27. If Maven -> update project failed, try : cd project folder(pom.xml), and run mvn insall
+
+28.When create a java class, encounter issue : maven source folder is not a java project
+
