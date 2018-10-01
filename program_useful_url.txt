@@ -13,3 +13,8 @@ http://www.jetbrains.com/idea/
 
 2. FastCopy
 https://baike.baidu.com/item/fastcopy/221901?fr=aladdin
+
+3. splunk
+https://www.splunk.com/
+4.AppDynamics
+https://www.appdynamics.com/
