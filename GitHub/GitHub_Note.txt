@@ -4,3 +4,6 @@ git是分为三部分，一部分是你自己的文件，另外一个是缓存�
 那git push呢？和commit有什么区别？
 comiit   是将本地修改保存到本地仓库中
 git push 是将本地仓库修改推送到服务器上的仓库中
+
+3.Visual Studio Code环境中配置使用Git和GitHub
+https://blog.csdn.net/fylstudio/article/details/79106331
