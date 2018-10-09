@@ -141,4 +141,5 @@ go
 20-28	13
 29-38	17
    
-   
+15. SET ANSI_NULLS OFF
+select ISNULL(@A,'')='' Return true
