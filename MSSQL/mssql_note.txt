@@ -83,6 +83,9 @@ CONSTRAINT PK_tableName PRIMARY KEY(columnName)
 )
 CREATE INDEX INX_tableName ON [dbo].[tableName](columnName)
 
+Add primary key
+ALTER TABLE 表名 ADD CONSTRAINT 主键名 PRIMARY KEY(字段名1,字段名2……);
+
 11. Cursor
     DECLARE product_cursor CURSOR 
     FOR SELECT v.Name  
