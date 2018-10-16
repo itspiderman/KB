@@ -7,3 +7,6 @@ JAVA_OPTS='-Djava.security.egd=file:/dev/./urandom -server -Xms256m -Xmx512m -Df
 2.18-Jul-2017 00:08:00.125 SEVERE [main] org.apache.coyote.AbstractProtocol.init Failed to initialize end point associated with ProtocolHandler ["http-nio-80"]
  java.net.SocketException: Permission denied
 allow to access 80 port
+
+3. 22:15:30  [Apache] Port 80 in use by "Unable to open process" with PID 4!
+PID4的服务是World Wide Web Publishing Service
