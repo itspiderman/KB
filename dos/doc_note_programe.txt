@@ -47,3 +47,8 @@ echo %mstr%
 
 9. find a file with file name
 for /r D:\dirctory %i in (fileName.apl) do @echo %i
+
+10.wget
+wget -m http://www.tbq66.com/index.php
+wget -c http://www.tbq66.com/index.php
+wget --mirror -c -p --convert-links -P imegoo http://www.tbq66.com
