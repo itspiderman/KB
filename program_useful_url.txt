@@ -16,6 +16,7 @@ https://baike.baidu.com/item/fastcopy/221901?fr=aladdin
 
 3. splunk
 https://www.splunk.com/
+
 4.AppDynamics
 https://www.appdynamics.com/
 
@@ -26,3 +27,6 @@ https://code.visualstudio.com/docs/?dv=winzip
 5. wget
 http://gnuwin32.sourceforge.net/packages/wget.htm
 wget --wait=20 --limit-rate=20K -r -p -U Mozilla http://www.w3schools.com/
+
+6.代码质量管理平台SonarQube
+https://www.sonarqube.org/
