@@ -52,3 +52,6 @@ for /r D:\dirctory %i in (fileName.apl) do @echo %i
 wget -m http://www.tbq66.com/index.php
 wget -c http://www.tbq66.com/index.php
 wget --mirror -c -p --convert-links -P imegoo http://www.tbq66.com
+
+11. echo system date and time
+echo %date% %time% >debug.log
