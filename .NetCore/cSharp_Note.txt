@@ -1,0 +1,2 @@
+1. ODBC call store procedure
+DataTable dt = this.sqlDao.GetDataTableBySP("{Call storeprocedure_name(?,?,?,?)}", iParams,"tableName");
