@@ -1,2 +1,9 @@
 1. roboot server
 shutdown /r /t 0
+
+
+2. FTP command
+
+1). connect to FTP
+
+2). command
