@@ -1,0 +1,9 @@
+1. tomcat-users initial
+  <role rolename="manager-gui"/>
+  <role rolename="manager-script"/>
+  <role rolename="manager-jmx"/>
+  <role rolename="manager-status"/>
+  
+  <user username="tomcat" password="tomcat" roles="manager-gui"/>
+  <user username="both" password="both" roles="tomcat,role1"/>
+  <user username="role1" password="role1" roles="role1"/>
