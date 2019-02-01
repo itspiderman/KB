@@ -13,3 +13,21 @@ For Each Driver in Drivers
     Msgbox Driver.DriveLetter '输出计算机上所有的磁盘盘符
 Next 
 https://www.cnblogs.com/sirrah/articles/2349034.html
+
+4. Create multi-layer folder
+Public Sub mkdirFunction(folderName As String)
+On Error GoTo errorHandling
+    sCmdDel = "Cmd /C " & "mkdir " & folderName
+    nResult = Shell(sCmdDel, vbNormalFocus)        
+    If Err.Number = 0 Then
+        this.WriteLog("mkdir: successful.")
+    Else
+        this.WriteLog("mkdir: failed.")
+    End If
+    Exit Sub    
+errorHandling:
+    this.WriteLog("mkdir: error.")
+End Sub
+
+5. Date formation
+sDtNow = Format(Now, "yyyymmddhhmmss") & "_"
