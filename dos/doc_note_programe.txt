@@ -45,6 +45,16 @@ echo %ystr%
 set mstr=%date:~0,2%
 echo %mstr%
 
+SET AAAA=%date%
+for /f "tokens=1 delims= " %%i in ("%AAAA%") do set one=%%i
+for /f "tokens=2 delims= " %%i in ("%AAAA%") do set two=%%i
+rem echo %one%
+rem echo %two%
+set getdate=%two%
+echo %one%|findstr /m "[0-9]">nul&&set getdate=%one% 
+rem echo %two%|findstr /m "[0-9]">nul&&echo YES||echo NO
+echo %getdate%
+
 9. find a file with file name
 for /r D:\dirctory %i in (fileName.apl) do @echo %i
 
