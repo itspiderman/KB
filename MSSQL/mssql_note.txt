@@ -62,6 +62,8 @@ alter table tableName alter column columnName varchar(40)
 alter table tableName add columnName datetime
 Execute sp_rename 'amy."his table"','"her table"','object'
 
+tempdb..SP_HELP #temptable
+
 8. Case sensitive
 select T1.* from tableName T1,tableName T2
 WHERE T1.addrcode=t2.addrcode
