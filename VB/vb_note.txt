@@ -31,3 +31,6 @@ End Sub
 
 5. Date formation
 sDtNow = Format(Now, "yyyymmddhhmmss") & "_"
+
+6. Find the string position
+=MID(D1,1,FIND(".sql",D4)+3)
