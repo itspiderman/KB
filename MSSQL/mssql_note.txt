@@ -152,3 +152,7 @@ go
    
 15. SET ANSI_NULLS OFF
 select ISNULL(@A,'')='' Return true
+
+
+16.Check trigger on the table
+select * from sysobjects where xtype='TR' and parent_obj=object_id('tableName')
