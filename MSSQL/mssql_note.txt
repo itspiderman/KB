@@ -40,10 +40,14 @@ https://docs.microsoft.com/zh-cn/sql/t-sql/functions/trancount-transact-sql
   ROLLBACK   TRAN   
   SELECT  @@TRANCOUNT   --值为0
   
-4. 使用 @@ERROR
+4. SQL常量
+4.1). @@ERROR
 https://msdn.microsoft.com/zh-cn/library/ms190193(SQL.90).aspx
 @@error是系统函数，当没有发生错误时返回0，如果发生错误时@@error<>0，并返回错误号，每个SQL语句执行完，@@error值都会变。
 if you want to keep the error code, you can use a local variable to store it.
+
+4.2). @@ROWCOUNT
+Last SQL statement effect row
 
 5. Transact-SQL 中使用 TRY...CATCH
 https://msdn.microsoft.com/zh-cn/library/ms179296(v=sql.90).aspx
