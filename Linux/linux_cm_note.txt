@@ -1,3 +1,5 @@
+
+
 1．df –h 
 http://linux.chinaunix.net/techdoc/system/2009/08/31/1133169.shtml
 df命令详细用法
@@ -195,3 +197,6 @@ curl www.baidu.com
 34. ls -l
 Linux ls command introduce
 http://www.runoob.com/linux/linux-comm-ls.html
+
+35. 安装命令
+sudo apt-get install openssl
