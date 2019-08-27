@@ -63,6 +63,7 @@ https://docs.microsoft.com/zh-cn/sql/t-sql/functions/xact-state-transact-sql
 
 7. alter table
 alter table tableName alter column columnName varchar(40)
+Alter TABLE dbo.table_name ADD columnName int identity(1,1)
 alter table tableName add columnName datetime
 Execute sp_rename 'amy."his table"','"her table"','object'
 
