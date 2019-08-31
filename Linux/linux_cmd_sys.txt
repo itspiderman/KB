@@ -58,5 +58,6 @@ sudo apt-get install bison
 sudo apt-get install autoconf
 sudo apt-get install php
 
-
+root@TBQ66:/usr/local/apache# wget https://www-us.apache.org/dist//httpd/httpd-2.4.41.tar.gz
+root@TBQ66:/usr/local/apache# tar -zxvf httpd-2.4.41.tar.gz
 
