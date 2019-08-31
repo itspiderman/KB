@@ -42,24 +42,20 @@ http://www.linuxidc.com/Linux/2015-02/113250.htm
 
 7. ubuntu install software
 安装PHP
-sudo app-get install gcc
-sudo app-get install gcc-c++
-sudo app-get install wget
-sudo app-get install make
-sudo app-get install libxml2 
-sudo app-get install libxml2-devel 
-sudo app-get install openssl 
-sudo app-get install openssl-devel 
-sudo app-get install curl-devel 
-sudo app-get install libjpeg-devel 
-sudo app-get install libpng-devel
-sudo app-get install freetype-devel
-sudo app-get install bison
-sudo app-get install autoconf
-
-
-
-
+sudo apt-get install gcc
+sudo apt-get install gcc-c++
+sudo apt-get install wget
+sudo apt-get install make
+sudo apt-get install libxml2 
+sudo apt-get install libxml2-devel 
+sudo apt-get install openssl 
+sudo apt-get install openssl-devel 
+sudo apt-get install curl-devel 
+sudo apt-get install libjpeg-devel 
+sudo apt-get install libpng-devel
+sudo apt-get install freetype-devel
+sudo apt-get install bison
+sudo apt-get install autoconf
 
 
 
