@@ -33,11 +33,33 @@ java-1.6.0-openjdk-1.6.0.35-1.13.7.1.el6_6.x86_64
 4. CentOS install Chrome
 http://blog.csdn.net/lu_langxiaozi/article/details/51439862
 
-
-
 df -hl
-1.CentOS/Linux 添加SWAP分区
+5.CentOS/Linux 添加SWAP分区
 http://www.linuxidc.com/Linux/2015-02/113250.htm
-2. 开机时自动启动swap分区及文件: 
+6. 开机时自动启动swap分区及文件: 
 /dec/hdb5 swap swap defaults 0 0 (开机时启动此swap分区) 
 /tmp/myswap swap swap defaults 0 0 (开机时启动此swap文件)
+
+7. ubuntu install software
+安装PHP
+sudo app-get install gcc
+sudo app-get install gcc-c++
+sudo app-get install wget
+sudo app-get install make
+sudo app-get install libxml2 
+sudo app-get install libxml2-devel 
+sudo app-get install openssl 
+sudo app-get install openssl-devel 
+sudo app-get install curl-devel 
+sudo app-get install libjpeg-devel 
+sudo app-get install libpng-devel
+sudo app-get install freetype-devel
+sudo app-get install bison
+sudo app-get install autoconf
+
+
+
+
+
+
+
