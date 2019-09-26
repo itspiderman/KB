@@ -1,3 +1,14 @@
+Module 1 - Learning Aids
+Prefixed
+P     Perpetual preferred stock adj. 永久的
+RP    Redeemable preferred stock 
+NR    Not rated(Quality is in review)
+FMC   Commercial mortgate-backed securities
+FMR   Residential mortgage-backed securities
+
+2.Investment words
+
+
 Chapter 1
 Insurance companies	保险公司
 multual funds	共同基金
