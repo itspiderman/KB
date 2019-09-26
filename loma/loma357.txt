@@ -20,3 +20,13 @@ Pension and retirement funds	养老金和退休基金
 Labor union pension and retirement funds	工会养老金和退休基金
 University endowments	大学捐赠
 Charitable foundations	慈善基金会
+
+
+Module 2
+high yield bond funds	高收益债券基金
+emergin market funds	新兴市场基金
+value funds	价值型基金
+small-cap funds	小型基金
+core funds	核心基金
+blend funds	混合基金
+
