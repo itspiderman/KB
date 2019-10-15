@@ -10,3 +10,81 @@ https://zhidao.baidu.com/question/10029443.html
 SaveSetting "工程主题","主键名","键名","键值" 
 GetSetting "工程主题","主键名","键名","默认键值"  '默认键值,当获取为空,或不成功时返回默认值
 这个函数的返回值就是获取的注册表的键值
+
+4. 控件列表 control issue
+
+Line 14: Class MSDataGridLib.DataGrid of control gridPymtDetail was not a loaded control class.
+datagrid控件是: Microsoft Datagrid control 6.0  : C:\Windows\system\MSDATGRD.ocx
+
+Line 80: Class MSComctlLib.ProgressBar of control ProgressBar1 was not a loaded control class.
+ProgressBar  : microsoft windows common controls5.0
+
+Line 128: Class MSComctlLib.ImageList of control imgToolbarImages was not a loaded control class.
+ImageList  : Microsoft Windows Common Controls 6.0(SP6)
+
+Line 274: Class MSComctlLib.Toolbar of control MainToolBar was not a loaded control class.
+Line 338: Class MSComDlg.CommonDialog of control CommonDialog1 was not a loaded control class.
+Line 346: Class MSDataGridLib.DataGrid of control gridDetail was not a loaded control class.
+Line 411: Class MSComctlLib.TabStrip of control tabMain was not a loaded control class.
+Line 15: Class MSComctlLib.StatusBar of control MainStatusBar was not a loaded control class.
+mscomctl.ocx 文件到你的电脑system32目录，然后用regsvr32注册一下就行了。该控件组的名称为
+Microsoft Windows Common Controls 6.0
+
+Line 15: Class MSMask.MaskEdBox of control maskSystemDate was not a loaded control class.
+C:\Windows\SysWOW64\MSMASK32.OCX
+
+Line 15: Class MSAdodcLib.Adodc of control datPrimaryRS was not a loaded control class.
+Line 37: Class MSComCtl2.MonthView of control mvCalendar was not a loaded control class.
+ 
+Line 26: Class MSComctlLib.ImageList of control ImageList1 was not a loaded control class.
+Line 105: Class MSComctlLib.ListView of control lvMenu was not a loaded control class.
+
+左边工具栏单击右键-部件
+adodc控件是:Microfost Data control 6.0 .....
+
+1).	AdoDB.connection 
+Project== > Referances, 确保
+“Microsoft ActiviteX Data Objects 2.8 Library”和
+“Microsoft ActiviteX Data ObjectS Recordset 2.8 Library”被勾选上。
+ 
+2).	ListItem
+C:\Windows\SysWOW64\MSCOMM32.OCX
+ 
+*************************** 未认证***************************
+另附：
+以下为常用的控件列表及文件名称，方便查阅
+
+----- VB6 Runtime and Controls -----
+MSVBVM60.DLL - VB6 Runtime - 6,0,98,15
+COMDLG32.OCX - Microsoft Common Dialog Control 6.0 (SP6) - 6,1,98,16
+MSCOMCTL.OCX - Microsoft Windows Common Controls 6.0 (SP6) - 6,1,98,16 ListView, TreeView, StatusBar, ToolBar
+MSCOMCT2.OCX - Microsoft Windows Common Controls-2 6.0 (SP6) - 6,1,98,16 DTPicker, MonthView, Animation, UpDown
+COMCT332.OCX - Microsoft Windows Common Controls-3 6.0 (SP5) - 6,7,0,9816 Coolbar
+COMCTL32.OCX - Microsoft Windows Common Controls 5.0 (SP2) - 6,0,98,16 (VB5)
+COMCT232.OCX - Microsoft Windows Common Controls-2 5.0 (SP2) - 6,0,98,16 (VB5)
+TABCTL32.OCX - Microsoft Tabbed Dialog Control 6.0 (SP6) - 6,1,98,16 SSTab
+RICHTX32.OCX - Microsoft Rich Textbox Control 6.0 (SP6) - 6,1,98,16
+MSFLXGRD.OCX - Microsoft FlexGrid Control 6.0 (SP6) - 6,1,98,14 (VB5)
+MSHFLXGD.OCX - Microsoft Hierarchical FlexGrid Control 6.0 (SP4) (OLEDB) - 6,1,98,16
+MSCHRT20.OCX - Microsoft Chart Control 6.0 (SP4) (OLEDB) - 6,1,98,16
+MSMASK32.OCX - Microsoft Masked Edit Control 6.0 (SP3) - 6,1,98,16
+MCI32.OCX - Microsoft Multimedia Control 6.0 (SP6) - 6,1,98,16
+MSADODC.OCX - Microsoft ADO Data Control 6.0 (SP6) (OLEDB) - 6,1,98,16
+MSDATGRD.OCX - Microsoft DataGrid Control 6.0 (SP6) (OLEDB) - 6,1,98,16
+MSDATLST.OCX - Microsoft DataList Control 6.0 (SP3) (OLEDB) - 6,1,98,16
+MSDATREP.OCX - Microsoft DataRepeater Control 6.0 (OLEDB) - 6,1,98,16
+MSWINSCK.OCX - Microsoft Winsock Control 6.0 (SP6) - 6,1,98,16
+MSINET.OCX - Microsoft Internet Transfer Control 6.0 (SP6) - 6,1,98,16
+MSMAPI32.OCX - Microsoft MAPI Controls 6.0 - 6,1,98,16
+MSCOMM32.OCX - Microsoft Comm Control 6.0 - 6,1,98,16
+
+
+
+
+
+
+
+
+
+
+
