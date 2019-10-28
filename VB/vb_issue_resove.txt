@@ -39,6 +39,10 @@ Line 37: Class MSComCtl2.MonthView of control mvCalendar was not a loaded contro
 Line 26: Class MSComctlLib.ImageList of control ImageList1 was not a loaded control class.
 Line 105: Class MSComctlLib.ListView of control lvMenu was not a loaded control class.
 
+Line 122: Class SSDataWidgets_B.SSDBGrid of control dbgfmly was not a loaded control class.
+C:\Windows\SysWOW64\ssdw3b32.ocx
+Infragistics DataGrid/Combo/DropDown3.1
+
 左边工具栏单击右键-部件
 adodc控件是:Microfost Data control 6.0 .....
 
