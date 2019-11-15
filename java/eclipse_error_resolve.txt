@@ -180,3 +180,8 @@ mvn install:install-file -DgroupId=org.apache.maven.archetypes -DartifactId=mave
 打开eclipse.ini添加 below in first row
 -vm
 C:/Java/jdk1.6.0_02/bin
+
+30.could not resolve archetype org.apache.maven.archetypes:maven-archetype-quickstart:pom:1.1
+1).install mvn
+2). run below command to install it
+mvn install:install-file -DgroupId=org.apache.maven.archetypes -DartifactId=maven-archetype-quickstart -Dversion=1.1 -Dpackaging=jar -Dfile=maven-archetype-quickstart-1.1.jar
