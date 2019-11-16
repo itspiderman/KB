@@ -1,2 +1,5 @@
 1.Maven build 命令介绍（转）
 https://www.cnblogs.com/myseries/p/11369421.html
+
+2.maven repository
+https://repo.maven.apache.org/maven2/
