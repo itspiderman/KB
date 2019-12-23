@@ -1,0 +1,7 @@
+1.Encoding Class  - Code page
+https://docs.microsoft.com/en-us/dotnet/api/system.text.encoding?view=netframework-4.7.2
+insert into sybase
+sParamValue = System.Text.Encoding.GetEncoding(850).GetString(System.Text.Encoding.GetEncoding(950).GetBytes(Param2));
+
+select from sybase
+sParamValue = System.Text.Encoding.GetEncoding(950).GetString(System.Text.Encoding.GetEncoding(850).GetBytes(dr[13].ToString()));
