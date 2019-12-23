@@ -1,0 +1,6 @@
+1.
+select id,name from master..syscharsets --where name in ('utf8','cp850','cp936') order by id
+sp_configure 
+sp_configure 'disable character set conversion'
+select @@version
+select @@servername
