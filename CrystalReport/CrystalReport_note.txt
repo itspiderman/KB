@@ -1,2 +1,5 @@
 1. Refresh the data source after stored procedure changed.
 DataBase=>Verify DataBase, then try to refresh
+
+2. Export PDF
+Crystal Reports ActiveX Designer Run Time Library 11.0
