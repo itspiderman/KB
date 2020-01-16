@@ -161,3 +161,8 @@ select ISNULL(@A,'')='' Return true
 
 16.Check trigger on the table
 select * from sysobjects where xtype='TR' and parent_obj=object_id('tableName')
+
+17.SQLServer 中的回车符与换行符
+制表符： CHAR(9)
+换行符： CHAR(10)
+回车符： CHAR(13)
