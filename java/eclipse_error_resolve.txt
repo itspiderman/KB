@@ -187,3 +187,9 @@ C:/Java/jdk1.6.0_02/bin
 1).install mvn
 2). run below command to install it
 mvn install:install-file -DgroupId=org.apache.maven.archetypes -DartifactId=maven-archetype-quickstart -Dversion=1.1 -Dpackaging=jar -Dfile=maven-archetype-quickstart-1.1.jar
+
+31.eclipse error:could not create the java virtual machine
+1).删除C:\ProgramData\Oracle\Java目录下的java.exe、javaw.exe、javaws.exe这三个文件。
+2).eclipse\eclipse.ini
+vm C:\Program Files\Java\jdk1.8.0_131\jre\bin\server\jvm.dll
+
