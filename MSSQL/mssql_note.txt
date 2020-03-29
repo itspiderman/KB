@@ -96,6 +96,10 @@ Add primary key:
 ALTER TABLE table_name ADD CONSTRAINT primary_key_name PRIMARY KEY(column1, column2……);
 ALTER TABLE dbo.table_name DROP CONSTRAINT primary_key_name
 
+Add foreign key:
+ALTER TABLE [dbo].[AR_0013_AssistantDetails]  WITH CHECK ADD  CONSTRAINT [FK_AR_0013_AssistantDetails_AR_0013_Assistant] FOREIGN KEY([SN])
+REFERENCES [dbo].[AR_0013_Assistant] ([SN])
+
 
 11. Cursor
     DECLARE product_cursor CURSOR 
