@@ -170,3 +170,6 @@ select * from sysobjects where xtype='TR' and parent_obj=object_id('tableName')
 制表符： CHAR(9)
 换行符： CHAR(10)
 回车符： CHAR(13)
+
+18. Create type 
+CREATE TYPE SSN FROM varchar(11) NOT NULL
