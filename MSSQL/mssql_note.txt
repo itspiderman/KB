@@ -177,3 +177,4 @@ CREATE TYPE SSN FROM varchar(11) NOT NULL
 19.SQL Server reset IDENTITY属性种子值
 DBCC CHECKIDENT(TableName, RESEED, 0)
 
+20.coalesce(chkIndex,'N')<>''
