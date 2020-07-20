@@ -36,6 +36,12 @@ ExamPrep
 4.Rational persuasion uses logic, reason, education, or a detailed plan to convince others that a certain point of view is best. Rational persuasion is effective across all organizational levels, including upper management. Rational persuasion and consultation, which asks for input or participation in order to gain acceptance, tend to be the most effective influence tactics.
 理性说服使用逻辑、理性、教育或详细的计划来说服他人某种观点是最好的。合理的说服在所有组织层面都是有效的，包括高层管理人员。理性的劝说和咨询往往是最有效的影响策略，它要求投入或参与以获得接受。
 
+It is correct to say that legitimacy is effective for influencing subordinates, as well as peers. However, in this situation, Ms. Park did not use legitimacy, which consists of using the authority of a position, rules, or laws to obtain compliance with a request.
+正确的说法是，合法性对影响下属和同事都是有效的。然而，在这种情况下，朴女士没有使用合法性，即利用职位、规则或法律的权威来获得对请求的遵守。
+
+
+
+
 
 7. Regular operational employees can undertake Model C project in their naturally occurring spare time;
 正式运营员工可在其自然产生的业余时间承担C型项目； 
@@ -48,3 +54,33 @@ Model S is suitable for projects that apply familiar processes to achieve a repe
 
 Model C involves accomplishing one unique initiative at a time with a dedicated innovation team;
 模式C需要一个专门的创新团队一次完成一个独特的计划； 
+
+9.
+Response bias occurs when the way researchers word a question distorts the answer. Nonresponse bias occurs when some members of a sample are inherently more likely to provide information than other members of the same sample. Selection bias occurs when the method of data collection systematically excludes certain members of the sample.
+当研究人员提出问题的方式扭曲了答案时，就会出现反应偏差。当一个样本的某些成员天生比同一样本的其他成员更有可能提供信息时，就会出现无响应偏差。当数据收集方法系统地排除了样本中的某些成员时，就会出现选择偏差。
+
+15
+The Marina Life Insurance Company conducted a study among its 5,000 financial advisors to evaluate the service Marina provides to financial advisors. Marina sent surveys to 150 financial advisors and used the information collected to draw conclusions about the level of satisfaction of all Marina financial advisors. Survey results showed that 85% of financial advisors were “satisfied” or “very satisfied” with the service Marina provides. The survey results indicated that the probability that the calculated result was accurate was 90%. The likely range of inaccuracy of the result was stated as “plus or minus 5%.” One correct statement about this situation is that
+Marina人寿保险公司在其5000名财务顾问中进行了一项研究，以评估Marina为财务顾问提供的服务。Marina向150名财务顾问发送了调查，并利用收集到的信息得出关于所有Marina财务顾问满意度的结论。调查结果显示，85%的财务顾问对Marina提供的服务“满意”或“非常满意”。调查结果表明，计算结果准确的概率为90%。结果不准确的可能范围是“正负5%”。关于这种情况，一个正确的说法是
+the margin of error for this study was 90%
+本研究的误差范围为90%
+Marina used inferential statistics rather than descriptive statistics
+玛丽娜用的是推理统计而不是描述性统计
+incorrect	the degree of confidence for this study is “plus or minus 5%”
+这项研究的置信度是“正负5%”
+Marina could increase the statistical validity of this result by decreasing the sample size
+Marina可以通过减少样本量来提高这一结果的统计有效性
+
+
+16.
+The Fine Financial Services Company uses a combination of two reward systems for employees: merit-based compensation and performance-based compensation. One correct statement about Fine’s compensation systems is that the
+这家金融服务公司对员工采用了两种奖励制度：基于绩效的薪酬和基于绩效的薪酬。关于Fine的赔偿制度，一个正确的说法是
+incorrect	merit-based compensation plan most likely rewards employees solely for developing and improving job skills
+不正确的基于绩效的薪酬计划很可能只奖励员工发展和提高工作技能
+merit-based compensation plan most likely rewards employees based on performance appraisal ratings
+基于绩效的薪酬计划很可能根据绩效评估等级对员工进行奖励
+performance-based compensation plan consists of a payment made to an employee immediately after the employee performs in an exceptional way on the job.
+基于绩效的薪酬计划包括员工在工作中表现出色后立即支付给员工的薪酬。
+performance-based compensation plan pays a small bonus to an employee who is nominated by a coworker because of exceptional behavior
+基于绩效的薪酬计划向因行为异常而被同事提名的员工支付少量奖金
+
