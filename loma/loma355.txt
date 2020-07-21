@@ -84,3 +84,22 @@ performance-based compensation plan consists of a payment made to an employee im
 performance-based compensation plan pays a small bonus to an employee who is nominated by a coworker because of exceptional behavior
 基于绩效的薪酬计划向因行为异常而被同事提名的员工支付少量奖金
 
+20.
+Indira Chatterjee, a manager, used a behavior modification technique in which she encouraged an employee to exhibit a specific behavior by immediately withdrawing or terminating something that the employee found unpleasant when she observed the desired behavior. Ms. Chatterjee used this technique after every occurrence of the behavior in order to encourage the behavior. With regard to behavior modification techniques and the use of continuous reinforcement or intermittent reinforcement, it is correct to say that, in this situation, Ms. Chatterjee used
+Indira Chatterjee是一位经理，她使用了一种行为矫正技术，鼓励员工表现出一种特定的行为，即立即撤销或终止员工在观察到期望行为时感到不愉快的事情。查特吉女士在每次这种行为发生后都使用这种方法来鼓励这种行为。关于行为矫正技术和连续强化或间歇强化的使用，可以正确地说，在这种情况下，Chatterjee女士使用了
+incorrect	extinction and continuous reinforcement
+消光不正确，连续补强
+punishment and intermittent reinforcement
+惩罚与间断强化
+negative reinforcement and continuous reinforcement
+负筋和连续补强
+incorrect	positive reinforcement and intermittent reinforcement
+不正确的正强化和间歇强化
+
+22.
+Model inputs are independent variables, which are variables that influence the behavior of other variables. Output variables are considered dependent variables because they react to outside influences. In particular, dependent variables react to changes in independent variables. A point estimate is an estimated result that is assigned a single value, whereas a range estimate is a result that includes possible values within specified limits.
+
+23.
+The primary advantage of TQM is that it provides a gradual way for companies to improve the quality of their operations, products, and services. Its focus is incremental change and continuous improvement rather than radical change. Business process engineering (BPR) undertakes efforts to fundamentally redesign an organization’s business processes.
+全面质量管理的主要优点是，它为公司提供了一种渐进的方法来提高其运营、产品和服务的质量。它的重点是渐进式的改变和持续的改进，而不是彻底的改变。业务流程工程（BPR）致力于从根本上重新设计组织的业务流程。
+
