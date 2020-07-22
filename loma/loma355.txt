@@ -103,3 +103,13 @@ Model inputs are independent variables, which are variables that influence the b
 The primary advantage of TQM is that it provides a gradual way for companies to improve the quality of their operations, products, and services. Its focus is incremental change and continuous improvement rather than radical change. Business process engineering (BPR) undertakes efforts to fundamentally redesign an organization’s business processes.
 全面质量管理的主要优点是，它为公司提供了一种渐进的方法来提高其运营、产品和服务的质量。它的重点是渐进式的改变和持续的改进，而不是彻底的改变。业务流程工程（BPR）致力于从根本上重新设计组织的业务流程。
 
+31.
+A scatter diagram is used to check visually for a likely correlation between two variables. Typically, a scatter diagram uses dots or small shapes (called “points”) to indicate units. For example, a scatter diagram might convey that for one company, in general, the policy face amounts increase in line with the customer’s family size. In this case, each point represents a customer.
+散点图用于直观地检查两个变量之间的可能相关性。通常，散点图使用点或小形状（称为“点”）来表示单位。例如，一个散点图可以传达这样的信息：对于一家公司来说，一般来说，保单面额会随着客户家庭规模的增加而增加。在这种情况下，每个点代表一个客户。
+
+32.
+Cross-cutting decisions are familiar decisions that are broad in scope and require effective collaboration among many different parts of an organization. Creating a new version of an existing product is one example of a cross-cutting decision. Companies often establish permanent cross-functional teams and employ project management processes for cross-cutting decisions.
+交叉决策是一种常见的决策，范围广泛，需要组织中许多不同部门之间的有效协作。创建现有产品的新版本就是交叉决策的一个例子。公司通常建立永久性的跨职能团队，并采用项目管理流程来进行跨领域决策。
+
+Delegated decisions are typically low risk and they involve familiar and frequent decisions that do not require project management. Management can implement manual or automated procedures to guide employees in delegated decision making. Cross-cutting decisions are among those that typically require project management processes.
+委托决策通常是低风险的，它们涉及不需要项目管理的熟悉且频繁的决策。管理层可以实施手动或自动程序来指导员工进行委托决策。交叉决策通常需要项目管理过程。
