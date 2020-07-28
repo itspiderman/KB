@@ -113,3 +113,11 @@ Cross-cutting decisions are familiar decisions that are broad in scope and requi
 
 Delegated decisions are typically low risk and they involve familiar and frequent decisions that do not require project management. Management can implement manual or automated procedures to guide employees in delegated decision making. Cross-cutting decisions are among those that typically require project management processes.
 委托决策通常是低风险的，它们涉及不需要项目管理的熟悉且频繁的决策。管理层可以实施手动或自动程序来指导员工进行委托决策。交叉决策通常需要项目管理过程。
+
+35.
+Statement A is incorrect. Heuristics—general rules that allow people to make decisions quickly without gathering information—are sometimes appropriate and useful in business operations, in particular for ad hoc decisions that are low risk and low occurrence.
+语句A不正确。启发法允许人们在不收集信息的情况下快速做出决策的一般规则在业务操作中有时是适当和有用的，特别是对于低风险和低发生率的临时决策。
+Statement B is correct. Analysis paralysis—spending excessive time and energy in gathering information—is more common in big-bet decisions because the costs of a wrong decision are high; however, decision delays often have negative consequences.
+陈述B是正确的。分析瘫痪在大赌注决策中花费过多的时间和精力收集信息更为常见，因为错误决策的成本很高；然而，决策延迟通常会带来负面后果。
+Statement C is correct. Because big decisions may take years to accomplish, a decision log will help the group keep track of the various aspects of decisions that will be impossible to remember over time. A decision log can also reduce hindsight bias—the tendency of decision makers to believe, after a decision is implemented and a certain result occurs, that they knew during the decision process that a certain decision would result in that outcome.
+陈述C是正确的。因为重大决策可能需要数年时间才能完成，因此决策日志将有助于团队跟踪决策的各个方面，而这些方面随着时间的推移将不可能被记住。决策日志还可以减少事后诸葛亮的偏见决策者倾向于相信，在决策过程中，他们知道某个决策会导致结果。
