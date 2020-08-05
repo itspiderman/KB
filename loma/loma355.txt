@@ -88,6 +88,11 @@ performance-based compensation plan pays a small bonus to an employee who is nom
 Group A, a decision-making group, has goals that are clearly tied together so that the chance of any one faction within the group attaining its goal is increased by the probability of other factions within the group also attaining their goals. This means that Group A has (positively / negatively) interdependent goals. When Group A experienced conflict, members of the group recognized the legitimacy of the interests of the group members who raised objections and searched for solutions that were responsive to the needs of all, which are characteristics of (competitive / cooperative) conflict.
 A组是一个决策小组，其目标明确地联系在一起，因此集团内任何一个派系实现其目标的机会都会因集团内其他派系也达到其目标的概率而增加。这意味着A组有（积极/消极）相互依赖的目标。当A组发生冲突时，该组成员认识到提出反对并寻求满足所有人需求的解决方案的集团成员利益的合法性，这是（竞争/合作）冲突的特征。
 
+19.
+The vast majority of business problems are complicated issues that can be simplified into parts and solved. Experience is critical and success with a similar problem practically guarantees future success. There is certainty about context and desired outcome, and these issues are likely to reoccur. Traditional analytical thinking works well for complicated issues.
+绝大多数业务问题都是可以简化为部分并加以解决的复杂问题。经验是至关重要的，成功解决类似问题实际上是未来成功的保证。背景和预期结果是确定的，这些问题很可能再次发生。传统的分析思维对复杂的问题很有效。
+For complex issues, there is ambiguous context and uncertainty about desired outcomes. Complex issues are difficult to simplify into parts and success with similar problems does not guarantee future success. Experience is useful, but often limited, because the issues are unique and not often repeated. Innovative thinking works well for complex issues.
+对于复杂的问题，有模棱两可的背景和期望结果的不确定性。复杂的问题很难简化成部分，类似问题的成功并不能保证未来的成功。经验是有用的，但往往是有限的，因为问题是独特的，不经常重复。创新思维对复杂问题很有效。
 
 20.
 Indira Chatterjee, a manager, used a behavior modification technique in which she encouraged an employee to exhibit a specific behavior by immediately withdrawing or terminating something that the employee found unpleasant when she observed the desired behavior. Ms. Chatterjee used this technique after every occurrence of the behavior in order to encourage the behavior. With regard to behavior modification techniques and the use of continuous reinforcement or intermittent reinforcement, it is correct to say that, in this situation, Ms. Chatterjee used
@@ -107,6 +112,9 @@ Model inputs are independent variables, which are variables that influence the b
 23.
 The primary advantage of TQM is that it provides a gradual way for companies to improve the quality of their operations, products, and services. Its focus is incremental change and continuous improvement rather than radical change. Business process engineering (BPR) undertakes efforts to fundamentally redesign an organization’s business processes.
 全面质量管理的主要优点是，它为公司提供了一种渐进的方法来提高其运营、产品和服务的质量。它的重点是渐进式的改变和持续的改进，而不是彻底的改变。业务流程工程（BPR）致力于从根本上重新设计组织的业务流程。
+
+26.
+During the activity analysis, Ms. Talbot most likely labeled activities that cannot be started until other activities have been completed as (independent / dependent) activities. For this project, the check printing application developed during Activity M is best described as project (constraint / deliverable). deliverable
 
 31.
 A scatter diagram is used to check visually for a likely correlation between two variables. Typically, a scatter diagram uses dots or small shapes (called “points”) to indicate units. For example, a scatter diagram might convey that for one company, in general, the policy face amounts increase in line with the customer’s family size. In this case, each point represents a customer.
