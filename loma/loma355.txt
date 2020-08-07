@@ -44,16 +44,16 @@ It is correct to say that legitimacy is effective for influencing subordinates, 
 
 
 7. Regular operational employees can undertake Model C project in their naturally occurring spare time;
-正式运营员工可在其自然产生的业余时间承担C型项目； 
+正式运营员工可在其自然产生的业余时间承担C型项目； S
 
 only very limited projects that do not require allocated resource are suitable for a Model R innovation;
-只有不需要分配资源的非常有限的项目才适合R型创新；
+只有不需要分配资源的非常有限的项目才适合R型创新；S
 
 Model S is suitable for projects that apply familiar processes to achieve a repeatable and predictable outcome and for which tasks are assigned as a work responsibility;
-模型S适用于应用熟悉的过程以实现可重复和可预测的结果，并将任务分配为工作职责的项目； 
+模型S适用于应用熟悉的过程以实现可重复和可预测的结果，并将任务分配为工作职责的项目； R
 
 Model C involves accomplishing one unique initiative at a time with a dedicated innovation team;
-模式C需要一个专门的创新团队一次完成一个独特的计划； 
+模式C需要一个专门的创新团队一次完成一个独特的计划；correct
 
 9.
 Response bias occurs when the way researchers word a question distorts the answer. Nonresponse bias occurs when some members of a sample are inherently more likely to provide information than other members of the same sample. Selection bias occurs when the method of data collection systematically excludes certain members of the sample.
@@ -127,6 +127,14 @@ Cross-cutting decisions are familiar decisions that are broad in scope and requi
 Delegated decisions are typically low risk and they involve familiar and frequent decisions that do not require project management. Management can implement manual or automated procedures to guide employees in delegated decision making. Cross-cutting decisions are among those that typically require project management processes.
 委托决策通常是低风险的，它们涉及不需要项目管理的熟悉且频繁的决策。管理层可以实施手动或自动程序来指导员工进行委托决策。交叉决策通常需要项目管理过程。
 
+34.
+
+Other measures of data quality include accuracy (the degree to which data measures what it is intended to measure); relevance (the degree to which information derived through data analysis meets the needs of users); timeliness (a measure of the delay between the compilation date and publication date of the data); interpretability (the ease with which an intended user can correctly interpret the data); accessibility (the ease with which an intended user can obtain the necessary data), and coherence (the degree to which an intended user can successfully integrate the data with other statistical information over time).
+数据质量的其他衡量标准包括准确性（数据衡量其预期衡量的程度）；相关性（通过数据分析得出的信息满足用户需求的程度）；及时性（衡量数据汇编日期和公布日期之间的延迟程度）；可解释性（预期用户能够正确解释数据的难易程度）；可访问性（预期用户获得必要数据的容易程度）和一致性（预期用户能够在多大程度上成功地将数据与其他统计信息整合在一起）。
+appropriateness is data meets the requirements of its intended applications
+数据满足其预期应用的要求
+
+
 35.
 Statement A is incorrect. Heuristics—general rules that allow people to make decisions quickly without gathering information—are sometimes appropriate and useful in business operations, in particular for ad hoc decisions that are low risk and low occurrence.
 语句A不正确。启发法允许人们在不收集信息的情况下快速做出决策的一般规则在业务操作中有时是适当和有用的，特别是对于低风险和低发生率的临时决策。
@@ -134,3 +142,33 @@ Statement B is correct. Analysis paralysis—spending excessive time and energy 
 陈述B是正确的。分析瘫痪在大赌注决策中花费过多的时间和精力收集信息更为常见，因为错误决策的成本很高；然而，决策延迟通常会带来负面后果。
 Statement C is correct. Because big decisions may take years to accomplish, a decision log will help the group keep track of the various aspects of decisions that will be impossible to remember over time. A decision log can also reduce hindsight bias—the tendency of decision makers to believe, after a decision is implemented and a certain result occurs, that they knew during the decision process that a certain decision would result in that outcome.
 陈述C是正确的。因为重大决策可能需要数年时间才能完成，因此决策日志将有助于团队跟踪决策的各个方面，而这些方面随着时间的推移将不可能被记住。决策日志还可以减少事后诸葛亮的偏见决策者倾向于相信，在决策过程中，他们知道某个决策会导致结果。
+
+36.
+Tasks are the smallest units in a process to undergo analysis. 
+
+43.
+When the concentration ratio is between 50% and 80%, an industry has medium levels of competitiveness. Economists categorize this level of competition as monopolistic competition— a market with many sellers, similar products and services, a reliance on advertising, and some barriers to entry. In monopolistic competition, companies want to differentiate their products and services from those of others by creating a customer perception of non-price differences through advertising and other marketing efforts. The insurance industry has traditionally had monopolistic competition.
+
+51.
+Cross-cutting decisions are familiar decisions that are broad in scope and require effective collaboration among many different parts of an organization. Creating a new version of an existing product is one example of a cross-cutting decision. Companies often establish permanent cross-functional teams and employ project management processes for cross-cutting decisions.
+
+52.
+Year-to-date sales is an example of a new business metric.
+
+59.
+Fundamental attribution error, also known as the self-serving bias, is the tendency to take credit for success but assign blame to others for failures. The fundamental attribution error is an example of a cognitive bias that occurs in the minds of those being evaluated, not the person performing the evaluation.
+自利倾向也被称为对成功的根本归因，也是对他人失败的指责。基本归因错误是认知偏差的一个例子，这种偏差发生在被评估者的头脑中，而不是执行评估的人。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
