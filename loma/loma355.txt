@@ -19,15 +19,50 @@ Chapter 6
 
 
 Chapter 7
+5.One group characteristic that will lead to competitive conflict is that the group
+prefers decision failure over loss in power struggles
+
 
 
 Chapter 8
+14.It is correct to say that correlation is a measure of whether, and how strongly, two values are related. However, correlation does not prove causation.
+可以说，相关性是衡量两个值是否相关以及关联程度的度量。然而，相关性并不能证明因果关系。
+Estimates are not a measure of whether two values are related. Estimates refer to approximate values that represent unknowns in a forecasting model.
+估计值不是衡量两个值是否相关的指标。估计值是指在预测模型中表示未知量的近似值。
+
+
+
 
 
 Chapter 9
+4.
+Appropriateness is the degree to which data meets the requirements of its intended applications.
+适当性是指数据满足其预期应用要求的程度。
+Relevance is the degree to which information derived through data analysis meets the needs of users.
+相关性是指通过数据分析得到的信息满足用户需求的程度。
+Interpretability is the ease with which an intended user can correctly interpret the data.
+可解释性是指目标用户能够正确解释数据的容易程度。
+
+7.Analysts can use insights gathered during descriptive analytics to perform diagnostic analytics, which is a type of analytics that examines the cause of observed patterns.
+分析人员可以使用描述性分析期间收集的见解来执行诊断分析，这是一种分析，检查观察到的模式的原因。
+8.A bar chart is a graphical display of a frequency distribution
+条形图是频率分布的图形显示
+scatter diagram is used to check visually for a likely correlation between two variables.
+散点图用于直观地检查两个变量之间的可能相关性。
 
 
 Chapter 10
+4.
+Complex problems are unique and not often repeated.
+复杂的问题是独特的，不经常重复。
+In addition, complex problems involve an ambiguous context and a lot of uncertainty. Innovative thinking works well with complex problems.
+此外，复杂的问题涉及一个模棱两可的背景和许多不确定性。创新思维能很好地解决复杂问题。
+6.
+The main challenge of Model C is that it requires a dedicated team.
+模型C的主要挑战是它需要一个专门的团队。
+
+
+
 
 
 ExamPrep
