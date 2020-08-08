@@ -155,6 +155,10 @@ Cross-cutting decisions are familiar decisions that are broad in scope and requi
 52.
 Year-to-date sales is an example of a new business metric.
 
+55.
+Marina used inferential statistics rather than descriptive statistics
+玛丽娜用的是推理统计而不是描述性统计
+
 59.
 Fundamental attribution error, also known as the self-serving bias, is the tendency to take credit for success but assign blame to others for failures. The fundamental attribution error is an example of a cognitive bias that occurs in the minds of those being evaluated, not the person performing the evaluation.
 自利倾向也被称为对成功的根本归因，也是对他人失败的指责。基本归因错误是认知偏差的一个例子，这种偏差发生在被评估者的头脑中，而不是执行评估的人。
