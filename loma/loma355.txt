@@ -4,9 +4,40 @@ Chapter 1
 
 
 Chapter 2
+7.When the concentration ratio is between 50% and 80%, the industry has medium levels of competitiveness. Economists categorize this level of competition as monopolistic competition. When the concentration ratio rises above 80% but remains below 100%, the industry is an oligopoly.
+If one company or a group of related companies has 100% of the market share, then the market is a monopoly.
 
 
 Chapter 3
+4.
+Mr. Sack used ingratiating tactics in an attempt to influence his manager’s decision.
+萨克先生用讨好的策略试图影响经理的决定。
+using flattery, praise, or humbling behavior
+使用奉承、赞扬或谦卑的行为
+
+5.An antecedent is an environmental cue that prompts a person to act in a particular manner. Antecedents come first; behavior follows. Because Ms. Chen praised the employee after observing the behavior, Situation 1 is an example of managing consequences rather than antecedents. In Situation 2, Ms. Chen managed consequences rather than antecedents when she ignored a behavior.
+先行词是一种环境暗示，它促使一个人以特定的方式行动。先有前因，后有行为。因为陈女士在观察了员工的行为后称赞了他，所以情况1是一个管理后果而不是前因的例子。在第二种情况下，当陈女士忽视一种行为时，她处理的是后果而不是前因。
+
+7.Self-determination theory （SDT ）proposes that people have three basic psychological needs: competence, relatedness, and autonomy. Autonomous motivation arises primarily from intrinsic rewards affiliated with needs for competence, relatedness, and autonomy. When autonomous motivation is involved, a person is highly motivated to engage in an activity. Controlled motivation primarily involves extrinsic rewards.
+自我决定理论认为人有三种基本的心理需求：能力、关系和自主性。自主性动机主要来源于与能力、关系和自主性相关联的内在奖励。当涉及到自主动机时，一个人会有很高的动机去从事一项活动。受控动机主要涉及外在奖励。
+
+12.Performance-based compensation ties employee pay to a company-wide goal such as profits or sales, or perhaps a nonfinancial goal such as improved customer service levels.
+基于绩效的薪酬将员工的薪酬与公司范围内的目标（如利润或销售额）挂钩，也可能与提高客户服务水平等非财务目标挂钩。
+Companies sometimes use performance-based compensation in conjunction with merit-based compensation so that a portion of an employee’s compensation is merit-based and a portion is performance-based.
+公司有时将绩效薪酬与绩效薪酬结合使用，这样员工的薪酬中有一部分是基于绩效的，另一部分是基于绩效的。
+
+
+13.Skill variety is the degree to which a job requires a variety of different activities.
+技能多样性是指一项工作需要各种不同活动的程度。
+Task identity is the degree to which the job requires completion of a whole and identifiable piece of work.
+任务识别是指工作需要完成一个完整且可识别的工作的程度。
+Task significance is the degree to which a job affects the lives of other people.
+任务意义是指一份工作对他人生活的影响程度。
+Autonomy is the degree to which a job allows a worker freedom, independence, and discretion in scheduling the work and in determining how to carry it out.
+自主性是指一项工作允许工人在安排工作和决定如何进行工作时享有自由、独立和自由裁量权的程度。
+Feedback is the degree to which carrying out job activities leads to direct and clear information about an employee’s performance.
+反馈是指通过开展工作活动，可以获得关于员工绩效的直接而清晰的信息。
+
 
 
 Chapter 4
