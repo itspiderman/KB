@@ -74,6 +74,10 @@ scatter diagram is used to check visually for a likely correlation between two v
 
 
 Chapter 10
+2.During the innovation process, the innovation team is susceptible to many cognitive biases that can impede the learning process. The tendency to try to outdo one another in order to win is known as political bias
+在创新过程中，创新团队容易受到许多认知偏差的影响，从而阻碍学习过程。为了获胜而互相超越的倾向被称为
+
+
 4.Complex problems are unique and not often repeated.
 复杂的问题是独特的，不经常重复。
 In addition, complex problems involve an ambiguous context and a lot of uncertainty. Innovative thinking works well with complex problems.
