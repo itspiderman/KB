@@ -2,7 +2,6 @@ LOMA 335, Operational Excellence for Insurance Professionals
 
 Chapter 1
 
-
 Chapter 2
 7.When the concentration ratio is between 50% and 80%, the industry has medium levels of competitiveness. Economists categorize this level of competition as monopolistic competition. When the concentration ratio rises above 80% but remains below 100%, the industry is an oligopoly.
 If one company or a group of related companies has 100% of the market share, then the market is a monopoly.
@@ -10,8 +9,7 @@ If one company or a group of related companies has 100% of the market share, the
 8.An oligopoly uses vigorous advertising.
 
 Chapter 3
-4.
-Mr. Sack used ingratiating tactics in an attempt to influence his manager’s decision.
+4.Mr. Sack used ingratiating tactics in an attempt to influence his manager’s decision.
 萨克先生用讨好的策略试图影响经理的决定。
 using flattery, praise, or humbling behavior
 使用奉承、赞扬或谦卑的行为
@@ -27,7 +25,6 @@ using flattery, praise, or humbling behavior
 Companies sometimes use performance-based compensation in conjunction with merit-based compensation so that a portion of an employee’s compensation is merit-based and a portion is performance-based.
 公司有时将绩效薪酬与绩效薪酬结合使用，这样员工的薪酬中有一部分是基于绩效的，另一部分是基于绩效的。
 
-
 13.Skill variety is the degree to which a job requires a variety of different activities.
 技能多样性是指一项工作需要各种不同活动的程度。
 Task identity is the degree to which the job requires completion of a whole and identifiable piece of work.
@@ -40,10 +37,7 @@ Feedback is the degree to which carrying out job activities leads to direct and 
 反馈是指通过开展工作活动，可以获得关于员工绩效的直接而清晰的信息。
 
 Chapter 4
-4.
-Kaizen process improvements tend to be simple and inexpensive to implement.
-
-
+4.Kaizen process improvements tend to be simple and inexpensive to implement.
 
 Chapter 5
 5.A project manager will negotiate project changes with project stakeholders and revise the schedule whenever significant new schedule-related information becomes available.
@@ -51,15 +45,11 @@ Chapter 5
 During the closure phase, most team members have transitioned to other projects, leaving the project manager to wrap up.
 在收尾阶段，大多数团队成员已经过渡到其他项目，让项目经理来完成工作。
 
-
 Chapter 6
-
 
 Chapter 7
 5.One group characteristic that will lead to competitive conflict is that the group
 prefers decision failure over loss in power struggles
-
-
 
 Chapter 8
 14.It is correct to say that correlation is a measure of whether, and how strongly, two values are related. However, correlation does not prove causation.
@@ -67,13 +57,8 @@ Chapter 8
 Estimates are not a measure of whether two values are related. Estimates refer to approximate values that represent unknowns in a forecasting model.
 估计值不是衡量两个值是否相关的指标。估计值是指在预测模型中表示未知量的近似值。
 
-
-
-
-
 Chapter 9
-4.
-Appropriateness is the degree to which data meets the requirements of its intended applications.
+4.Appropriateness is the degree to which data meets the requirements of its intended applications.
 适当性是指数据满足其预期应用要求的程度。
 Relevance is the degree to which information derived through data analysis meets the needs of users.
 相关性是指通过数据分析得到的信息满足用户需求的程度。
@@ -89,31 +74,20 @@ scatter diagram is used to check visually for a likely correlation between two v
 
 
 Chapter 10
-4.
-Complex problems are unique and not often repeated.
+4.Complex problems are unique and not often repeated.
 复杂的问题是独特的，不经常重复。
 In addition, complex problems involve an ambiguous context and a lot of uncertainty. Innovative thinking works well with complex problems.
 此外，复杂的问题涉及一个模棱两可的背景和许多不确定性。创新思维能很好地解决复杂问题。
-6.
-The main challenge of Model C is that it requires a dedicated team.
+6.The main challenge of Model C is that it requires a dedicated team.
 模型C的主要挑战是它需要一个专门的团队。
 
-
-
-
-
 ExamPrep
-
 
 4.Rational persuasion uses logic, reason, education, or a detailed plan to convince others that a certain point of view is best. Rational persuasion is effective across all organizational levels, including upper management. Rational persuasion and consultation, which asks for input or participation in order to gain acceptance, tend to be the most effective influence tactics.
 理性说服使用逻辑、理性、教育或详细的计划来说服他人某种观点是最好的。合理的说服在所有组织层面都是有效的，包括高层管理人员。理性的劝说和咨询往往是最有效的影响策略，它要求投入或参与以获得接受。
 
 It is correct to say that legitimacy is effective for influencing subordinates, as well as peers. However, in this situation, Ms. Park did not use legitimacy, which consists of using the authority of a position, rules, or laws to obtain compliance with a request.
 正确的说法是，合法性对影响下属和同事都是有效的。然而，在这种情况下，朴女士没有使用合法性，即利用职位、规则或法律的权威来获得对请求的遵守。
-
-
-
-
 
 7. Regular operational employees can undertake Model C project in their naturally occurring spare time;
 正式运营员工可在其自然产生的业余时间承担C型项目； S
@@ -127,12 +101,10 @@ Model S is suitable for projects that apply familiar processes to achieve a repe
 Model C involves accomplishing one unique initiative at a time with a dedicated innovation team;
 模式C需要一个专门的创新团队一次完成一个独特的计划；correct
 
-9.
-Response bias occurs when the way researchers word a question distorts the answer. Nonresponse bias occurs when some members of a sample are inherently more likely to provide information than other members of the same sample. Selection bias occurs when the method of data collection systematically excludes certain members of the sample.
+9.Response bias occurs when the way researchers word a question distorts the answer. Nonresponse bias occurs when some members of a sample are inherently more likely to provide information than other members of the same sample. Selection bias occurs when the method of data collection systematically excludes certain members of the sample.
 当研究人员提出问题的方式扭曲了答案时，就会出现反应偏差。当一个样本的某些成员天生比同一样本的其他成员更有可能提供信息时，就会出现无响应偏差。当数据收集方法系统地排除了样本中的某些成员时，就会出现选择偏差。
 
-15
-The Marina Life Insurance Company conducted a study among its 5,000 financial advisors to evaluate the service Marina provides to financial advisors. Marina sent surveys to 150 financial advisors and used the information collected to draw conclusions about the level of satisfaction of all Marina financial advisors. Survey results showed that 85% of financial advisors were “satisfied” or “very satisfied” with the service Marina provides. The survey results indicated that the probability that the calculated result was accurate was 90%. The likely range of inaccuracy of the result was stated as “plus or minus 5%.” One correct statement about this situation is that
+15.The Marina Life Insurance Company conducted a study among its 5,000 financial advisors to evaluate the service Marina provides to financial advisors. Marina sent surveys to 150 financial advisors and used the information collected to draw conclusions about the level of satisfaction of all Marina financial advisors. Survey results showed that 85% of financial advisors were “satisfied” or “very satisfied” with the service Marina provides. The survey results indicated that the probability that the calculated result was accurate was 90%. The likely range of inaccuracy of the result was stated as “plus or minus 5%.” One correct statement about this situation is that
 Marina人寿保险公司在其5000名财务顾问中进行了一项研究，以评估Marina为财务顾问提供的服务。Marina向150名财务顾问发送了调查，并利用收集到的信息得出关于所有Marina财务顾问满意度的结论。调查结果显示，85%的财务顾问对Marina提供的服务“满意”或“非常满意”。调查结果表明，计算结果准确的概率为90%。结果不准确的可能范围是“正负5%”。关于这种情况，一个正确的说法是
 the margin of error for this study was 90%
 本研究的误差范围为90%
@@ -143,9 +115,7 @@ incorrect	the degree of confidence for this study is “plus or minus 5%”
 Marina could increase the statistical validity of this result by decreasing the sample size
 Marina可以通过减少样本量来提高这一结果的统计有效性
 
-
-16.
-The Fine Financial Services Company uses a combination of two reward systems for employees: merit-based compensation and performance-based compensation. One correct statement about Fine’s compensation systems is that the
+16.The Fine Financial Services Company uses a combination of two reward systems for employees: merit-based compensation and performance-based compensation. One correct statement about Fine’s compensation systems is that the
 这家金融服务公司对员工采用了两种奖励制度：基于绩效的薪酬和基于绩效的薪酬。关于Fine的赔偿制度，一个正确的说法是
 incorrect	merit-based compensation plan most likely rewards employees solely for developing and improving job skills
 不正确的基于绩效的薪酬计划很可能只奖励员工发展和提高工作技能
@@ -156,18 +126,15 @@ performance-based compensation plan consists of a payment made to an employee im
 performance-based compensation plan pays a small bonus to an employee who is nominated by a coworker because of exceptional behavior
 基于绩效的薪酬计划向因行为异常而被同事提名的员工支付少量奖金
 
-18.
-Group A, a decision-making group, has goals that are clearly tied together so that the chance of any one faction within the group attaining its goal is increased by the probability of other factions within the group also attaining their goals. This means that Group A has (positively / negatively) interdependent goals. When Group A experienced conflict, members of the group recognized the legitimacy of the interests of the group members who raised objections and searched for solutions that were responsive to the needs of all, which are characteristics of (competitive / cooperative) conflict.
+18.Group A, a decision-making group, has goals that are clearly tied together so that the chance of any one faction within the group attaining its goal is increased by the probability of other factions within the group also attaining their goals. This means that Group A has (positively / negatively) interdependent goals. When Group A experienced conflict, members of the group recognized the legitimacy of the interests of the group members who raised objections and searched for solutions that were responsive to the needs of all, which are characteristics of (competitive / cooperative) conflict.
 A组是一个决策小组，其目标明确地联系在一起，因此集团内任何一个派系实现其目标的机会都会因集团内其他派系也达到其目标的概率而增加。这意味着A组有（积极/消极）相互依赖的目标。当A组发生冲突时，该组成员认识到提出反对并寻求满足所有人需求的解决方案的集团成员利益的合法性，这是（竞争/合作）冲突的特征。
 
-19.
-The vast majority of business problems are complicated issues that can be simplified into parts and solved. Experience is critical and success with a similar problem practically guarantees future success. There is certainty about context and desired outcome, and these issues are likely to reoccur. Traditional analytical thinking works well for complicated issues.
+19.The vast majority of business problems are complicated issues that can be simplified into parts and solved. Experience is critical and success with a similar problem practically guarantees future success. There is certainty about context and desired outcome, and these issues are likely to reoccur. Traditional analytical thinking works well for complicated issues.
 绝大多数业务问题都是可以简化为部分并加以解决的复杂问题。经验是至关重要的，成功解决类似问题实际上是未来成功的保证。背景和预期结果是确定的，这些问题很可能再次发生。传统的分析思维对复杂的问题很有效。
 For complex issues, there is ambiguous context and uncertainty about desired outcomes. Complex issues are difficult to simplify into parts and success with similar problems does not guarantee future success. Experience is useful, but often limited, because the issues are unique and not often repeated. Innovative thinking works well for complex issues.
 对于复杂的问题，有模棱两可的背景和期望结果的不确定性。复杂的问题很难简化成部分，类似问题的成功并不能保证未来的成功。经验是有用的，但往往是有限的，因为问题是独特的，不经常重复。创新思维对复杂问题很有效。
 
-20.
-Indira Chatterjee, a manager, used a behavior modification technique in which she encouraged an employee to exhibit a specific behavior by immediately withdrawing or terminating something that the employee found unpleasant when she observed the desired behavior. Ms. Chatterjee used this technique after every occurrence of the behavior in order to encourage the behavior. With regard to behavior modification techniques and the use of continuous reinforcement or intermittent reinforcement, it is correct to say that, in this situation, Ms. Chatterjee used
+20.Indira Chatterjee, a manager, used a behavior modification technique in which she encouraged an employee to exhibit a specific behavior by immediately withdrawing or terminating something that the employee found unpleasant when she observed the desired behavior. Ms. Chatterjee used this technique after every occurrence of the behavior in order to encourage the behavior. With regard to behavior modification techniques and the use of continuous reinforcement or intermittent reinforcement, it is correct to say that, in this situation, Ms. Chatterjee used
 Indira Chatterjee是一位经理，她使用了一种行为矫正技术，鼓励员工表现出一种特定的行为，即立即撤销或终止员工在观察到期望行为时感到不愉快的事情。查特吉女士在每次这种行为发生后都使用这种方法来鼓励这种行为。关于行为矫正技术和连续强化或间歇强化的使用，可以正确地说，在这种情况下，Chatterjee女士使用了
 incorrect	extinction and continuous reinforcement
 消光不正确，连续补强
@@ -178,61 +145,46 @@ negative reinforcement and continuous reinforcement
 incorrect	positive reinforcement and intermittent reinforcement
 不正确的正强化和间歇强化
 
-22.
-Model inputs are independent variables, which are variables that influence the behavior of other variables. Output variables are considered dependent variables because they react to outside influences. In particular, dependent variables react to changes in independent variables. A point estimate is an estimated result that is assigned a single value, whereas a range estimate is a result that includes possible values within specified limits.
+22.Model inputs are independent variables, which are variables that influence the behavior of other variables. Output variables are considered dependent variables because they react to outside influences. In particular, dependent variables react to changes in independent variables. A point estimate is an estimated result that is assigned a single value, whereas a range estimate is a result that includes possible values within specified limits.
 
-23.
-The primary advantage of TQM is that it provides a gradual way for companies to improve the quality of their operations, products, and services. Its focus is incremental change and continuous improvement rather than radical change. Business process engineering (BPR) undertakes efforts to fundamentally redesign an organization’s business processes.
+23.The primary advantage of TQM is that it provides a gradual way for companies to improve the quality of their operations, products, and services. Its focus is incremental change and continuous improvement rather than radical change. Business process engineering (BPR) undertakes efforts to fundamentally redesign an organization’s business processes.
 全面质量管理的主要优点是，它为公司提供了一种渐进的方法来提高其运营、产品和服务的质量。它的重点是渐进式的改变和持续的改进，而不是彻底的改变。业务流程工程（BPR）致力于从根本上重新设计组织的业务流程。
 
-26.
-During the activity analysis, Ms. Talbot most likely labeled activities that cannot be started until other activities have been completed as (independent / dependent) activities. For this project, the check printing application developed during Activity M is best described as project (constraint / deliverable). deliverable
+26.During the activity analysis, Ms. Talbot most likely labeled activities that cannot be started until other activities have been completed as (independent / dependent) activities. For this project, the check printing application developed during Activity M is best described as project (constraint / deliverable). deliverable
 
-31.
-A scatter diagram is used to check visually for a likely correlation between two variables. Typically, a scatter diagram uses dots or small shapes (called “points”) to indicate units. For example, a scatter diagram might convey that for one company, in general, the policy face amounts increase in line with the customer’s family size. In this case, each point represents a customer.
+31.A scatter diagram is used to check visually for a likely correlation between two variables. Typically, a scatter diagram uses dots or small shapes (called “points”) to indicate units. For example, a scatter diagram might convey that for one company, in general, the policy face amounts increase in line with the customer’s family size. In this case, each point represents a customer.
 散点图用于直观地检查两个变量之间的可能相关性。通常，散点图使用点或小形状（称为“点”）来表示单位。例如，一个散点图可以传达这样的信息：对于一家公司来说，一般来说，保单面额会随着客户家庭规模的增加而增加。在这种情况下，每个点代表一个客户。
 
-32.
-Cross-cutting decisions are familiar decisions that are broad in scope and require effective collaboration among many different parts of an organization. Creating a new version of an existing product is one example of a cross-cutting decision. Companies often establish permanent cross-functional teams and employ project management processes for cross-cutting decisions.
+32.Cross-cutting decisions are familiar decisions that are broad in scope and require effective collaboration among many different parts of an organization. Creating a new version of an existing product is one example of a cross-cutting decision. Companies often establish permanent cross-functional teams and employ project management processes for cross-cutting decisions.
 交叉决策是一种常见的决策，范围广泛，需要组织中许多不同部门之间的有效协作。创建现有产品的新版本就是交叉决策的一个例子。公司通常建立永久性的跨职能团队，并采用项目管理流程来进行跨领域决策。
 
 Delegated decisions are typically low risk and they involve familiar and frequent decisions that do not require project management. Management can implement manual or automated procedures to guide employees in delegated decision making. Cross-cutting decisions are among those that typically require project management processes.
 委托决策通常是低风险的，它们涉及不需要项目管理的熟悉且频繁的决策。管理层可以实施手动或自动程序来指导员工进行委托决策。交叉决策通常需要项目管理过程。
 
-34.
-
-Other measures of data quality include accuracy (the degree to which data measures what it is intended to measure); relevance (the degree to which information derived through data analysis meets the needs of users); timeliness (a measure of the delay between the compilation date and publication date of the data); interpretability (the ease with which an intended user can correctly interpret the data); accessibility (the ease with which an intended user can obtain the necessary data), and coherence (the degree to which an intended user can successfully integrate the data with other statistical information over time).
+34.Other measures of data quality include accuracy (the degree to which data measures what it is intended to measure); relevance (the degree to which information derived through data analysis meets the needs of users); timeliness (a measure of the delay between the compilation date and publication date of the data); interpretability (the ease with which an intended user can correctly interpret the data); accessibility (the ease with which an intended user can obtain the necessary data), and coherence (the degree to which an intended user can successfully integrate the data with other statistical information over time).
 数据质量的其他衡量标准包括准确性（数据衡量其预期衡量的程度）；相关性（通过数据分析得出的信息满足用户需求的程度）；及时性（衡量数据汇编日期和公布日期之间的延迟程度）；可解释性（预期用户能够正确解释数据的难易程度）；可访问性（预期用户获得必要数据的容易程度）和一致性（预期用户能够在多大程度上成功地将数据与其他统计信息整合在一起）。
 appropriateness is data meets the requirements of its intended applications
 数据满足其预期应用的要求
 
-
-35.
-Statement A is incorrect. Heuristics—general rules that allow people to make decisions quickly without gathering information—are sometimes appropriate and useful in business operations, in particular for ad hoc decisions that are low risk and low occurrence.
+35.Statement A is incorrect. Heuristics—general rules that allow people to make decisions quickly without gathering information—are sometimes appropriate and useful in business operations, in particular for ad hoc decisions that are low risk and low occurrence.
 语句A不正确。启发法允许人们在不收集信息的情况下快速做出决策的一般规则在业务操作中有时是适当和有用的，特别是对于低风险和低发生率的临时决策。
 Statement B is correct. Analysis paralysis—spending excessive time and energy in gathering information—is more common in big-bet decisions because the costs of a wrong decision are high; however, decision delays often have negative consequences.
 陈述B是正确的。分析瘫痪在大赌注决策中花费过多的时间和精力收集信息更为常见，因为错误决策的成本很高；然而，决策延迟通常会带来负面后果。
 Statement C is correct. Because big decisions may take years to accomplish, a decision log will help the group keep track of the various aspects of decisions that will be impossible to remember over time. A decision log can also reduce hindsight bias—the tendency of decision makers to believe, after a decision is implemented and a certain result occurs, that they knew during the decision process that a certain decision would result in that outcome.
 陈述C是正确的。因为重大决策可能需要数年时间才能完成，因此决策日志将有助于团队跟踪决策的各个方面，而这些方面随着时间的推移将不可能被记住。决策日志还可以减少事后诸葛亮的偏见决策者倾向于相信，在决策过程中，他们知道某个决策会导致结果。
 
-36.
-Tasks are the smallest units in a process to undergo analysis. 
+36.Tasks are the smallest units in a process to undergo analysis. 
 
-43.
-When the concentration ratio is between 50% and 80%, an industry has medium levels of competitiveness. Economists categorize this level of competition as monopolistic competition— a market with many sellers, similar products and services, a reliance on advertising, and some barriers to entry. In monopolistic competition, companies want to differentiate their products and services from those of others by creating a customer perception of non-price differences through advertising and other marketing efforts. The insurance industry has traditionally had monopolistic competition.
+43.When the concentration ratio is between 50% and 80%, an industry has medium levels of competitiveness. Economists categorize this level of competition as monopolistic competition— a market with many sellers, similar products and services, a reliance on advertising, and some barriers to entry. In monopolistic competition, companies want to differentiate their products and services from those of others by creating a customer perception of non-price differences through advertising and other marketing efforts. The insurance industry has traditionally had monopolistic competition.
 
-51.
-Cross-cutting decisions are familiar decisions that are broad in scope and require effective collaboration among many different parts of an organization. Creating a new version of an existing product is one example of a cross-cutting decision. Companies often establish permanent cross-functional teams and employ project management processes for cross-cutting decisions.
+51.Cross-cutting decisions are familiar decisions that are broad in scope and require effective collaboration among many different parts of an organization. Creating a new version of an existing product is one example of a cross-cutting decision. Companies often establish permanent cross-functional teams and employ project management processes for cross-cutting decisions.
 
-52.
-Year-to-date sales is an example of a new business metric.
+52.Year-to-date sales is an example of a new business metric.
 
-55.
-Marina used inferential statistics rather than descriptive statistics
+55.Marina used inferential statistics rather than descriptive statistics
 玛丽娜用的是推理统计而不是描述性统计
 
-59.
-Fundamental attribution error, also known as the self-serving bias, is the tendency to take credit for success but assign blame to others for failures. The fundamental attribution error is an example of a cognitive bias that occurs in the minds of those being evaluated, not the person performing the evaluation.
+59.Fundamental attribution error, also known as the self-serving bias, is the tendency to take credit for success but assign blame to others for failures. The fundamental attribution error is an example of a cognitive bias that occurs in the minds of those being evaluated, not the person performing the evaluation.
 自利倾向也被称为对成功的根本归因，也是对他人失败的指责。基本归因错误是认知偏差的一个例子，这种偏差发生在被评估者的头脑中，而不是执行评估的人。
 
 
