@@ -38,12 +38,17 @@ Autonomy is the degree to which a job allows a worker freedom, independence, and
 Feedback is the degree to which carrying out job activities leads to direct and clear information about an employee’s performance.
 反馈是指通过开展工作活动，可以获得关于员工绩效的直接而清晰的信息。
 
-
-
 Chapter 4
+4.
+Kaizen process improvements tend to be simple and inexpensive to implement.
+
 
 
 Chapter 5
+5.A project manager will negotiate project changes with project stakeholders and revise the schedule whenever significant new schedule-related information becomes available.
+项目经理将与项目干系人协商项目变更，并在新进度相关的重要信息可用时修改进度计划。
+During the closure phase, most team members have transitioned to other projects, leaving the project manager to wrap up.
+在收尾阶段，大多数团队成员已经过渡到其他项目，让项目经理来完成工作。
 
 
 Chapter 6
