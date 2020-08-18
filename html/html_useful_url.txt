@@ -1,0 +1,9 @@
+1.富文本编辑器
+https://fanyi.baidu.com/?aldtype=16047#auto/zh
+
+1).wangEditor——基于javascript和css开发的 Web富文本编辑器， 轻量、简洁、界面美观、易用、开源免费。
+界面截图：官网地址
+http://www.wangeditor.com/
+
+2).百度ueditor
+https://github.com/fex-team/ueditor
