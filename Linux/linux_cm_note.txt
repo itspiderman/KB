@@ -200,3 +200,10 @@ http://www.runoob.com/linux/linux-comm-ls.html
 
 35. 安装命令
 sudo apt-get install openssl
+
+35. pwd
+show current folder
+
+36. linux查看java jdk安装路径和设置环境变量
+which java
+echo $PATH
