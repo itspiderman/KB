@@ -207,3 +207,6 @@ show current folder
 36. linux查看java jdk安装路径和设置环境变量
 which java
 echo $PATH
+
+37.bash
+在输入linux命令点击删除键，出现乱码,只需输入bash命令，回车就好了。
