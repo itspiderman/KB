@@ -76,3 +76,6 @@ http://mvnrepository.com/
 
 10.maven仓库中心mirrors配置多个下载中心
 https://blog.csdn.net/www1056481167/article/details/60139851
+
+11.解决eclipse中不能创建web and javaEE项目的方法
+https://blog.csdn.net/wls666/article/details/89742988?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.channel_param&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.channel_param
