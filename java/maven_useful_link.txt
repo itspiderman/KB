@@ -7,5 +7,10 @@ https://repo.maven.apache.org/maven2/
 3.Maven全局配置文件settings.xml详解
 https://www.cnblogs.com/hongmoshui/p/10762272.html
 
+4. maven配置多个中央仓库
+https://blog.csdn.net/weixin_39734304/article/details/80602648
+
+Not yet verify
+https://www.cnblogs.com/jpfss/p/11312684.html
 
 
