@@ -3,3 +3,9 @@ https://www.cnblogs.com/myseries/p/11369421.html
 
 2.maven repository
 https://repo.maven.apache.org/maven2/
+
+3.Maven全局配置文件settings.xml详解
+https://www.cnblogs.com/hongmoshui/p/10762272.html
+
+
+
