@@ -1,0 +1,6 @@
+1.*TCAT and *CAT                                
+             CHGVAR     VAR(&CMD3) VALUE(&KEY *TCAT &BNULL    + 
+                        *CAT &FILE1 *TCAT &BNULL              + 
+                        *CAT &LOG *TCAT &FILE2)   
+*TCAT, it to trim left variable's space
+
