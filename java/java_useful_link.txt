@@ -39,6 +39,9 @@ https://docs.microsoft.com/en-us/sql/connect/jdbc/system-requirements-for-the-jd
 mvn jdbc driver
 https://mvnrepository.com/artifact/com.microsoft.sqlserver/sqljdbc4/4.0
 
+Office JDBC
+https://www.microsoft.com/en-us/download/confirmation.aspx?id=11774
+
 11.HtmlUnit学习总结
 http://blog.csdn.net/u010814849/article/details/52526705
 
