@@ -26,3 +26,6 @@ others, use the existing Run As command
 3.install jar to Maven repository
 PS D:\tmp> .\run.bat
 mvn install:install-file -Dfile=sqljdbc4-2.0.jar -Dpackaging=jar -DgroupId=com.microsoft.sqlserver -DartifactId=sqljdbc4 -Dversion=4.2.0
+
+4. 缺少工件com.microsoft.sqlserver：sqljdbc4：jar：4.0
+https://www.imooc.com/wenda/detail/600317
