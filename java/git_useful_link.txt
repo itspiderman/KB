@@ -1,0 +1,5 @@
+1.Git-命令行-删除本地和远程分支
+https://www.cnblogs.com/yangcx666/p/9085803.html
+
+2.在bitbucket用git 用法
+https://blog.csdn.net/xyqzki/article/details/23187863
