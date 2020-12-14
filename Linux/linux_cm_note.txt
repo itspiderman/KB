@@ -213,3 +213,6 @@ echo $PATH
 
 38.mkdir
 mkdir -p folder_name   # create parent folder if it's not exiting
+
+39. find
+find  /user/test/*.sql -name 'run*' -type f 
