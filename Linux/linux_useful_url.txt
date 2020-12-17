@@ -1,0 +1,2 @@
+1.cat file | while read line的问题
+https://www.cnblogs.com/klb561/p/11241651.html
