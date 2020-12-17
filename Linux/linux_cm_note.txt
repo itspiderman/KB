@@ -211,6 +211,17 @@ echo $PATH
 37.bash
 在输入linux命令点击删除键，出现乱码,只需输入bash命令，回车就好了。
 
+#!/bin/ksh
+‘#’是注释符，‘!’紧跟着‘#’一起表示在执行这个脚本时
+使用其后的“/bin/ksh”解释器执行脚本文件中后面的内容。
+同时“/bin/ksh”表示解释器所在的路径
+
+Below shell script need run under ksh
+test01> cat YPWD.txt|read servername userid pwd
+test01> echo $pwd
+abce124
+
+
 38.mkdir
 mkdir -p folder_name   # create parent folder if it's not exiting
 
