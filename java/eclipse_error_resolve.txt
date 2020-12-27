@@ -193,3 +193,6 @@ mvn install:install-file -DgroupId=org.apache.maven.archetypes -DartifactId=mave
 2).eclipse\eclipse.ini
 vm C:\Program Files\Java\jdk1.8.0_131\jre\bin\server\jvm.dll
 
+32.Project facet Java version 1.8 is not supported.
+https://blog.csdn.net/kjcxmx/article/details/86590179
+
