@@ -194,8 +194,17 @@ mvn install:install-file -DgroupId=org.apache.maven.archetypes -DartifactId=mave
 vm C:\Program Files\Java\jdk1.8.0_131\jre\bin\server\jvm.dll
 
 32.Project facet Java version 1.8 is not supported.
+
+法三
+在项目的目录下有一个.settings的文件夹，这个文件夹下有个org.eclipse.wst.common.project.facet.core.xml文件，打开修改为<installed facet="java" version="1.7"/>
 https://blog.csdn.net/kjcxmx/article/details/86590179
 
 33.message: Unsupported major.minor version 52.0 (unable to load class com.class)
+https://blog.csdn.net/kjcxmx/article/details/86590179
+
+window-proferences-installed JREs
+then（3）修改Project Facets：
+
+同上面一样，在eclipse中的项目上鼠标右键，Properties –> Project Facets
 
 
