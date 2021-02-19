@@ -178,3 +178,6 @@ CREATE TYPE SSN FROM varchar(11) NOT NULL
 DBCC CHECKIDENT(TableName, RESEED, 0)
 
 20.coalesce(chkIndex,'N')<>''
+
+21. collation
+column_name collate database_default
