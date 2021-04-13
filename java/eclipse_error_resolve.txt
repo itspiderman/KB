@@ -207,4 +207,8 @@ then（3）修改Project Facets：
 
 同上面一样，在eclipse中的项目上鼠标右键，Properties –> Project Facets
 
+34.org/codehaus/plexus/util/Scanner
+[WARNING] Error injecting: org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering
+java.lang.NoClassDefFoundError: org/codehaus/plexus/util/Scanner
+
 
