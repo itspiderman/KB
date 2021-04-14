@@ -231,3 +231,6 @@ Error injecting: org.apache.maven.shared.filtering.DefaultMavenResourcesFilterin
 @SpringBootTest
 @ActiveProfiles("dev")
 public class UserMapperTest {
+
+36.com.microsoft.sqlserver.jdbc.SQLServerException: The "variant" data type is not supported.
+
