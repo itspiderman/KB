@@ -225,3 +225,9 @@ Error injecting: org.apache.maven.shared.filtering.DefaultMavenResourcesFilterin
 					</dependency>
 				</dependencies>
 			</plugin>
+			
+35.springboot @Autowired 注入失败报 java.lang.NullPointerException
+@RunWith(SpringRunner.class)
+@SpringBootTest
+@ActiveProfiles("dev")
+public class UserMapperTest {
