@@ -233,5 +233,11 @@ Error injecting: org.apache.maven.shared.filtering.DefaultMavenResourcesFilterin
 public class UserMapperTest {
 
 36.com.microsoft.sqlserver.jdbc.SQLServerException: The "variant" data type is not supported.
-This issue case at use mvn install. please check the maven version, checked idea Maven home idrectory, it using Bundled(v3.6.1). and checked to my download version 3.6.3, it works.
+https://stackoverflow.com/questions/66447377/spring-boot-project-and-com-microsoft-sqlserver-jdbc-sqlserverexception-the-va
+
+<dependency>
+   <groupId>com.microsoft.sqlserver</groupId>
+   <artifactId>mssql-jdbc</artifactId>
+   <scope>runtime</scope>
+</dependency>
 
