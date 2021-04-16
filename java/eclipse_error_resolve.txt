@@ -241,3 +241,5 @@ https://stackoverflow.com/questions/66447377/spring-boot-project-and-com-microso
    <scope>runtime</scope>
 </dependency>
 
+37.cannot resolve symbol 'log'
+add lombok dependency and @Slf4j injection
