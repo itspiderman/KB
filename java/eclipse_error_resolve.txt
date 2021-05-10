@@ -243,3 +243,6 @@ https://stackoverflow.com/questions/66447377/spring-boot-project-and-com-microso
 
 37.cannot resolve symbol 'log'
 add lombok dependency and @Slf4j injection
+
+38.Caused by: java.security.InvalidKeyException: Illegal key size or default parameters
+https://blog.csdn.net/qq_23145857/article/details/74931684
