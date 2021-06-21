@@ -5,3 +5,6 @@ sParamValue = System.Text.Encoding.GetEncoding(850).GetString(System.Text.Encodi
 
 select from sybase
 sParamValue = System.Text.Encoding.GetEncoding(950).GetString(System.Text.Encoding.GetEncoding(850).GetBytes(dr[13].ToString()));
+
+2. SqlDbx
+http://www.sqldbx.com/
